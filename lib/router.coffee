@@ -5,9 +5,9 @@ Router.configure
 Router.map ->
     @route "home",
         path: "/"
-        template: "loading"
+        template: "home"
     @route "admin",
-        path: "admin"
+        path: "/admin"
         template: "accountsAdmin"
         onBeforeAction: ->
             if Meteor.loggingIn()
@@ -15,3 +15,6 @@ Router.map ->
             else if not Roles.userIsInRole Meteor.user(), ["admin"]
                 console.log "Redirecting"
                 @redirect "/"
+    @route "listPatients",
+        path: "/patients"
+        template: "listPatients"
