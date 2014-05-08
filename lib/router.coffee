@@ -18,3 +18,7 @@ Router.map ->
     @route "listPatients",
         path: "/patients"
         template: "listPatients"
+        waitOn: ->
+            Meteor.subscribe "patients"
+
+Router.onBeforeAction "loading"
