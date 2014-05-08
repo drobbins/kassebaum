@@ -24,8 +24,8 @@
         <td>{{mrn}}</td>
         <td>{{firstName}} {{lastName}}</td>
         <td>
-            <a class="btn btn-default" href="" title="View patient file."><span class="glyphicon glyphicon-folder-open"></span></a>
-            <a class="btn btn-default" href="" title="Edit patient file."><span class="glyphicon glyphicon-pencil"></span></a>
+            <a class="btn btn-default" href="{{pathFor 'viewPatient'}}" title="View patient file."><span class="glyphicon glyphicon-folder-open"></span></a>
+            <a class="btn btn-default" href="{{pathFor 'editPatient'}}" title="Edit patient file."><span class="glyphicon glyphicon-pencil"></span></a>
         </td>
     </tr>
 </template>
