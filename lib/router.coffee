@@ -18,7 +18,6 @@ Router.map ->
             if Meteor.loggingIn()
                 @render @loadingTemplate
             else if not Roles.userIsInRole Meteor.user(), ["admin"]
-                console.log "Redirecting"
                 @redirect "/"
     @route "listPatients",
         path: "/patients"
@@ -35,13 +34,13 @@ Router.map ->
         template: "editPatient"
         data: -> Patients.findOne @params._id
 
-requireLogin = (pause) ->
+requireLogin = ->
     if not Meteor.user()
         if Meteor.loggingIn()
             @render @loadingTemplate
         else
-            @render "accessDenied"
-        pause()
+            Alerts.add "Please log in to proceed."
+            @redirect "/"
 
 Router.onBeforeAction "loading"
 Router.onBeforeAction requireLogin, except: ["home", "accessDenied"]
