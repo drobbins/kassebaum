@@ -18,7 +18,6 @@ Router.map ->
             if Meteor.loggingIn()
                 @render @loadingTemplate
             else if not Roles.userIsInRole Meteor.user(), ["admin"]
-                console.log "Redirecting"
                 @redirect "/"
     @route "listPatients",
         path: "/patients"
