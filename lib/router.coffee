@@ -29,6 +29,8 @@ Router.map ->
         path: "/patients/:_id"
         template: "viewPatient"
         data: -> Patients.findOne @params._id
+        waitOn: ->
+            Meteor.subscribe "observations", @params._id
     @route "editPatient",
         path: "/patients/:_id/edit"
         template: "editPatient"
