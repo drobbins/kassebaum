@@ -7,3 +7,12 @@ Template.addObservation.events
             patientId: template.data._id
         Meteor.call "observation", observation, (error, id) ->
             if error then Alerts.add error.message
+            fileInput = $(e.target).find("[name=observationFile]").get(0)
+            for file in fileInput.files
+                do (file) ->
+                    newFile = new FS.File file
+                    newFile.metadata =
+                        observationId: id
+                        patientId: template.data._id
+                    ObservationFiles.insert newFile, (error, fileObject) ->
+                        if error then Alerts.add error.message
