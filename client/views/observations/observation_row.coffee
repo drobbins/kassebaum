@@ -1,4 +1,4 @@
 Template.observationRow.helpers
-    relativeTimeAdded: -> moment(@submitted).from([2014,5,1])
+    relativeTimeAdded: -> moment(@submitted).fromNow()
     timeAdded: -> moment(@submitted)
 

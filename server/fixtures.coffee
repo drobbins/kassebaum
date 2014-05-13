@@ -1,6 +1,7 @@
 if Patients.find().count() is 0
     now = new Date().getTime()
     hour = 1000 * 60 * 60 # ms * sec * min
+    now = now - 10 * hour
 
     # Users
     kallieId = Meteor.users.insert
