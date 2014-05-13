@@ -9,3 +9,11 @@ Template.editObservation.events
         Observations.update currentObservationId, {$set: observationProperties}, (error) ->
             if error then Alerts.add error.message
             Router.go "viewPatient", _id: patientId
+
+    "click .delete": (e) ->
+        e.preventDefault()
+        if confirm "Delete this observation?"
+            currentObservationId = @_id
+            patientId = @patientId
+            Observations.remove currentObservationId
+            Router.go "viewPatient", _id: patientId
