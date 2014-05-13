@@ -1,0 +1,15 @@
+<template name="observationList">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each observations}}
+                {{> observation}}
+            {{/each}}
+        </tbody>
+    </table>
+</template>
