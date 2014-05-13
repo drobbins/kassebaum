@@ -35,6 +35,12 @@ Router.map ->
         path: "/patients/:_id/edit"
         template: "editPatient"
         data: -> Patients.findOne @params._id
+    @route "editObservation",
+        path: "/patients/:patientId/observations/:_id"
+        template: "editObservation"
+        data: -> Observations.findOne @params._id
+        waitOn: ->
+            Meteor.subscribe "observationDetail", @params._id
 
 requireLogin = ->
     if not Meteor.user()

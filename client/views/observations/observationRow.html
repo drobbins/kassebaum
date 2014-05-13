@@ -2,6 +2,12 @@
     <tr>
         <td>{{type}}</td>
         <td>{{value}}</td>
-        <td>{{user}} <span title="{{timeAdded}}" class="label label-default pull-right">{{relativeTimeAdded}}</span></td>
+        <td>
+            {{user}}
+            <span class="pull-right">
+                <span title="{{timeAdded}}" class="label label-default">{{relativeTimeAdded}}</span>
+                <a class="btn btn-default btn-xs" href="{{pathFor 'editObservation'}}" title="Edit observation"><span class="glyphicon glyphicon-pencil"></span></a>
+            </span>
+        </td>
     </tr>
 </template>
