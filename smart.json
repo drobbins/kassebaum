@@ -5,6 +5,7 @@
     "spin": {},
     "accounts-ui-bootstrap-3": {},
     "accounts-admin-ui-bootstrap-3": {},
-    "bootstrap-alerts": {}
+    "bootstrap-alerts": {},
+    "moment": {}
   }
 }

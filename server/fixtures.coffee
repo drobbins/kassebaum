@@ -15,12 +15,13 @@ if Patients.find().count() is 0
         roles: ["physician"]
     isa = Meteor.users.findOne isaId
 
-    Accounts.createUser #Create admin login
+    adminId = Accounts.createUser #Create admin login
         profile:
             name: "Admin"
         roles: ["admin"]
         username: "admin"
         password: "password"
+    Roles.addUsersToRoles adminId, ["admin"]
 
 
     makenaId = Patients.insert
@@ -32,30 +33,35 @@ if Patients.find().count() is 0
     Observations.insert
         patientId: makenaId
         userId: kallie._id
+        user: kallie.profile.name
         submitted: now + 5 * hour
         type: "Weight"
         value: "146 lb"
     Observations.insert
         patientId: makenaId
         userId: kallie._id
+        user: kallie.profile.name
         submitted: now + 5 * hour
         type: "Height"
         value: "68 in"
     Observations.insert
         patientId: makenaId
         userId: isa._id
+        user: isa.profile.name
         submitted: now + 1 * hour
         type: "HER2"
         value: "Positive"
     Observations.insert
         patientId: makenaId
         userId: isa._id
+        user: isa.profile.name
         submitted: now + 1 * hour
         type: "rs401681"
         value: "CT"
     Observations.insert
         patientId: makenaId
         userId: isa._id
+        user: isa.profile.name
         submitted: now + 1 * hour
         type: "EGFR"
         value: "p.R521K"
@@ -70,24 +76,28 @@ if Patients.find().count() is 0
     Observations.insert
         patientId: luneteId
         userId: kallie._id
+        user: kallie.profile.name
         submitted: now + 5 * hour
         type: "Height"
         value: "68 in"
     Observations.insert
         patientId: luneteId
         userId: isa._id
+        user: isa.profile.name
         submitted: now + 1 * hour
         type: "HER2"
         value: "Positive"
     Observations.insert
         patientId: luneteId
         userId: isa._id
+        user: isa.profile.name
         submitted: now + 1 * hour
         type: "rs401681"
         value: "CT"
     Observations.insert
         patientId: luneteId
         userId: isa._id
+        user: isa.profile.name
         submitted: now + 1 * hour
         type: "EGFR"
         value: "p.R521K"
@@ -101,18 +111,21 @@ if Patients.find().count() is 0
     Observations.insert
         patientId: yasmeenId
         userId: kallie._id
+        user: kallie.profile.name
         submitted: now + 5 * hour
         type: "Height"
         value: "68 in"
     Observations.insert
         patientId: yasmeenId
         userId: isa._id
+        user: isa.profile.name
         submitted: now + 1 * hour
         type: "HER2"
         value: "Positive"
     Observations.insert
         patientId: yasmeenId
         userId: isa._id
+        user: isa.profile.name
         submitted: now + 1 * hour
         type: "rs401681"
         value: "CT"
