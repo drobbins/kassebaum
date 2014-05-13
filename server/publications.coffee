@@ -12,3 +12,6 @@ Meteor.publish "observationFiles", (patientId) ->
 
 Meteor.publish "observationDetail", (observationId) ->
     Observations.find _id: observationId if authorizedUser @userId
+
+Meteor.publish "observationDetailFiles",  (observationId) ->
+    ObservationFiles.find "metadata.observationId": observationId if authorizedUser @userId

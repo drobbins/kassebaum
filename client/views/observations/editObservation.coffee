@@ -16,4 +16,7 @@ Template.editObservation.events
             currentObservationId = @_id
             patientId = @patientId
             Observations.remove currentObservationId
+            file = ObservationFiles.findOne "metadata.observationId": currentObservationId
+            if file
+                ObservationFiles.remove file._id
             Router.go "viewPatient", _id: patientId
