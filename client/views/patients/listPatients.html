@@ -1,0 +1,31 @@
+<template name="listPatients">
+    <span class="pull-right">
+        <a class="btn btn-default" href="{{pathFor 'addPatient'}}"><span class="glyphicon glyphicon-plus"></span> Add Patient</a>
+    </span>
+    <h2>Patients</h2>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>MRN</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each patients}}
+                {{> patientRow}}
+            {{/each}}
+        </tbody>
+    </table>
+</template>
+
+<template name="patientRow">
+    <tr>
+        <td>{{mrn}}</td>
+        <td>{{firstName}} {{lastName}}</td>
+        <td>
+            <a class="btn btn-default" href="{{pathFor 'viewPatient'}}" title="View patient file."><span class="glyphicon glyphicon-folder-open"></span></a>
+            <a class="btn btn-default" href="{{pathFor 'editPatient'}}" title="Edit patient file."><span class="glyphicon glyphicon-pencil"></span></a>
+        </td>
+    </tr>
+</template>

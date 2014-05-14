@@ -1,0 +1,10 @@
+<template name="home">
+    <div class="jumbotron">
+        <h1>Welcome to Estë</h1>
+        {{#if currentUser}}
+            <p><a href="{{pathFor 'listPatients'}}">Patients List</a></p>
+        {{else}}
+            <p>Please log in above to begin.</p>
+        {{/if}}
+    </div>
+</template>
