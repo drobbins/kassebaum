@@ -12,5 +12,6 @@ Meteor.methods
 
         patient = _.extend patientAttributes,
             added: new Date().getTime()
+            addedBy: user._id
 
         patientId = Patients.insert(patient)

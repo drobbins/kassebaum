@@ -1,0 +1,16 @@
+<template name="observationRow">
+    <tr>
+        <td>{{type}}</td>
+        <td>{{value}}</td>
+        <td>
+            {{user}}
+            <span class="pull-right">
+                <span title="{{timeAdded}}" class="label label-default">{{relativeTimeAdded}}</span>
+                {{#if file}}
+                    <a class="btn btn-default btn-xs" href="{{file.url}}" title="Edit observation" target="new"><span class="glyphicon glyphicon-file"></span></a>
+                {{/if}}
+                <a class="btn btn-default btn-xs" href="{{pathFor 'editObservation'}}" title="Edit observation"><span class="glyphicon glyphicon-pencil"></span></a>
+            </span>
+        </td>
+    </tr>
+</template>

@@ -1,0 +1,14 @@
+<template name="editObservation">
+    <form role="form">
+        <div class="form-group">
+            <label for="type">Observation Type</label>
+            <input class="form-control" type="text" name="type" value="{{type}}" placeholder="Observation Type">
+        </div>
+        <div class="form-group">
+            <label for="value">Observation Value</label>
+            <input class="form-control" type="text" name="value" value="{{value}}" placeholder="Observation Value">
+        </div>
+        <button class="btn btn-default" role="submit">Save Observation</button>
+        <button class="btn btn-danger delete" role="button">Delete Observation</button>
+    </form>
+</template>
