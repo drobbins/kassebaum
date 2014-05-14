@@ -1,0 +1,23 @@
+<template name="modules">
+    <h1>Load Modules</h1>
+    <h3>By URL</h3>
+    <form id="loadModule">
+        <input class="form-control" type="text" name="scriptUrl" placeholder="Module URL to Load" />
+    </form>
+    <h3>From Minerva</h3>
+    <ul>
+    {{#each minervaModules}}
+        <li><b>{{name}}</b> <small>{{url}}</small> <button class="btn btn-xs btn-default" url="{{url}}">Load</button></li>
+    {{/each}}
+    </ul>
+    {{> moduleList}}
+</template>
+
+<template name="moduleList">
+    <h3>Loaded Modules</h3>
+    <ul>
+    {{#each modules}}
+        <li>{{url}}</li>
+    {{/each}}
+    </ul>
+</template>
