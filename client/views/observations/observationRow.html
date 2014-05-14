@@ -5,7 +5,7 @@
         <td>
             {{user}}
             <span class="pull-right">
-                <span title="{{timeAdded}}" class="label label-default">{{relativeTimeAdded}}</span>
+                <abbr title="{{timeAdded}}">{{relativeTimeAdded}}</abbr>
                 {{#if file}}
                     <a class="btn btn-default btn-xs" href="{{file.url}}" title="Edit observation" target="new"><span class="glyphicon glyphicon-file"></span></a>
                 {{/if}}
