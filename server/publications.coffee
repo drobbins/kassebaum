@@ -1,5 +1,5 @@
 authorizedUser = (userId) ->
-    userId and Roles.userIsInRole userId, ["admin", "physician"]
+    userId and Roles.userIsInRole userId, ["admin", "tech"]
 
 Meteor.publish "patients", ->
     Patients.find() if authorizedUser @userId

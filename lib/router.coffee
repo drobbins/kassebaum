@@ -48,5 +48,11 @@ requireLogin = ->
             Alerts.add "Please log in to proceed."
             @redirect "/"
 
+requireAdmin = ->
+    if not Roles.userIsInRole Meteor.user(), ["admin"]
+        Alerts.add "You must be an Admin to proceed."
+        @redirect "/"
+
 Router.onBeforeAction "loading"
 Router.onBeforeAction requireLogin, except: ["home", "accessDenied", "modules"]
+Router.onBeforeAction requireAdmin, except: ["home", "accessDenied", "modules", "addPatient"]

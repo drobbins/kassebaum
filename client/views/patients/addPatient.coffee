@@ -8,3 +8,15 @@ Template.addPatient.events
         Meteor.call "patient", patient, (error, id) ->
             if error then Alerts.add error.message
             else Router.go 'listPatients'
+    "click .add-surgical-pathology-number": ->
+        surgicalPathologyNumbers = Session.get "surgicalPathologyNumbers" or []
+        surgicalPathologyNumbers.push
+            id: Meteor.uuid()
+        Session.set "surgicalPathologyNumbers", surgicalPathologyNumbers
+
+Template.addPatient.helpers
+    surgicalPathologyNumbers: ->
+        Session.get "surgicalPathologyNumbers"
+
+Meteor.startup ->
+    Session.set "surgicalPathologyNumbers", [ { id: Meteor.uuid() } ]

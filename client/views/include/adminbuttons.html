@@ -1,5 +1,6 @@
 <template name="adminButtons">
     {{#if isInRole 'admin'}}
-    <li class="{{activeRouteClass 'admin'}}"><a href="{{pathFor 'admin'}}">Admin</a></li>
+        <li class="{{activeRouteClass 'listPatients'}}"><a href="{{pathFor 'listPatients'}}">Patients</a></li>
+        <li class="{{activeRouteClass 'admin'}}"><a href="{{pathFor 'admin'}}">Admin</a></li>
     {{/if}}
 </template>

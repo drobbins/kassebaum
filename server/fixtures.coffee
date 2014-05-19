@@ -5,17 +5,17 @@ if Patients.find().count() is 0
 
     # Users
     kallieId = Accounts.createUser
-        username: "kallie"
-        password: "password"
         profile:
             name: "Kallie Emil"
+        username: "kallie"
+        password: "password"
     Roles.addUsersToRoles kallieId, ["tech"]
 
-    isaId = Meteor.users.insert
-        username: "isa"
-        password: "password"
+    isaId = Accounts.createUser
         profile:
             name: "Isa Tufayl"
+        username: "isa"
+        password: "password"
     Roles.addUsersToRoles isaId, ["tech"]
 
     adminId = Accounts.createUser #Create admin login
@@ -24,6 +24,13 @@ if Patients.find().count() is 0
         username: "admin"
         password: "password"
     Roles.addUsersToRoles adminId, ["admin"]
+
+    techsalId = Accounts.createUser #Create techsal login
+        profile:
+            name: "Tech Sal"
+        username: "techsal"
+        password: "password"
+    Roles.addUsersToRoles techsalId, ["tech"]
 
 
     makenaId = Patients.insert
@@ -41,7 +48,7 @@ if Patients.find().count() is 0
             }
         ]
         added: now + 7 * hour
-        addedBy: isa._id
+        addedBy: isaId
 
     luneteId = Patients.insert
         firstName: "Lunete"
@@ -58,7 +65,7 @@ if Patients.find().count() is 0
             }
         ]
         added: now
-        addedBy: isa._id
+        addedBy: isaId
         value: "p.R521K"
 
     yasmeenId = Patients.insert
@@ -76,4 +83,4 @@ if Patients.find().count() is 0
             }
         ]
         added: now
-        addedBy: kallie._id
+        addedBy: kallieId
