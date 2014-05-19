@@ -4,22 +4,23 @@ if Patients.find().count() is 0
     now = now - 10 * hour
 
     # Users
-    kallieId = Meteor.users.insert
+    kallieId = Accounts.createUser
+        username: "kallie"
+        password: "password"
         profile:
             name: "Kallie Emil"
-        roles: ["physician"]
-    kallie = Meteor.users.findOne kallieId
+    Roles.addUsersToRoles kallieId, ["tech"]
 
     isaId = Meteor.users.insert
+        username: "isa"
+        password: "password"
         profile:
             name: "Isa Tufayl"
-        roles: ["physician"]
-    isa = Meteor.users.findOne isaId
+    Roles.addUsersToRoles isaId, ["tech"]
 
     adminId = Accounts.createUser #Create admin login
         profile:
             name: "Admin"
-        roles: ["admin"]
         username: "admin"
         password: "password"
     Roles.addUsersToRoles adminId, ["admin"]
@@ -29,110 +30,50 @@ if Patients.find().count() is 0
         firstName: "Makena"
         lastName: "Asaph"
         mrn: "1234567890"
+        surgicalPathologyNumbers: [
+            {
+                number: "0192837465"
+                date: now - 2 * hour
+            }
+            {
+                number: "0912873456"
+                date: now - 26 * hour
+            }
+        ]
         added: now + 7 * hour
         addedBy: isa._id
-    Observations.insert
-        patientId: makenaId
-        userId: kallie._id
-        user: kallie.profile.name
-        submitted: now + 5 * hour
-        type: "Weight"
-        value: "146 lb"
-    Observations.insert
-        patientId: makenaId
-        userId: kallie._id
-        user: kallie.profile.name
-        submitted: now + 5 * hour
-        type: "Height"
-        value: "68 in"
-    Observations.insert
-        patientId: makenaId
-        userId: isa._id
-        user: isa.profile.name
-        submitted: now + 1 * hour
-        type: "HER2"
-        value: "Positive"
-    Observations.insert
-        patientId: makenaId
-        userId: isa._id
-        user: isa.profile.name
-        submitted: now + 1 * hour
-        type: "rs401681"
-        value: "CT"
-    Observations.insert
-        patientId: makenaId
-        userId: isa._id
-        user: isa.profile.name
-        submitted: now + 1 * hour
-        type: "EGFR"
-        value: "p.R521K"
-
 
     luneteId = Patients.insert
         firstName: "Lunete"
         lastName: "Margarita"
         mrn: "1357902468"
+        surgicalPathologyNumbers: [
+            {
+                number: "0192867465"
+                date: now - 2 * hour
+            }
+            {
+                number: "6912873456"
+                date: now - 26 * hour
+            }
+        ]
         added: now
         addedBy: isa._id
-    Observations.insert
-        patientId: luneteId
-        userId: kallie._id
-        user: kallie.profile.name
-        submitted: now + 5 * hour
-        type: "Height"
-        value: "68 in"
-    Observations.insert
-        patientId: luneteId
-        userId: isa._id
-        user: isa.profile.name
-        submitted: now + 1 * hour
-        type: "HER2"
-        value: "Positive"
-    Observations.insert
-        patientId: luneteId
-        userId: isa._id
-        user: isa.profile.name
-        submitted: now + 1 * hour
-        type: "rs401681"
-        value: "CT"
-    Observations.insert
-        patientId: luneteId
-        userId: isa._id
-        user: isa.profile.name
-        submitted: now + 1 * hour
-        type: "EGFR"
         value: "p.R521K"
 
     yasmeenId = Patients.insert
         firstName: "Yasmeen"
         lastName: "Capucine"
         mrn: "1234567891"
+        surgicalPathologyNumbers: [
+            {
+                number: "1094859925"
+                date: now - 2 * hour
+            }
+            {
+                number: "1993848458"
+                date: now - 26 * hour
+            }
+        ]
         added: now
         addedBy: kallie._id
-    Observations.insert
-        patientId: yasmeenId
-        userId: kallie._id
-        user: kallie.profile.name
-        submitted: now + 5 * hour
-        type: "Height"
-        value: "68 in"
-    Observations.insert
-        patientId: yasmeenId
-        userId: isa._id
-        user: isa.profile.name
-        submitted: now + 1 * hour
-        type: "HER2"
-        value: "Positive"
-    Observations.insert
-        patientId: yasmeenId
-        userId: isa._id
-        user: isa.profile.name
-        submitted: now + 1 * hour
-        type: "rs401681"
-        value: "CT"
-    Observations.insert
-        patientId: yasmeenId
-        userId: isa._id
-        submitted: now + 1 * hour
-        type: "EGFR"
-        value: "p.R521K"
