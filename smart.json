@@ -8,6 +8,7 @@
     "bootstrap-alerts": {},
     "moment": {},
     "collectionFS": {},
-    "npm": {}
+    "npm": {},
+    "bootstrap3-datepicker": {}
   }
 }

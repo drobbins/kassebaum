@@ -10,7 +10,8 @@
       "bootstrap-alerts": {},
       "moment": {},
       "collectionFS": {},
-      "npm": {}
+      "npm": {},
+      "bootstrap3-datepicker": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -58,6 +59,11 @@
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
+      "bootstrap3-datepicker": {
+        "git": "https://github.com/rajit/bootstrap3-datepicker.git",
+        "tag": "v0.2.1",
+        "commit": "442484eb1c8eb00c6b9e0e9c88accc934cf8f04a"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
@@ -75,8 +81,8 @@
       },
       "cfs-file": {
         "git": "https://github.com/CollectionFS/Meteor-cfs-file.git",
-        "tag": "v0.1.4",
-        "commit": "118ee62a459f20e48468378d576f0d42e4b15dd7"
+        "tag": "v0.1.5",
+        "commit": "02dbe5f51a9d1067c3891e3658c48d4fadb9dff6"
       },
       "cfs-collection": {
         "git": "https://github.com/CollectionFS/Meteor-cfs-collection.git",
