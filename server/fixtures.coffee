@@ -39,31 +39,34 @@ if Patients.find().count() is 0
         mrn: "1234567890"
         surgicalPathologyNumbers: [
             {
-                number: "0192837465"
+                surgicalPathologyNumber: "0192837465"
                 date: now - 2 * hour
             }
             {
-                number: "0912873456"
+                surgicalPathologyNumber: "0912873456"
                 date: now - 26 * hour
             }
         ]
+        shortId: "abcdEF"
         added: now + 7 * hour
         addedBy: isaId
 
     luneteId = Patients.insert
         firstName: "Lunete"
         lastName: "Margarita"
+        middleName: "P"
         mrn: "1357902468"
         surgicalPathologyNumbers: [
             {
-                number: "0192867465"
+                surgicalPathologyNumber: "0192867465"
                 date: now - 2 * hour
             }
             {
-                number: "6912873456"
+                surgicalPathologyNumber: "6912873456"
                 date: now - 26 * hour
             }
         ]
+        shortId: "EFdsdw"
         added: now
         addedBy: isaId
         value: "p.R521K"
@@ -74,13 +77,14 @@ if Patients.find().count() is 0
         mrn: "1234567891"
         surgicalPathologyNumbers: [
             {
-                number: "1094859925"
+                surgicalPathologyNumber: "1094859925"
                 date: now - 2 * hour
             }
             {
-                number: "1993848458"
+                surgicalPathologyNumber: "1993848458"
                 date: now - 26 * hour
             }
         ]
+        shortId: "cbd1rC"
         added: now
         addedBy: kallieId

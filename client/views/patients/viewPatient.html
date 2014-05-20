@@ -2,12 +2,13 @@
     <span class="pull-right">
         <a class="btn btn-default" href="{{pathFor 'editPatient'}}"><span class="glyphicon glyphicon-pencil"></span> Edit Patient</a>
     </span>
-    <h2>{{firstName}} {{lastName}} <small>{{mrn}}</small></h2>
+    <h2>{{firstName}} {{lastName}} <small>Code: {{shortId}}</small></h2>
     <h4>Patient Information</h4>
     {{> attributeRow attribute="First Name" value=firstName}}
     {{> attributeRow attribute="Middle Initial" value=middleName}}
     {{> attributeRow attribute="Last Name" value=lastName}}
     {{> attributeRow attribute="MRN" value=mrn}}
+    {{> attributeRow attribute="Code" value=shortId}}
     <h4>Surgical Pathology Reports</h4>
     <table class="table table-hover">
         <thead>
@@ -18,16 +19,20 @@
         </thead>
         <tbody>
             {{#each surgicalPathologyNumbers}}
-            <tr>
-                <td>{{date}}</td>
-                <td>
-                    <span class="pull-right">
-                        <a class="btn btn-default btn-xs" href="" title="Open Surgical Pathology Report"><span class="glyphicon glyphicon-new-window"></span></a>
-                    </span>
-                    {{surgicalPathologyNumber}}
-                </td>
-            </tr>
+                {{> surgicalPathologyNumberRow}}
             {{/each}}
         </tbody>
     </table>
+</template>
+
+<template name="surgicalPathologyNumberRow">
+    <tr>
+        <td>{{dateString}}</td>
+        <td>
+            <span class="pull-right">
+                <a class="btn btn-default btn-xs" href="" title="Open Surgical Pathology Report"><span class="glyphicon glyphicon-new-window"></span></a>
+            </span>
+            {{surgicalPathologyNumber}}
+        </td>
+    </tr>
 </template>

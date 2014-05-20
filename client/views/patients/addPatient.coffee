@@ -10,7 +10,7 @@ Template.addPatient.events
                 .map (i,el) ->
                     return {
                         surgicalPathologyNumber: $(el).find("[name=surgicalPathologyNumber]").val()
-                        date: $(el).find("[name=date]").val()
+                        date: $(el).find("[name=date]").datepicker("getDate").getTime()
                     }
                 .get()
         Meteor.call "patient", patient, (error, shortId) ->
@@ -26,7 +26,7 @@ Template.addPatient.events
 
     "DOMNodeInserted": ->
         # Initialize any new datepicker fields after insertion into the DOM
-        $('.datepicker').datepicker()
+        initializeDatePickers()
 
 
 Template.addPatient.helpers
@@ -35,8 +35,14 @@ Template.addPatient.helpers
 
 
 Template.addPatient.rendered = ->
-    $('.datepicker').datepicker()
+    initializeDatePickers()
 
 
 Meteor.startup ->
     Session.set "surgicalPathologyNumbers", [ { id: Meteor.uuid() } ]
+
+initializeDatePickers = ->
+    $('.datepicker').datepicker
+        format: Session.get "datepickerDateFormat"
+        todayBtn: "linked"
+        todayHighlight: true

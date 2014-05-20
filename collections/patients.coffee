@@ -8,6 +8,12 @@ if Meteor.isServer
         output[JSON.stringify(surgicalPathologyNumbers[key])] = JSON.stringify(surgicalPathologyNumbers[key]) for key in [0...surgicalPathologyNumbers.length]
         return (JSON.parse(value) for key, value of output)
 
+    generateUniqueShortId = (mrn) ->
+        hasher = new Hashids Meteor.uuid(), 6
+        shortId = (hasher.encrypt parseInt mrn, 10).slice 0,6 # Generate Short ID
+        while Patients.findOne(shortId: shortId)
+            shortId = (hasher.encrypt parseInt mrn+Meteor.uuid(), 10).slice 0,6 # Generate another Short ID
+        shortId
 
     Meteor.methods
         patient: (patientAttributes) ->
@@ -27,8 +33,7 @@ if Meteor.isServer
 
 
             else # Create a new patient
-                hasher = new Hashids Meteor.uuid(), 6
-                shortId = hasher.encrypt parseInt patientAttributes.mrn, 10 # Generate Short ID
+                shortId = generateUniqueShortId patientAttributes.mrn
                 patient = _.extend patientAttributes,
                     added: new Date().getTime()
                     addedBy: user._id
