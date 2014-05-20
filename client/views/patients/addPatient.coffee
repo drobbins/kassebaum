@@ -5,6 +5,13 @@ Template.addPatient.events
             firstName: $(e.target).find("[name=firstName]").val()
             lastName: $(e.target).find("[name=lastName]").val()
             mrn: $(e.target).find("[name=mrn]").val()
+            surgicalPathologyNumbers: $(e.target).find ".surgical-path-number"
+                .map (i,el) ->
+                    return {
+                        surgicalPathologyNumber: $(el).find("[name=surgicalPathologyNumber]").val()
+                        date: $(el).find("[name=date]").val()
+                    }
+                .get()
         Meteor.call "patient", patient, (error, id) ->
             if error then Alerts.add error.message
             else Router.go 'listPatients'
