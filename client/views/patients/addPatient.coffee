@@ -4,6 +4,7 @@ Template.addPatient.events
         patient =
             firstName: $(e.target).find("[name=firstName]").val()
             lastName: $(e.target).find("[name=lastName]").val()
+            middleName: $(e.target).find("[name=middleName]").val()
             mrn: $(e.target).find("[name=mrn]").val()
             surgicalPathologyNumbers: $(e.target).find ".surgical-path-number"
                 .map (i,el) ->
