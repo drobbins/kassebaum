@@ -1,11 +1,20 @@
 <template name="listPatients">
     <span class="pull-right">
-        <a class="btn btn-default" href="{{pathFor 'addPatient'}}"><span class="glyphicon glyphicon-plus"></span> Add Patient</a>
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="search">Search Patients</label>
+                <input class="form-control search" type="text" name="search" placeholder="Search Patients">
+            </div>
+            <div class="form-group">
+                <a class="btn btn-default" href="{{pathFor 'addPatient'}}"><span class="glyphicon glyphicon-plus"></span> Add Patient</a>
+            </div>
+        </form>
     </span>
     <h2>Patients</h2>
     <table class="table table-hover">
         <thead>
             <tr>
+                <th>Short ID</th>
                 <th>MRN</th>
                 <th>Name</th>
                 <th>Actions</th>
@@ -21,6 +30,7 @@
 
 <template name="patientRow">
     <tr>
+        <td>{{shortId}}</td>
         <td>{{mrn}}</td>
         <td>{{firstName}} {{lastName}}</td>
         <td>

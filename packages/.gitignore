@@ -1,13 +1,15 @@
 /bootstrap-3
 /iron-router
-/blaze-layout
 /spin
 /accounts-ui-bootstrap-3
 /accounts-admin-ui-bootstrap-3
-/roles
 /bootstrap-alerts
 /moment
 /collectionFS
+/npm
+/bootstrap3-datepicker
+/blaze-layout
+/roles
 /cfs-base-package
 /cfs-file
 /cfs-collection
@@ -31,6 +33,3 @@
 /cfs-filesystem
 /reactive-property
 /micro-queue
-/npm
-/bootstrap3-datetimepicker
-/bootstrap3-datepicker
