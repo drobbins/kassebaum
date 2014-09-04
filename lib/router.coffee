@@ -46,12 +46,12 @@ requireLogin = ->
         if Meteor.loggingIn()
             @render @loadingTemplate
         else
-            Alerts.add "Please log in to proceed."
+            Alert.add "Please log in to proceed."
             @redirect "/"
 
 requireAdmin = ->
     if not Roles.userIsInRole Meteor.user(), ["admin"]
-        Alerts.add "You must be an Admin to proceed."
+        Alert.add "You must be an Admin to proceed."
         @redirect "/"
 
 Router.onBeforeAction "loading"
