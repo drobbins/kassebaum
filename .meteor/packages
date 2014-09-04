@@ -3,20 +3,27 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
+## Meteor Packages
 standard-app-packages
 insecure
-mrt:bootstrap-3@3.1.1-1
 coffeescript
-cmather:iron-router@0.7.1
-sacha:spin@0.2.2
 accounts-password
-mrt:accounts-ui-bootstrap-3@0.3.0-1
-mrt:accounts-admin-ui-bootstrap-3@0.2.5
-roles
-mrt:bootstrap-alerts@0.0.5
-mrt:moment@2.6.0
-raix:collectionfs@0.4.8
-cfs-gridfs
 http
-arunoda:npm@0.2.6
-mrt:bootstrap3-datepicker@0.2.1
+
+## Confirmed Migrations
+mizzao:bootstrap-3
+iron:router
+sacha:spin@0.2.2
+rajit:accounts-ui-bootstrap-3
+mrt:accounts-admin-ui-bootstrap-3
+mrt:moment
+
+## Tentative Migrations
+steeve:simple-bootstrap3-alerts # mrt:bootstrap-alerts@0.0.5
+raix:collection-fs #raix:collectionfs@0.4.8
+meteorhacks:npm # arunoda:npm@0.2.6
+rajit:bootstrap3-datepicker # mrt:bootstrap3-datepicker@0.2.1
+alanning:roles # roles
+
+# Unmigrated :(
+# cfs-gridfs
