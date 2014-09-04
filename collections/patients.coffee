@@ -1,5 +1,5 @@
 if Meteor.isServer
-    Hashids = Meteor.require "hashids"
+    Hashids = Meteor.npmRequire "hashids"
 
     mergeSurgicalPathologyNumbers = (oldNumbers, newNumbers) ->
         surgicalPathologyNumbers = oldNumbers.concat newNumbers
