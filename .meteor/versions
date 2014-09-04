@@ -1,8 +1,6 @@
 accounts-base@1.0.0
 accounts-password@1.0.0
 alanning:roles@1.2.12
-aldeed:cfs-collection-filters@0.1.1
-aldeed:cfs-upload-http@0.0.13
 application-configuration@1.0.0
 autoupdate@1.0.5
 binary-heap@1.0.0
@@ -30,7 +28,6 @@ iron:layout@0.3.0
 iron:router@0.9.1
 jquery@1.0.0
 json@1.0.0
-kestanous:emitter@0.1.0
 livedata@1.0.7
 localstorage@1.0.0
 logging@1.0.2
@@ -46,20 +43,6 @@ npm-bcrypt@0.7.7
 npm-container@1.0.0
 observe-sequence@1.0.1
 ordered-dict@1.0.0
-raix:cfs-access-point@0.0.33
-raix:cfs-base-package@0.0.24
-raix:cfs-collection@0.4.11
-raix:cfs-file@0.1.10
-raix:cfs-storage-adapter@0.0.30
-raix:cfs-tempstore@0.0.27
-raix:cfs-worker@0.0.16
-raix:collection-fs@0.4.8
-raix:data-man@0.0.0
-raix:http-methods@0.0.22
-raix:http-publish@0.0.10
-raix:power-queue@0.9.9
-raix:reactive-list@0.0.7
-raix:reactive-property@0.0.1
 rajit:accounts-ui-bootstrap-3@0.3.10
 rajit:bootstrap3-datepicker@1.3.1
 random@1.0.0

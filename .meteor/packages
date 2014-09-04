@@ -20,7 +20,6 @@ mrt:moment
 
 ## Tentative Migrations
 steeve:simple-bootstrap3-alerts # mrt:bootstrap-alerts@0.0.5
-raix:collection-fs #raix:collectionfs@0.4.8
 meteorhacks:npm # arunoda:npm@0.2.6
 rajit:bootstrap3-datepicker # mrt:bootstrap3-datepicker@0.2.1
 alanning:roles # roles
