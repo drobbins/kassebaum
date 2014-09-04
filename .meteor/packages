@@ -27,3 +27,5 @@ alanning:roles # roles
 
 # Unmigrated :(
 # cfs-gridfs
+
+npm-container
