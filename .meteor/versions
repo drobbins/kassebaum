@@ -49,6 +49,7 @@ random@1.0.0
 reactive-dict@1.0.0
 reload@1.0.0
 retry@1.0.0
+robbinsd:simplelog@0.0.0
 routepolicy@1.0.0
 sacha:spin@0.2.4
 service-configuration@1.0.0

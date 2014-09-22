@@ -14,6 +14,14 @@ Router.map ->
                 @render @loadingTemplate
             else if not Roles.userIsInRole Meteor.user(), ["admin"]
                 @redirect "/"
+    @route "logs",
+        path: "/logs"
+        template: "simpleLogs"
+        onBeforeAction: ->
+            if Meteor.loggingIn()
+                @render @loadingTemplate
+            else if not Roles.userIsInRole Meteor.user(), ["admin"]
+                @redirect "/"
     @route "modules",
         path: "/modules"
         template: "modules"
