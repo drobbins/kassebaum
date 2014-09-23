@@ -7,7 +7,9 @@ Template.editPatient.events
             lastName: $(e.target).find("[name=lastName]").val()
             mrn: $(e.target).find("[name=mrn]").val()
         Patients.update currentPatientId, {$set: patientProperties}, (error) ->
-            if error then Alert.add error.message
+            if error
+                Alert.add error.message
+                Logs.add "error", error.message
             Router.go "listPatients"
 
     "click .delete": (e) ->

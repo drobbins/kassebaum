@@ -62,6 +62,11 @@ requireAdmin = ->
         Alert.add "You must be an Admin to proceed."
         @redirect "/"
 
+logNavigation = ->
+    if Meteor.user()
+        Logs.add "info", "loaded #{@.path}"
+
 Router.onBeforeAction "loading"
+Router.onAfterAction logNavigation, except: ["home", "accessDenied", "modules"]
 Router.onBeforeAction requireLogin, except: ["home", "accessDenied", "modules"]
 Router.onBeforeAction requireAdmin, except: ["home", "accessDenied", "modules", "addPatient"]
