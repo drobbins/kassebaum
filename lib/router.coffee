@@ -14,6 +14,14 @@ Router.map ->
                 @render @loadingTemplate
             else if not Roles.userIsInRole Meteor.user(), ["admin"]
                 @redirect "/"
+    @route "logs",
+        path: "/logs"
+        template: "simpleLogs"
+        onBeforeAction: ->
+            if Meteor.loggingIn()
+                @render @loadingTemplate
+            else if not Roles.userIsInRole Meteor.user(), ["admin"]
+                @redirect "/"
     @route "modules",
         path: "/modules"
         template: "modules"
@@ -54,6 +62,11 @@ requireAdmin = ->
         Alert.add "You must be an Admin to proceed."
         @redirect "/"
 
+logNavigation = ->
+    if Meteor.user()
+        Logs.add "info", "loaded #{@.path}"
+
 Router.onBeforeAction "loading"
+Router.onAfterAction logNavigation, except: ["home", "accessDenied", "modules"]
 Router.onBeforeAction requireLogin, except: ["home", "accessDenied", "modules"]
 Router.onBeforeAction requireAdmin, except: ["home", "accessDenied", "modules", "addPatient"]

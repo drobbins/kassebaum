@@ -1,0 +1,25 @@
+<template name="simpleLogs">
+    <h2>Logs</h2>
+    <div class="panel-group" id="logItems">
+        {{#each logItems}}
+            {{> logItem}}
+        {{/each}}
+    </div>
+</template>
+
+<template name="logItem">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <p class="panel-title">
+                <a href="#collapse{{_id}}" data-toggle="collapse" data-parent="#logItems">
+                    {{timeString}} | {{level}} | {{data.user.username}} | {{message}}
+                </a>
+            </p>
+        </div>
+        <div id="collapse{{_id}}" class="panel-collapse collapse">
+            <div class="panel-body">
+                <pre>{{raw}}</pre>
+            </div>
+        </div>
+    </div>
+</template>

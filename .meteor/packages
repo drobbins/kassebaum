@@ -28,3 +28,5 @@ alanning:roles # roles
 # cfs-gridfs
 
 npm-container
+robbinsd:simplelog
+
