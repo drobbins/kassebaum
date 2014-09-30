@@ -1,6 +1,7 @@
 accounts-base@1.1.1
 accounts-password@1.0.2
 alanning:roles@1.2.13
+amplify@1.0.0
 application-configuration@1.0.2
 autoupdate@1.1.1
 base64@1.0.0
@@ -31,6 +32,7 @@ iron:layout@0.4.1
 iron:router@0.9.4
 jquery@1.0.0
 json@1.0.0
+less@1.0.9
 livedata@1.0.10
 localstorage@1.0.0
 logging@1.0.3
@@ -38,6 +40,7 @@ meteor-platform@1.1.1
 meteor@1.1.1
 meteorhacks:async@1.0.0
 meteorhacks:npm@1.2.0
+mike:mocha@0.3.11
 minifiers@1.1.0
 minimongo@1.0.3
 mizzao:bootstrap-3@3.2.0_1
@@ -74,5 +77,7 @@ tracker@1.0.2
 ui@1.0.3
 underscore@1.0.0
 url@1.0.0
+velocity:core@0.2.14
+velocity:html-reporter@0.2.3
 webapp-hashing@1.0.0
 webapp@1.1.2
