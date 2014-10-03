@@ -16,5 +16,8 @@ if MochaWeb then MochaWeb.testOnly ->
 
             it "fails if not logged in", (done) ->
                 Meteor.call "patient", { lastName: patient.lastName, mrn: patient.mrn }, (err) ->
-                    assert.equal err.message, "You need to log in to add patients [401]"
-                    done()
+                    try
+                        assert.equal err.message, "You need to log in to add patients [401]"
+                        done()
+                    catch err
+                        done(err)
