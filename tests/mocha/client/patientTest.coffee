@@ -15,6 +15,7 @@ if MochaWeb then MochaWeb.testOnly ->
                 mrn: "11223344556677008899"
 
             it "fails if not logged in", (done) ->
+                Meteor.logout()
                 Meteor.call "patient", { lastName: patient.lastName, mrn: patient.mrn }, (err) ->
                     try
                         assert.equal err.message, "You need to log in to add patients [401]"
