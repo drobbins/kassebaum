@@ -22,12 +22,6 @@ Router.map ->
                 @render @loadingTemplate
             else if not Roles.userIsInRole Meteor.user(), ["admin"]
                 @redirect "/"
-    @route "modules",
-        path: "/modules"
-        template: "modules"
-        onBeforeAction: ->
-            HTTP.get "http://minervajs.org/lib", (error, result) ->
-                Session.set "minervaModules", result.data
     @route "listPatients",
         path: "/patients"
         template: "listPatients"
