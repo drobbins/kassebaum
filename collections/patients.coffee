@@ -1,3 +1,9 @@
+@Patients = new Meteor.Collection "patients"
+
+Patients.allow
+    update: (userId) -> authorizedUser userId
+    remove: (userId) -> authorizedUser userId
+
 if Meteor.isServer
     Hashids = Meteor.npmRequire "hashids"
 

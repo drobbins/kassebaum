@@ -5,7 +5,6 @@
 
 ## Meteor Packages
 standard-app-packages
-insecure
 coffeescript
 accounts-password
 http
@@ -29,4 +28,3 @@ alanning:roles # roles
 
 npm-container
 robbinsd:simplelog
-
