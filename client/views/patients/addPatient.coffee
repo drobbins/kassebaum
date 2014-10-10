@@ -15,7 +15,7 @@ Template.addPatient.events
                 .get()
         Meteor.call "patient", patient, (error, shortId) ->
             if error
-                Alert.add error.message
+                Alert.add error.message, "danger"
                 Logs.add "error", error.message
             else
                 message = "Successfully added patient. Patient code: #{shortId}"
