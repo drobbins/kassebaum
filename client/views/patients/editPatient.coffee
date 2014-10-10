@@ -9,7 +9,7 @@ Template.editPatient.events
         Patients.update currentPatientId, {$set: patientProperties}, (error) ->
             if error
                 Alert.add error.message, "danger"
-                Logs.add "error", error.message
+                Logs.add "error", "Unable to edit patient #{currentPatientId}: #{error.message}"
             Router.go "listPatients"
 
     "click .delete": (e) ->
