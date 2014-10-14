@@ -48,6 +48,7 @@ if Meteor.isServer
                 return shortId
 
         lookupPatient: (mrn) ->
+            if not Roles.userIsInRole Meteor.user(), ["admin", "tech"] then throw new Meteor.Error 401, "You are not authorized to lookup patients"
             client = new EMMI.Client EMMIClientSettings
             patient = (client.getPatient mrn).result
             _.each ["firstname", "lastname"], (property) ->
