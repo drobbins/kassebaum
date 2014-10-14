@@ -42,7 +42,6 @@ Template.addPatient.events
                 $("[name=firstName]").val(response?.firstname)
                 $("[name=middleName]").val(response?.middlename)
                 $("[name=lastName]").val(response?.lastname)
-                console.log(response)
 
 Template.addPatient.helpers
     surgicalPathologyNumbers: ->
