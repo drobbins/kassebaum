@@ -5,6 +5,7 @@ Template.editPatient.events
         patientProperties =
             firstName: $(e.target).find("[name=firstName]").val()
             lastName: $(e.target).find("[name=lastName]").val()
+            middleName: $(e.target).find("[name=middleName]").val()
             mrn: $(e.target).find("[name=mrn]").val()
         Patients.update currentPatientId, {$set: patientProperties}, (error) ->
             if error
