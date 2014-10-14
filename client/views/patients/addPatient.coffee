@@ -32,6 +32,17 @@ Template.addPatient.events
         # Initialize any new datepicker fields after insertion into the DOM
         initializeDatePickers()
 
+    "click .lookup-patient": ->
+        mrn = $("[name=mrn]").val()
+        Meteor.call "lookupPatient", mrn, (error, response) ->
+            if error
+                Alert.add error.message, "danger"
+                Logs.add "error", error.message
+            else
+                $("[name=firstName]").val(response?.firstname)
+                $("[name=middleName]").val(response?.middlename)
+                $("[name=lastName]").val(response?.lastname)
+                console.log(response)
 
 Template.addPatient.helpers
     surgicalPathologyNumbers: ->

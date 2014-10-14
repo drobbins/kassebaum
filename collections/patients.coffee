@@ -46,3 +46,10 @@ if Meteor.isServer
                     shortId: shortId
                 patientId = Patients.insert(patient)
                 return shortId
+
+        lookupPatient: (mrn) ->
+            client = new EMMI.Client EMMIClientSettings
+            patient = (client.getPatient mrn).result
+            _.each ["firstname", "lastname"], (property) ->
+                patient[property] = patient[property].toProperCase()
+            patient

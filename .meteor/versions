@@ -56,6 +56,7 @@ reactive-dict@1.0.3
 reactive-var@1.0.2
 reload@1.1.0
 retry@1.0.0
+robbinsd:emmi-client@0.1.0
 robbinsd:simplelog@0.0.0
 routepolicy@1.0.1
 sacha:spin@0.2.4
