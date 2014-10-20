@@ -41,7 +41,6 @@ meteor-platform@1.1.2
 meteor@1.1.2
 meteorhacks:async@1.0.0
 meteorhacks:npm@1.2.0
-mike:mocha@0.3.12
 minifiers@1.1.1
 minimongo@1.0.4
 mizzao:bootstrap-3@3.2.0_1
