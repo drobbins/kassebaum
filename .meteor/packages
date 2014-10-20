@@ -30,4 +30,6 @@ npm-container
 robbinsd:simplelog
 robbinsd:emmi-client
 mike:mocha
+sanjo:jasmine
+velocity:html-reporter
 
