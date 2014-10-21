@@ -17,12 +17,12 @@ describe "Patients", ->
 
     describe "method patient", ->
 
-        xit "exists", ->
+        it "exists", ->
             expect(Meteor.methodMap.patient).toBeDefined()
 
-        xit "returns a 401 if not logged in.", ->
+        it "returns a 401 if not logged in.", ->
             spyOn Meteor, "user"
                 .and.returnValue null
             Meteor.call "patient", {}, (err, resp) ->
-                expect(err.message).toBe 401
+                expect(err.error).toBe 401
                 expect(Meteor.user).toHaveBeenCalled()
