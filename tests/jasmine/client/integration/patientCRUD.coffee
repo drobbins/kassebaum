@@ -15,7 +15,7 @@ patient =
 
 describe "Patients", ->
 
-    it "Adding patients with Patients.insert is forbidden", (done) ->
+    it " - Adding patients with Patients.insert is forbidden", (done) ->
         Patients.insert patient, (err) ->
             expect(err.error).toBe 403
             done()
