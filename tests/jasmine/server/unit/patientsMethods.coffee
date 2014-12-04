@@ -53,7 +53,7 @@ describe "Patients", ->
                 expect(Meteor.user).toHaveBeenCalled()
                 expect(Roles.userIsInRole).toHaveBeenCalled()
 
-        xdescribe "returns a 422 if missing required field", ->
+        describe "returns a 422 if missing required field", ->
 
             beforeEach ->
                 spyOn Meteor, "user"
@@ -61,8 +61,18 @@ describe "Patients", ->
                 spyOn Roles, "userIsInRole"
                     .and.returnValue true
 
-            it "patient.firstName", ->
-                patient = lastName: "McTestington", mrn: "1234512345"
+            testValidation = (field) ->
+                temp = patient[field]
+                patient[field] = null
                 Meteor.call "patient", patient, (err, resp) ->
                     expect(err.error).toBe 422
+                    patient[field] = temp
 
+            it "patient.firstName", ->
+                testValidation "firstName"
+
+            it "patient.lastName", ->
+                testValidation "lastName"
+
+            it "patient.mrn", ->
+                testValidation "mrn"
