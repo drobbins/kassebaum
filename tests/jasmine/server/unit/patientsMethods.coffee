@@ -8,6 +8,12 @@ admin =
     password: "password"
     name: "Admin"
 
+wrongRole =
+    username: "kallie"
+    password: "password"
+    name: "Kallie Emil"
+    roles: [ "notTech" ]
+
 patient =
     firstName: "Adolphus"
     lastName: "McTestington"
@@ -26,3 +32,37 @@ describe "Patients", ->
             Meteor.call "patient", {}, (err, resp) ->
                 expect(err.error).toBe 401
                 expect(Meteor.user).toHaveBeenCalled()
+
+        it "returns a 401 if missing correct role.", ->
+            spyOn Meteor, "user"
+                .and.returnValue wrongRole
+            spyOn Roles, "userIsInRole"
+                .and.returnValue false
+            Meteor.call "patient", {}, (err, resp) ->
+                expect(err.error).toBe 401
+                expect(Meteor.user).toHaveBeenCalled()
+                expect(Roles.userIsInRole).toHaveBeenCalled()
+
+        it "does not return a 401 if a correct role.", ->
+            spyOn Meteor, "user"
+                .and.returnValue tech
+            spyOn Roles, "userIsInRole"
+                .and.returnValue true
+            Meteor.call "patient", {}, (err, resp) ->
+                expect(err.error).not.toBe 401
+                expect(Meteor.user).toHaveBeenCalled()
+                expect(Roles.userIsInRole).toHaveBeenCalled()
+
+        xdescribe "returns a 422 if missing required field", ->
+
+            beforeEach ->
+                spyOn Meteor, "user"
+                    .and.returnValue tech
+                spyOn Roles, "userIsInRole"
+                    .and.returnValue true
+
+            it "patient.firstName", ->
+                patient = lastName: "McTestington", mrn: "1234512345"
+                Meteor.call "patient", patient, (err, resp) ->
+                    expect(err.error).toBe 422
+
