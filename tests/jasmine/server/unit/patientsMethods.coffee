@@ -18,6 +18,7 @@ patient =
     firstName: "Adolphus"
     lastName: "McTestington"
     mrn: "1234512345"
+    surgicalPathologyNumbers: [ "111", "222", "333"]
 
 describe "Patients", ->
 
@@ -76,3 +77,23 @@ describe "Patients", ->
 
             it "patient.mrn", ->
                 testValidation "mrn"
+
+        it "merges surgical pathology numbers for existing patients", ->
+            existingPatient =
+                firstName: "Adolphus"
+                lastName: "McTestington"
+                mrn: "1234512345"
+                shortId: "abcdef"
+                surgicalPathologyNumbers: [ "111", "222", "444"]
+            spyOn Meteor, "user"
+                .and.returnValue tech
+            spyOn Roles, "userIsInRole"
+                .and.returnValue true
+            spyOn Patients, "findOne"
+                .and.returnValue existingPatient
+            spyOn Patients, "update"
+            Meteor.call "patient", patient, (err, resp) ->
+                expect(err).toBe null
+                #expect(shortId).toBe existingPatient.shortId
+                expect(Patients.update).toHaveBeenCalled()
+                expect(Patients.update.calls.mostRecent().args[1].$set.surgicalPathologyNumbers).toEqual [ "111", "222", "444", "333"]
