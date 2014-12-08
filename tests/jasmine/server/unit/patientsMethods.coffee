@@ -97,3 +97,16 @@ describe "Patients", ->
                 #expect(shortId).toBe existingPatient.shortId
                 expect(Patients.update).toHaveBeenCalled()
                 expect(Patients.update.calls.mostRecent().args[1].$set.surgicalPathologyNumbers).toEqual [ "111", "222", "444", "333"]
+
+        it "inserts patient with a new shortId for new patients", ->
+            spyOn Meteor, "user"
+                .and.returnValue tech
+            spyOn Roles, "userIsInRole"
+                .and.returnValue true
+            spyOn Patients, "findOne"
+                .and.returnValue null
+            spyOn Patients, "insert"
+            Meteor.call "patient", patient, (err, resp) ->
+                expect(err).toBe null
+                expect(Patients.insert).toHaveBeenCalled()
+                expect(Patients.insert.calls.mostRecent().args[0].shortId).not.toBeNull()
