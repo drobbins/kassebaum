@@ -110,3 +110,32 @@ describe "Patients", ->
                 expect(err).toBe null
                 expect(Patients.insert).toHaveBeenCalled()
                 expect(Patients.insert.calls.mostRecent().args[0].shortId).not.toBeNull()
+
+    describe "method lookupPatient", ->
+
+        it "returns a 401 if not logged in.", ->
+            spyOn Meteor, "user"
+                .and.returnValue null
+            Meteor.call "lookupPatient", {}, (err, resp) ->
+                expect(err.error).toBe 401
+                expect(Meteor.user).toHaveBeenCalled()
+
+        it "returns a 401 if missing correct role.", ->
+            spyOn Meteor, "user"
+                .and.returnValue wrongRole
+            spyOn Roles, "userIsInRole"
+                .and.returnValue false
+            Meteor.call "lookupPatient", {}, (err, resp) ->
+                expect(err.error).toBe 401
+                expect(Meteor.user).toHaveBeenCalled()
+                expect(Roles.userIsInRole).toHaveBeenCalled()
+
+        it "does not return a 401 if a correct role.", ->
+            spyOn Meteor, "user"
+                .and.returnValue tech
+            spyOn Roles, "userIsInRole"
+                .and.returnValue true
+            Meteor.call "lookupPatient", {}, (err, resp) ->
+                expect(err.error).not.toBe 401
+                expect(Meteor.user).toHaveBeenCalled()
+                expect(Roles.userIsInRole).toHaveBeenCalled()
