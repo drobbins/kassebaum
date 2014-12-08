@@ -20,6 +20,12 @@ patient =
     mrn: "1234512345"
     surgicalPathologyNumbers: [ "111", "222", "333"]
 
+emmi_result =
+    result:
+        firstname: "Adolphus"
+        lastname: "McTestington"
+        mrn: "1234512345"
+
 describe "Patients", ->
 
     describe "method patient", ->
@@ -139,3 +145,15 @@ describe "Patients", ->
                 expect(err.error).not.toBe 401
                 expect(Meteor.user).toHaveBeenCalled()
                 expect(Roles.userIsInRole).toHaveBeenCalled()
+
+        it "looks up a patient using an EMMI.Client", ->
+            spyOn Meteor, "user"
+                .and.returnValue tech
+            spyOn Roles, "userIsInRole"
+                .and.returnValue true
+            clientStub = getPatient: jasmine.createSpy("getPatient").and.returnValue emmi_result
+            spyOn EMMI, "Client"
+                .and.callFake -> clientStub
+            Meteor.call "lookupPatient", "1234", (err, resp) ->
+                expect(err).toBeNull()
+                expect(clientStub.getPatient).toHaveBeenCalledWith "1234"
