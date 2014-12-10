@@ -7149,7 +7149,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "b6aef66745a641d2af77c7433be702355b397dc8"
+                  "value": "38c6f08d34f560bacded3b6b9cbcfd9d1905da6e"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7273,7 +7273,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 0
+              "value": 2
             },
             "timeout": {
               "type": "constant",
@@ -7414,7 +7414,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/907f41ce7b84611715fdacaf42af1d82f4502b5e.map"
+                  "value": "/packages/61916b1060b33931a21f104fbffb67c2f3d493c5.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7422,7 +7422,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/907f41ce7b84611715fdacaf42af1d82f4502b5e.map": {
+            "/packages/61916b1060b33931a21f104fbffb67c2f3d493c5.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -7830,7 +7830,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/d08e67b8b9ef5f236184319cc86e6e14b5cf11be.map"
+                  "value": "/packages/9adf0102ce60b3df01914155826e1661f636e91d.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7838,7 +7838,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/d08e67b8b9ef5f236184319cc86e6e14b5cf11be.map": {
+            "/packages/9adf0102ce60b3df01914155826e1661f636e91d.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -7856,7 +7856,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map"
+                  "value": "/packages/1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7864,7 +7864,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map": {
+            "/packages/1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -7934,7 +7934,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map"
+                  "value": "/packages/6773d7206be2caaaf6d01340042ef08dcaad7907.map"
                 },
                 "type": {
                   "type": "constant",
@@ -7942,7 +7942,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map": {
+            "/packages/6773d7206be2caaaf6d01340042ef08dcaad7907.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8090,7 +8090,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/88aac5d3c26b7576ac55bb3afc5324f465757709.map"
+                  "value": "/packages/77c0809654ee3a10dcd5a4f961fb1437e7957d33.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8098,7 +8098,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/88aac5d3c26b7576ac55bb3afc5324f465757709.map": {
+            "/packages/77c0809654ee3a10dcd5a4f961fb1437e7957d33.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8220,7 +8220,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/f267b683007ca477629c166b4bd43499e3122351.map"
+                  "value": "/packages/2312d739008b2ffa52f13c77c5d6fc59c9e17d56.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8228,7 +8228,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/f267b683007ca477629c166b4bd43499e3122351.map": {
+            "/packages/2312d739008b2ffa52f13c77c5d6fc59c9e17d56.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8272,7 +8272,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/22b8c020a13542fe69c5ffae82f6b6ab7944b181.map"
+                  "value": "/packages/8d8f544e1328b7a62d76dbbbbf7d1fd5f559c919.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8280,7 +8280,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/22b8c020a13542fe69c5ffae82f6b6ab7944b181.map": {
+            "/packages/8d8f544e1328b7a62d76dbbbbf7d1fd5f559c919.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8289,16 +8289,16 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/reactive-dict.js": {
+            "/packages/ui.js": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/reactive-dict.js"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/ui.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map"
+                  "value": "/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8306,12 +8306,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map": {
+            "/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/ui.js.map"
                 }
               }
             },
@@ -8350,7 +8350,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/fe41a023a7a6f1ded90b0729437928a8ddccc7d4.map"
+                  "value": "/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8358,38 +8358,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/fe41a023a7a6f1ded90b0729437928a8ddccc7d4.map": {
+            "/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
                   "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_core.js.map"
-                }
-              }
-            },
-            "/packages/ui.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/ui.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/ui.js.map"
                 }
               }
             },
@@ -8402,7 +8376,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/32038885cb1dad7957291ffebfffcb7f8cd57d20.map"
+                  "value": "/packages/4d8240a576804301368600b388b97065770c2964.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8410,7 +8384,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/32038885cb1dad7957291ffebfffcb7f8cd57d20.map": {
+            "/packages/4d8240a576804301368600b388b97065770c2964.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8428,7 +8402,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/080dc95e770e3130757bf6af69fd0abb99573ae4.map"
+                  "value": "/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8436,12 +8410,142 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/080dc95e770e3130757bf6af69fd0abb99573ae4.map": {
+            "/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
                   "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_layout.js.map"
+                }
+              }
+            },
+            "/packages/iron_url.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_url.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/271d2b23f8542769347738353a73f77c63859e8e.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/271d2b23f8542769347738353a73f77c63859e8e.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_url.js.map"
+                }
+              }
+            },
+            "/packages/iron_middleware-stack.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/bc8692a6fce82dfbe55eead781d8e8b3afcbfd1c.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/bc8692a6fce82dfbe55eead781d8e8b3afcbfd1c.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js.map"
+                }
+              }
+            },
+            "/packages/iron_location.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_location.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/0434907da386df80b0a769a8c4decc5374a3fdb6.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/0434907da386df80b0a769a8c4decc5374a3fdb6.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_location.js.map"
+                }
+              }
+            },
+            "/packages/reactive-dict.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/reactive-dict.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map"
+                }
+              }
+            },
+            "/packages/iron_controller.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_controller.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/c4a074a0f421ce052a59282e7eae64f7049061cb.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/c4a074a0f421ce052a59282e7eae64f7049061cb.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/iron_controller.js.map"
                 }
               }
             },
@@ -8454,7 +8558,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17.map"
+                  "value": "/packages/c45f7b94d616b48432e190827a3ca76d48e51e9d.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8462,7 +8566,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17.map": {
+            "/packages/c45f7b94d616b48432e190827a3ca76d48e51e9d.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8506,7 +8610,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map"
+                  "value": "/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8514,7 +8618,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map": {
+            "/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8757,6 +8861,32 @@ var packageMetadata = {
                 }
               }
             },
+            "/packages/launch-screen.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/launch-screen.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/launch-screen.js.map"
+                }
+              }
+            },
             "/packages/mrt_accounts-admin-ui-bootstrap-3.js": {
               "type": "object",
               "members": {
@@ -8766,7 +8896,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/4947fb97e32aa380b272a276878adb3c37aea4c8.map"
+                  "value": "/packages/cf8f71eeca1af0f29f7e07b8eb8ed7495e0eddd7.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8774,7 +8904,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/4947fb97e32aa380b272a276878adb3c37aea4c8.map": {
+            "/packages/cf8f71eeca1af0f29f7e07b8eb8ed7495e0eddd7.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8818,7 +8948,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/54148b1f972204dfb4235831caf61c66f42966f4.map"
+                  "value": "/packages/cb43b0e2b8fb46eb4e9b1ff9714217354fe8b0c4.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8826,7 +8956,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/54148b1f972204dfb4235831caf61c66f42966f4.map": {
+            "/packages/cb43b0e2b8fb46eb4e9b1ff9714217354fe8b0c4.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8922,7 +9052,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/bfa69e49053e9287025f24a904cde84f2f360669.map"
+                  "value": "/packages/626d4890b8c52a0a2328da845408d0f7da2a6c3f.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8930,7 +9060,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/bfa69e49053e9287025f24a904cde84f2f360669.map": {
+            "/packages/626d4890b8c52a0a2328da845408d0f7da2a6c3f.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8948,7 +9078,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/c25a9c08e32d432b26058cc17a1e5cb4467eac60.map"
+                  "value": "/packages/e2485d6f6e790fbe536ce27e82486e680bb33d5c.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8956,7 +9086,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/c25a9c08e32d432b26058cc17a1e5cb4467eac60.map": {
+            "/packages/e2485d6f6e790fbe536ce27e82486e680bb33d5c.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -8965,16 +9095,16 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/sanjo_jasmine.js": {
+            "/packages/practicalmeteor_chai.js": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/practicalmeteor_chai.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73.map"
+                  "value": "/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map"
                 },
                 "type": {
                   "type": "constant",
@@ -8982,12 +9112,38 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73.map": {
+            "/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js.map"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/practicalmeteor_chai.js.map"
+                }
+              }
+            },
+            "/packages/practicalmeteor_loglevel.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/practicalmeteor_loglevel.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/practicalmeteor_loglevel.js.map"
                 }
               }
             },
@@ -9000,7 +9156,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map"
+                  "value": "/packages/82241038c303e73253980ddbae67ac50a3e9f6ad.map"
                 },
                 "type": {
                   "type": "constant",
@@ -9008,12 +9164,64 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map": {
+            "/packages/82241038c303e73253980ddbae67ac50a3e9f6ad.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
                   "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_core.js.map"
+                }
+              }
+            },
+            "/packages/velocity_shim.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_shim.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/14363d085a412115605c41536e4f2867425b89d5.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/14363d085a412115605c41536e4f2867425b89d5.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_shim.js.map"
+                }
+              }
+            },
+            "/packages/sanjo_jasmine.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/04ba42a040aed861ffffa46e10517174e66b3a8b.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/04ba42a040aed861ffffa46e10517174e66b3a8b.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js.map"
                 }
               }
             },
@@ -9078,7 +9286,7 @@ var packageMetadata = {
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map"
+                  "value": "/packages/cf94ce8ed8b0cdf6e387fa55b112e0e005882a1d.map"
                 },
                 "type": {
                   "type": "constant",
@@ -9086,7 +9294,7 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map": {
+            "/packages/cf94ce8ed8b0cdf6e387fa55b112e0e005882a1d.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
@@ -9611,16 +9819,68 @@ var packageMetadata = {
                 }
               }
             },
-            "/1541de040081e1442cd254c5aeaed34d6095625b.css": {
+            "/packages/velocity_test-proxy.js": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/1541de040081e1442cd254c5aeaed34d6095625b.css"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_test-proxy.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/1541de040081e1442cd254c5aeaed34d6095625b.map"
+                  "value": "/packages/485cfaa2d8f8a9df15646ad027ceb24cd84d678c.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/485cfaa2d8f8a9df15646ad027ceb24cd84d678c.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_test-proxy.js.map"
+                }
+              }
+            },
+            "/packages/velocity_node-soft-mirror.js": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_node-soft-mirror.js"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/packages/cfbadc9d9aff21e824a2b9cf98841d5961cd08d2.map"
+                },
+                "type": {
+                  "type": "constant",
+                  "value": "js"
+                }
+              }
+            },
+            "/packages/cfbadc9d9aff21e824a2b9cf98841d5961cd08d2.map": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_node-soft-mirror.js.map"
+                }
+              }
+            },
+            "/dc47293ca0fdfedf7f44d13e6750563172e5fa3b.css": {
+              "type": "object",
+              "members": {
+                "absolutePath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/dc47293ca0fdfedf7f44d13e6750563172e5fa3b.css"
+                },
+                "sourceMapUrl": {
+                  "type": "constant",
+                  "value": "/dc47293ca0fdfedf7f44d13e6750563172e5fa3b.map"
                 },
                 "type": {
                   "type": "constant",
@@ -9628,12 +9888,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/1541de040081e1442cd254c5aeaed34d6095625b.map": {
+            "/dc47293ca0fdfedf7f44d13e6750563172e5fa3b.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/1541de040081e1442cd254c5aeaed34d6095625b.css.map"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/dc47293ca0fdfedf7f44d13e6750563172e5fa3b.css.map"
                 }
               }
             },
@@ -9701,12 +9961,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot": {
+            "/packages/velocity_html-reporter/lib/velocity_logo.svg": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/velocity_logo.svg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9717,12 +9977,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf": {
+            "/packages/velocity_html-reporter/lib/velocity_cog.svg": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/velocity_cog.svg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9733,44 +9993,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff": {
+            "/packages/velocity_html-reporter/lib/icon-time.png": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/spinner.gif": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/spinner.gif"
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/icon-time.png"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9802,7 +10030,7 @@ var packageMetadata = {
               "members": {
                 "content": {
                   "type": "constant",
-                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?907f41ce7b84611715fdacaf42af1d82f4502b5e\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/907f41ce7b84611715fdacaf42af1d82f4502b5e.map\",\"size\":107421,\"hash\":\"907f41ce7b84611715fdacaf42af1d82f4502b5e\"},{\"path\":\"packages/standard-app-packages.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/standard-app-packages.js?be7072e6abfda638502b63fa0f809c85c8c2b8ed\",\"sourceMap\":\"packages/standard-app-packages.js.map\",\"sourceMapUrl\":\"/packages/be7072e6abfda638502b63fa0f809c85c8c2b8ed.map\",\"size\":1306,\"hash\":\"be7072e6abfda638502b63fa0f809c85c8c2b8ed\"},{\"path\":\"packages/coffeescript.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/coffeescript.js?969f68786bbc68e6cad299e74922a53af3d1404b\",\"sourceMap\":\"packages/coffeescript.js.map\",\"sourceMapUrl\":\"/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map\",\"size\":1294,\"hash\":\"969f68786bbc68e6cad299e74922a53af3d1404b\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?da8974b7231dd8c0caccb5f322dcf97329d486d1\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map\",\"size\":25926,\"hash\":\"da8974b7231dd8c0caccb5f322dcf97329d486d1\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?d08e67b8b9ef5f236184319cc86e6e14b5cf11be\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/d08e67b8b9ef5f236184319cc86e6e14b5cf11be.map\",\"size\":427493,\"hash\":\"d08e67b8b9ef5f236184319cc86e6e14b5cf11be\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?539b5fc23cf5e63bc8e324543a1026b138316a8c\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/539b5fc23cf5e63bc8e324543a1026b138316a8c.map\",\"size\":110444,\"hash\":\"539b5fc23cf5e63bc8e324543a1026b138316a8c\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?88aac5d3c26b7576ac55bb3afc5324f465757709\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/88aac5d3c26b7576ac55bb3afc5324f465757709.map\",\"size\":385864,\"hash\":\"88aac5d3c26b7576ac55bb3afc5324f465757709\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?6ed32803c332f93f65e36a195f42e58a62ed028d\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/6ed32803c332f93f65e36a195f42e58a62ed028d.map\",\"size\":108969,\"hash\":\"6ed32803c332f93f65e36a195f42e58a62ed028d\"},{\"path\":\"packages/sha.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sha.js?65ef52f7221944768bfc2049d6b7e163c8ae2615\",\"sourceMap\":\"packages/sha.js.map\",\"sourceMapUrl\":\"/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map\",\"size\":19584,\"hash\":\"65ef52f7221944768bfc2049d6b7e163c8ae2615\"},{\"path\":\"packages/srp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/srp.js?e2e28156e8c912d504a3586351c8a1119f664cfd\",\"sourceMap\":\"packages/srp.js.map\",\"sourceMapUrl\":\"/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map\",\"size\":173470,\"hash\":\"e2e28156e8c912d504a3586351c8a1119f664cfd\"},{\"path\":\"packages/accounts-password.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-password.js?6c517b689e15ab07dd443895b7ed801683dda159\",\"sourceMap\":\"packages/accounts-password.js.map\",\"sourceMapUrl\":\"/packages/6c517b689e15ab07dd443895b7ed801683dda159.map\",\"size\":33053,\"hash\":\"6c517b689e15ab07dd443895b7ed801683dda159\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/mizzao_bootstrap-3.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mizzao_bootstrap-3.js?22b8c020a13542fe69c5ffae82f6b6ab7944b181\",\"sourceMap\":\"packages/mizzao_bootstrap-3.js.map\",\"sourceMapUrl\":\"/packages/22b8c020a13542fe69c5ffae82f6b6ab7944b181.map\",\"size\":269800,\"hash\":\"22b8c020a13542fe69c5ffae82f6b6ab7944b181\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/599ba307216da826d8b335332ebcc9a497a369a0.map\",\"size\":11910,\"hash\":\"599ba307216da826d8b335332ebcc9a497a369a0\"},{\"path\":\"packages/iron_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_core.js?fe41a023a7a6f1ded90b0729437928a8ddccc7d4\",\"sourceMap\":\"packages/iron_core.js.map\",\"sourceMapUrl\":\"/packages/fe41a023a7a6f1ded90b0729437928a8ddccc7d4.map\",\"size\":31679,\"hash\":\"fe41a023a7a6f1ded90b0729437928a8ddccc7d4\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/iron_dynamic-template.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_dynamic-template.js?32038885cb1dad7957291ffebfffcb7f8cd57d20\",\"sourceMap\":\"packages/iron_dynamic-template.js.map\",\"sourceMapUrl\":\"/packages/32038885cb1dad7957291ffebfffcb7f8cd57d20.map\",\"size\":51775,\"hash\":\"32038885cb1dad7957291ffebfffcb7f8cd57d20\"},{\"path\":\"packages/iron_layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_layout.js?080dc95e770e3130757bf6af69fd0abb99573ae4\",\"sourceMap\":\"packages/iron_layout.js.map\",\"sourceMapUrl\":\"/packages/080dc95e770e3130757bf6af69fd0abb99573ae4.map\",\"size\":56973,\"hash\":\"080dc95e770e3130757bf6af69fd0abb99573ae4\"},{\"path\":\"packages/iron_router.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_router.js?da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17\",\"sourceMap\":\"packages/iron_router.js.map\",\"sourceMapUrl\":\"/packages/da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17.map\",\"size\":250621,\"hash\":\"da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/handlebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/handlebars.js?038145b6256cd6a69c11650ed6bf12b093920095\",\"sourceMap\":\"packages/handlebars.js.map\",\"sourceMapUrl\":\"/packages/038145b6256cd6a69c11650ed6bf12b093920095.map\",\"size\":1292,\"hash\":\"038145b6256cd6a69c11650ed6bf12b093920095\"},{\"path\":\"packages/stylus.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/stylus.js?48b7e3e0953c004a73211d7489462e73ed11be2c\",\"sourceMap\":\"packages/stylus.js.map\",\"sourceMapUrl\":\"/packages/48b7e3e0953c004a73211d7489462e73ed11be2c.map\",\"size\":1288,\"hash\":\"48b7e3e0953c004a73211d7489462e73ed11be2c\"},{\"path\":\"packages/rajit_accounts-ui-bootstrap-3.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rajit_accounts-ui-bootstrap-3.js?6ccb74d1761ef3e4b70aa2d4c94f36241200c03a\",\"sourceMap\":\"packages/rajit_accounts-ui-bootstrap-3.js.map\",\"sourceMapUrl\":\"/packages/6ccb74d1761ef3e4b70aa2d4c94f36241200c03a.map\",\"size\":233024,\"hash\":\"6ccb74d1761ef3e4b70aa2d4c94f36241200c03a\"},{\"path\":\"packages/alanning_roles.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/alanning_roles.js?79ec06e46df4edfbc286f83d1ad8064d46d44990\",\"sourceMap\":\"packages/alanning_roles.js.map\",\"sourceMapUrl\":\"/packages/79ec06e46df4edfbc286f83d1ad8064d46d44990.map\",\"size\":94498,\"hash\":\"79ec06e46df4edfbc286f83d1ad8064d46d44990\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?3c496d2950151d744a8574297b46d2763a123bdf\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/3c496d2950151d744a8574297b46d2763a123bdf.map\",\"size\":42134,\"hash\":\"3c496d2950151d744a8574297b46d2763a123bdf\"},{\"path\":\"packages/mrt_accounts-admin-ui-bootstrap-3.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_accounts-admin-ui-bootstrap-3.js?4947fb97e32aa380b272a276878adb3c37aea4c8\",\"sourceMap\":\"packages/mrt_accounts-admin-ui-bootstrap-3.js.map\",\"sourceMapUrl\":\"/packages/4947fb97e32aa380b272a276878adb3c37aea4c8.map\",\"size\":94125,\"hash\":\"4947fb97e32aa380b272a276878adb3c37aea4c8\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/steeve_simple-bootstrap3-alerts.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/steeve_simple-bootstrap3-alerts.js?54148b1f972204dfb4235831caf61c66f42966f4\",\"sourceMap\":\"packages/steeve_simple-bootstrap3-alerts.js.map\",\"sourceMapUrl\":\"/packages/54148b1f972204dfb4235831caf61c66f42966f4.map\",\"size\":4405,\"hash\":\"54148b1f972204dfb4235831caf61c66f42966f4\"},{\"path\":\"packages/meteorhacks_npm.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteorhacks_npm.js?604e35d5437f43224cde2c1f9e5e9aace95a9a95\",\"sourceMap\":\"packages/meteorhacks_npm.js.map\",\"sourceMapUrl\":\"/packages/604e35d5437f43224cde2c1f9e5e9aace95a9a95.map\",\"size\":1300,\"hash\":\"604e35d5437f43224cde2c1f9e5e9aace95a9a95\"},{\"path\":\"packages/rajit_bootstrap3-datepicker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rajit_bootstrap3-datepicker.js?822806a6bbf9e439f7ddaace893bf390c25431b9\",\"sourceMap\":\"packages/rajit_bootstrap3-datepicker.js.map\",\"sourceMapUrl\":\"/packages/822806a6bbf9e439f7ddaace893bf390c25431b9.map\",\"size\":198438,\"hash\":\"822806a6bbf9e439f7ddaace893bf390c25431b9\"},{\"path\":\"packages/npm-container.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/npm-container.js?c4195e22b5a0a7239a415a3d95b3b702c34fa28d\",\"sourceMap\":\"packages/npm-container.js.map\",\"sourceMapUrl\":\"/packages/c4195e22b5a0a7239a415a3d95b3b702c34fa28d.map\",\"size\":1298,\"hash\":\"c4195e22b5a0a7239a415a3d95b3b702c34fa28d\"},{\"path\":\"packages/robbinsd_simplelog.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/robbinsd_simplelog.js?bfa69e49053e9287025f24a904cde84f2f360669\",\"sourceMap\":\"packages/robbinsd_simplelog.js.map\",\"sourceMapUrl\":\"/packages/bfa69e49053e9287025f24a904cde84f2f360669.map\",\"size\":10740,\"hash\":\"bfa69e49053e9287025f24a904cde84f2f360669\"},{\"path\":\"packages/robbinsd_emmi-client.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/robbinsd_emmi-client.js?c25a9c08e32d432b26058cc17a1e5cb4467eac60\",\"sourceMap\":\"packages/robbinsd_emmi-client.js.map\",\"sourceMapUrl\":\"/packages/c25a9c08e32d432b26058cc17a1e5cb4467eac60.map\",\"size\":2014,\"hash\":\"c25a9c08e32d432b26058cc17a1e5cb4467eac60\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73.map\",\"size\":562176,\"hash\":\"12c4a1ab0116b6cd1764ac1c05a7a430ec4e7b73\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/meteorhacks_async.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteorhacks_async.js?e687b9e863dc811fb3f313d1c6f237c7a2b1924b\",\"sourceMap\":\"packages/meteorhacks_async.js.map\",\"sourceMapUrl\":\"/packages/e687b9e863dc811fb3f313d1c6f237c7a2b1924b.map\",\"size\":1360,\"hash\":\"e687b9e863dc811fb3f313d1c6f237c7a2b1924b\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?c6400b95dc6f6ec4194c886c18a3ac39d6d032fd\",\"size\":1149,\"hash\":\"c6400b95dc6f6ec4194c886c18a3ac39d6d032fd\"},{\"path\":\"app/client/views/include/template.access_denied.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.access_denied.js?ec776620ed928e23b5bbceb01c3004aadbf192d4\",\"size\":274,\"hash\":\"ec776620ed928e23b5bbceb01c3004aadbf192d4\"},{\"path\":\"app/client/views/include/template.adminbuttons.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.adminbuttons.js?738bc58b0285a1772d9e60874e6425842717a742\",\"size\":1140,\"hash\":\"738bc58b0285a1772d9e60874e6425842717a742\"},{\"path\":\"app/client/views/include/template.attributeRow.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.attributeRow.js?de0bb4752f69781e2249a956bdda6fd9df69c16d\",\"size\":520,\"hash\":\"de0bb4752f69781e2249a956bdda6fd9df69c16d\"},{\"path\":\"app/client/views/include/template.header.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.header.js?bcc123a0abf27b7aafc53b4b13c2e96607e3ea08\",\"size\":1815,\"hash\":\"bcc123a0abf27b7aafc53b4b13c2e96607e3ea08\"},{\"path\":\"app/client/views/include/template.loading.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.loading.js?0b820746542c3b65b4fd0c78c00237f88a5c9a3f\",\"size\":206,\"hash\":\"0b820746542c3b65b4fd0c78c00237f88a5c9a3f\"},{\"path\":\"app/client/views/include/template.navButtons.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.navButtons.js?9b7ca826bb6550d54ac1a140fa8426cf855b4ea4\",\"size\":578,\"hash\":\"9b7ca826bb6550d54ac1a140fa8426cf855b4ea4\"},{\"path\":\"app/client/views/include/template.utilityButtons.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.utilityButtons.js?a635944dfc57b2506b03cccf0a1aa51539e2752b\",\"size\":180,\"hash\":\"a635944dfc57b2506b03cccf0a1aa51539e2752b\"},{\"path\":\"app/client/views/patients/template.addPatient.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/template.addPatient.js?2912655346e583ebae882d8ba4095174ce237081\",\"size\":3173,\"hash\":\"2912655346e583ebae882d8ba4095174ce237081\"},{\"path\":\"app/client/views/patients/template.editPatient.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/template.editPatient.js?7a961e7a236cd09bba0c7b02a6350cf335d18367\",\"size\":3809,\"hash\":\"7a961e7a236cd09bba0c7b02a6350cf335d18367\"},{\"path\":\"app/client/views/patients/template.listPatients.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/template.listPatients.js?45b434aa0c4d619fa8a8a147dfa085772ea2406e\",\"size\":2647,\"hash\":\"45b434aa0c4d619fa8a8a147dfa085772ea2406e\"},{\"path\":\"app/client/views/patients/template.viewPatient.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/template.viewPatient.js?25de1de94a60c70baaf224d475c849cff7d537d5\",\"size\":3389,\"hash\":\"25de1de94a60c70baaf224d475c849cff7d537d5\"},{\"path\":\"app/client/views/template.home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/template.home.js?847bc69dc26bb18dae136b89ab86a0a9f9bffa47\",\"size\":223,\"hash\":\"847bc69dc26bb18dae136b89ab86a0a9f9bffa47\"},{\"path\":\"app/client/template.layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/template.layout.js?56df5f95b000a1473993b46d6b5182ac3ab6badc\",\"size\":1084,\"hash\":\"56df5f95b000a1473993b46d6b5182ac3ab6badc\"},{\"path\":\"app/lib/router.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/router.coffee.js?8bdd21ac5f87578cbc1f6b38ed3c3950908b335e\",\"sourceMap\":\"app/lib/router.coffee.js.map\",\"sourceMapUrl\":\"/lib/8bdd21ac5f87578cbc1f6b38ed3c3950908b335e.map\",\"size\":2362,\"hash\":\"8bdd21ac5f87578cbc1f6b38ed3c3950908b335e\"},{\"path\":\"app/lib/utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/utils.js?7a87f0abe82b1c4cf3e6be5b95964781fb820478\",\"size\":457,\"hash\":\"7a87f0abe82b1c4cf3e6be5b95964781fb820478\"},{\"path\":\"app/client/views/patients/addPatient.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/addPatient.coffee.js?b4abaa2528b41b908680d98d3af645a07e0a1ec1\",\"sourceMap\":\"app/client/views/patients/addPatient.coffee.js.map\",\"sourceMapUrl\":\"/client/views/patients/b4abaa2528b41b908680d98d3af645a07e0a1ec1.map\",\"size\":2704,\"hash\":\"b4abaa2528b41b908680d98d3af645a07e0a1ec1\"},{\"path\":\"app/client/views/patients/editPatient.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/editPatient.coffee.js?080536e0571cee87f2af1be83a61076d64a8a2d1\",\"sourceMap\":\"app/client/views/patients/editPatient.coffee.js.map\",\"sourceMapUrl\":\"/client/views/patients/080536e0571cee87f2af1be83a61076d64a8a2d1.map\",\"size\":1147,\"hash\":\"080536e0571cee87f2af1be83a61076d64a8a2d1\"},{\"path\":\"app/client/views/patients/listPatients.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/listPatients.coffee.js?12cc17bfddd5ed3de47f0de3f5f03c3eb493f1bf\",\"sourceMap\":\"app/client/views/patients/listPatients.coffee.js.map\",\"sourceMapUrl\":\"/client/views/patients/12cc17bfddd5ed3de47f0de3f5f03c3eb493f1bf.map\",\"size\":958,\"hash\":\"12cc17bfddd5ed3de47f0de3f5f03c3eb493f1bf\"},{\"path\":\"app/client/views/patients/viewPatient.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/viewPatient.coffee.js?61c37f73650cfbd95a80a1cc702463474c7068a5\",\"sourceMap\":\"app/client/views/patients/viewPatient.coffee.js.map\",\"sourceMapUrl\":\"/client/views/patients/61c37f73650cfbd95a80a1cc702463474c7068a5.map\",\"size\":293,\"hash\":\"61c37f73650cfbd95a80a1cc702463474c7068a5\"},{\"path\":\"app/client/helpers/activeRouteClass.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/helpers/activeRouteClass.coffee.js?4d1437f2c833ac977ebcec0aac0c502e886c9e89\",\"sourceMap\":\"app/client/helpers/activeRouteClass.coffee.js.map\",\"sourceMapUrl\":\"/client/helpers/4d1437f2c833ac977ebcec0aac0c502e886c9e89.map\",\"size\":371,\"hash\":\"4d1437f2c833ac977ebcec0aac0c502e886c9e89\"},{\"path\":\"app/client/helpers/config.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/helpers/config.coffee.js?a64555e8cb4f71a0cf8e950e8ffad3fb7b715209\",\"sourceMap\":\"app/client/helpers/config.coffee.js.map\",\"sourceMapUrl\":\"/client/helpers/a64555e8cb4f71a0cf8e950e8ffad3fb7b715209.map\",\"size\":307,\"hash\":\"a64555e8cb4f71a0cf8e950e8ffad3fb7b715209\"},{\"path\":\"app/collections/modules.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/modules.js?2e28ff772636ac61f4449fe5eab6ad144238e039\",\"size\":57,\"hash\":\"2e28ff772636ac61f4449fe5eab6ad144238e039\"},{\"path\":\"app/collections/patients.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/patients.coffee.js?fe75805f55276267541cddb28464e83d63d1dde3\",\"sourceMap\":\"app/collections/patients.coffee.js.map\",\"sourceMapUrl\":\"/collections/fe75805f55276267541cddb28464e83d63d1dde3.map\",\"size\":3415,\"hash\":\"fe75805f55276267541cddb28464e83d63d1dde3\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"1541de040081e1442cd254c5aeaed34d6095625b.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/1541de040081e1442cd254c5aeaed34d6095625b.css\",\"sourceMap\":\"1541de040081e1442cd254c5aeaed34d6095625b.css.map\",\"sourceMapUrl\":\"/1541de040081e1442cd254c5aeaed34d6095625b.map\",\"size\":287543,\"hash\":\"1541de040081e1442cd254c5aeaed34d6095625b\"},{\"path\":\"packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot\",\"size\":20335,\"hash\":\"f3a9a3b609133c3d21d6b42abbf7f43bd111df72\"},{\"path\":\"packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf\",\"size\":41280,\"hash\":\"aafafdc09404c4aa4447d7e898a2183def9cc1b1\"},{\"path\":\"packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg\",\"size\":62927,\"hash\":\"3ef91859cbec165ac97df6957b176f69e8d6a04d\"},{\"path\":\"packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff\",\"size\":23320,\"hash\":\"22037a3455914e5662fa51a596677bdb329e2c5c\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"app/GitHub-Mark-32px.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/GitHub-Mark-32px.png\",\"size\":1714,\"hash\":\"fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"db8445ee071a33020da86be2c2f33ea82d8f4df0\"}],\"version\":\"b6aef66745a641d2af77c7433be702355b397dc8\"}"
+                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?61916b1060b33931a21f104fbffb67c2f3d493c5\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/61916b1060b33931a21f104fbffb67c2f3d493c5.map\",\"size\":108989,\"hash\":\"61916b1060b33931a21f104fbffb67c2f3d493c5\"},{\"path\":\"packages/standard-app-packages.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/standard-app-packages.js?be7072e6abfda638502b63fa0f809c85c8c2b8ed\",\"sourceMap\":\"packages/standard-app-packages.js.map\",\"sourceMapUrl\":\"/packages/be7072e6abfda638502b63fa0f809c85c8c2b8ed.map\",\"size\":1306,\"hash\":\"be7072e6abfda638502b63fa0f809c85c8c2b8ed\"},{\"path\":\"packages/coffeescript.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/coffeescript.js?969f68786bbc68e6cad299e74922a53af3d1404b\",\"sourceMap\":\"packages/coffeescript.js.map\",\"sourceMapUrl\":\"/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map\",\"size\":1294,\"hash\":\"969f68786bbc68e6cad299e74922a53af3d1404b\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?da8974b7231dd8c0caccb5f322dcf97329d486d1\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map\",\"size\":25926,\"hash\":\"da8974b7231dd8c0caccb5f322dcf97329d486d1\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9adf0102ce60b3df01914155826e1661f636e91d\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9adf0102ce60b3df01914155826e1661f636e91d.map\",\"size\":455764,\"hash\":\"9adf0102ce60b3df01914155826e1661f636e91d\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2.map\",\"size\":616556,\"hash\":\"1f971b2ac9f4bdab7372cb5098ed1e26ff98dfb2\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?6773d7206be2caaaf6d01340042ef08dcaad7907\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/6773d7206be2caaaf6d01340042ef08dcaad7907.map\",\"size\":147410,\"hash\":\"6773d7206be2caaaf6d01340042ef08dcaad7907\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?539b5fc23cf5e63bc8e324543a1026b138316a8c\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/539b5fc23cf5e63bc8e324543a1026b138316a8c.map\",\"size\":110444,\"hash\":\"539b5fc23cf5e63bc8e324543a1026b138316a8c\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?77c0809654ee3a10dcd5a4f961fb1437e7957d33\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/77c0809654ee3a10dcd5a4f961fb1437e7957d33.map\",\"size\":385864,\"hash\":\"77c0809654ee3a10dcd5a4f961fb1437e7957d33\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?6ed32803c332f93f65e36a195f42e58a62ed028d\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/6ed32803c332f93f65e36a195f42e58a62ed028d.map\",\"size\":108969,\"hash\":\"6ed32803c332f93f65e36a195f42e58a62ed028d\"},{\"path\":\"packages/sha.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sha.js?65ef52f7221944768bfc2049d6b7e163c8ae2615\",\"sourceMap\":\"packages/sha.js.map\",\"sourceMapUrl\":\"/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map\",\"size\":19584,\"hash\":\"65ef52f7221944768bfc2049d6b7e163c8ae2615\"},{\"path\":\"packages/srp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/srp.js?e2e28156e8c912d504a3586351c8a1119f664cfd\",\"sourceMap\":\"packages/srp.js.map\",\"sourceMapUrl\":\"/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map\",\"size\":173470,\"hash\":\"e2e28156e8c912d504a3586351c8a1119f664cfd\"},{\"path\":\"packages/accounts-password.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-password.js?6c517b689e15ab07dd443895b7ed801683dda159\",\"sourceMap\":\"packages/accounts-password.js.map\",\"sourceMapUrl\":\"/packages/6c517b689e15ab07dd443895b7ed801683dda159.map\",\"size\":33053,\"hash\":\"6c517b689e15ab07dd443895b7ed801683dda159\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?2312d739008b2ffa52f13c77c5d6fc59c9e17d56\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/2312d739008b2ffa52f13c77c5d6fc59c9e17d56.map\",\"size\":6642,\"hash\":\"2312d739008b2ffa52f13c77c5d6fc59c9e17d56\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/mizzao_bootstrap-3.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mizzao_bootstrap-3.js?8d8f544e1328b7a62d76dbbbbf7d1fd5f559c919\",\"sourceMap\":\"packages/mizzao_bootstrap-3.js.map\",\"sourceMapUrl\":\"/packages/8d8f544e1328b7a62d76dbbbbf7d1fd5f559c919.map\",\"size\":295910,\"hash\":\"8d8f544e1328b7a62d76dbbbbf7d1fd5f559c919\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/599ba307216da826d8b335332ebcc9a497a369a0.map\",\"size\":11910,\"hash\":\"599ba307216da826d8b335332ebcc9a497a369a0\"},{\"path\":\"packages/iron_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_core.js?d966a1f70c94792fd94c8a155bdbef9bec5e0047\",\"sourceMap\":\"packages/iron_core.js.map\",\"sourceMapUrl\":\"/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map\",\"size\":32915,\"hash\":\"d966a1f70c94792fd94c8a155bdbef9bec5e0047\"},{\"path\":\"packages/iron_dynamic-template.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_dynamic-template.js?4d8240a576804301368600b388b97065770c2964\",\"sourceMap\":\"packages/iron_dynamic-template.js.map\",\"sourceMapUrl\":\"/packages/4d8240a576804301368600b388b97065770c2964.map\",\"size\":85060,\"hash\":\"4d8240a576804301368600b388b97065770c2964\"},{\"path\":\"packages/iron_layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_layout.js?4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062\",\"sourceMap\":\"packages/iron_layout.js.map\",\"sourceMapUrl\":\"/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map\",\"size\":62058,\"hash\":\"4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062\"},{\"path\":\"packages/iron_url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_url.js?271d2b23f8542769347738353a73f77c63859e8e\",\"sourceMap\":\"packages/iron_url.js.map\",\"sourceMapUrl\":\"/packages/271d2b23f8542769347738353a73f77c63859e8e.map\",\"size\":65852,\"hash\":\"271d2b23f8542769347738353a73f77c63859e8e\"},{\"path\":\"packages/iron_middleware-stack.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_middleware-stack.js?bc8692a6fce82dfbe55eead781d8e8b3afcbfd1c\",\"sourceMap\":\"packages/iron_middleware-stack.js.map\",\"sourceMapUrl\":\"/packages/bc8692a6fce82dfbe55eead781d8e8b3afcbfd1c.map\",\"size\":45589,\"hash\":\"bc8692a6fce82dfbe55eead781d8e8b3afcbfd1c\"},{\"path\":\"packages/iron_location.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_location.js?0434907da386df80b0a769a8c4decc5374a3fdb6\",\"sourceMap\":\"packages/iron_location.js.map\",\"sourceMapUrl\":\"/packages/0434907da386df80b0a769a8c4decc5374a3fdb6.map\",\"size\":51357,\"hash\":\"0434907da386df80b0a769a8c4decc5374a3fdb6\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/iron_controller.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_controller.js?c4a074a0f421ce052a59282e7eae64f7049061cb\",\"sourceMap\":\"packages/iron_controller.js.map\",\"sourceMapUrl\":\"/packages/c4a074a0f421ce052a59282e7eae64f7049061cb.map\",\"size\":41091,\"hash\":\"c4a074a0f421ce052a59282e7eae64f7049061cb\"},{\"path\":\"packages/iron_router.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_router.js?c45f7b94d616b48432e190827a3ca76d48e51e9d\",\"sourceMap\":\"packages/iron_router.js.map\",\"sourceMapUrl\":\"/packages/c45f7b94d616b48432e190827a3ca76d48e51e9d.map\",\"size\":213337,\"hash\":\"c45f7b94d616b48432e190827a3ca76d48e51e9d\"},{\"path\":\"packages/sacha_spin.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sacha_spin.js?6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\",\"sourceMap\":\"packages/sacha_spin.js.map\",\"sourceMapUrl\":\"/packages/6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04.map\",\"size\":48440,\"hash\":\"6ab6fb94c8dfd98b9fdc1a9831a8051edeec5c04\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?e436deefadc999c21b6fd16e8e1ecce55c3c3a55\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map\",\"size\":6497,\"hash\":\"e436deefadc999c21b6fd16e8e1ecce55c3c3a55\"},{\"path\":\"packages/handlebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/handlebars.js?038145b6256cd6a69c11650ed6bf12b093920095\",\"sourceMap\":\"packages/handlebars.js.map\",\"sourceMapUrl\":\"/packages/038145b6256cd6a69c11650ed6bf12b093920095.map\",\"size\":1292,\"hash\":\"038145b6256cd6a69c11650ed6bf12b093920095\"},{\"path\":\"packages/stylus.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/stylus.js?48b7e3e0953c004a73211d7489462e73ed11be2c\",\"sourceMap\":\"packages/stylus.js.map\",\"sourceMapUrl\":\"/packages/48b7e3e0953c004a73211d7489462e73ed11be2c.map\",\"size\":1288,\"hash\":\"48b7e3e0953c004a73211d7489462e73ed11be2c\"},{\"path\":\"packages/rajit_accounts-ui-bootstrap-3.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rajit_accounts-ui-bootstrap-3.js?6ccb74d1761ef3e4b70aa2d4c94f36241200c03a\",\"sourceMap\":\"packages/rajit_accounts-ui-bootstrap-3.js.map\",\"sourceMapUrl\":\"/packages/6ccb74d1761ef3e4b70aa2d4c94f36241200c03a.map\",\"size\":233024,\"hash\":\"6ccb74d1761ef3e4b70aa2d4c94f36241200c03a\"},{\"path\":\"packages/alanning_roles.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/alanning_roles.js?79ec06e46df4edfbc286f83d1ad8064d46d44990\",\"sourceMap\":\"packages/alanning_roles.js.map\",\"sourceMapUrl\":\"/packages/79ec06e46df4edfbc286f83d1ad8064d46d44990.map\",\"size\":94498,\"hash\":\"79ec06e46df4edfbc286f83d1ad8064d46d44990\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?3c496d2950151d744a8574297b46d2763a123bdf\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/3c496d2950151d744a8574297b46d2763a123bdf.map\",\"size\":42134,\"hash\":\"3c496d2950151d744a8574297b46d2763a123bdf\"},{\"path\":\"packages/launch-screen.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/launch-screen.js?13e1092ebecdb7208762500188f1dc2dea5603e9\",\"sourceMap\":\"packages/launch-screen.js.map\",\"sourceMapUrl\":\"/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map\",\"size\":9707,\"hash\":\"13e1092ebecdb7208762500188f1dc2dea5603e9\"},{\"path\":\"packages/mrt_accounts-admin-ui-bootstrap-3.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_accounts-admin-ui-bootstrap-3.js?cf8f71eeca1af0f29f7e07b8eb8ed7495e0eddd7\",\"sourceMap\":\"packages/mrt_accounts-admin-ui-bootstrap-3.js.map\",\"sourceMapUrl\":\"/packages/cf8f71eeca1af0f29f7e07b8eb8ed7495e0eddd7.map\",\"size\":94183,\"hash\":\"cf8f71eeca1af0f29f7e07b8eb8ed7495e0eddd7\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/steeve_simple-bootstrap3-alerts.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/steeve_simple-bootstrap3-alerts.js?cb43b0e2b8fb46eb4e9b1ff9714217354fe8b0c4\",\"sourceMap\":\"packages/steeve_simple-bootstrap3-alerts.js.map\",\"sourceMapUrl\":\"/packages/cb43b0e2b8fb46eb4e9b1ff9714217354fe8b0c4.map\",\"size\":4403,\"hash\":\"cb43b0e2b8fb46eb4e9b1ff9714217354fe8b0c4\"},{\"path\":\"packages/meteorhacks_npm.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteorhacks_npm.js?604e35d5437f43224cde2c1f9e5e9aace95a9a95\",\"sourceMap\":\"packages/meteorhacks_npm.js.map\",\"sourceMapUrl\":\"/packages/604e35d5437f43224cde2c1f9e5e9aace95a9a95.map\",\"size\":1300,\"hash\":\"604e35d5437f43224cde2c1f9e5e9aace95a9a95\"},{\"path\":\"packages/rajit_bootstrap3-datepicker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/rajit_bootstrap3-datepicker.js?822806a6bbf9e439f7ddaace893bf390c25431b9\",\"sourceMap\":\"packages/rajit_bootstrap3-datepicker.js.map\",\"sourceMapUrl\":\"/packages/822806a6bbf9e439f7ddaace893bf390c25431b9.map\",\"size\":198438,\"hash\":\"822806a6bbf9e439f7ddaace893bf390c25431b9\"},{\"path\":\"packages/npm-container.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/npm-container.js?c4195e22b5a0a7239a415a3d95b3b702c34fa28d\",\"sourceMap\":\"packages/npm-container.js.map\",\"sourceMapUrl\":\"/packages/c4195e22b5a0a7239a415a3d95b3b702c34fa28d.map\",\"size\":1298,\"hash\":\"c4195e22b5a0a7239a415a3d95b3b702c34fa28d\"},{\"path\":\"packages/robbinsd_simplelog.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/robbinsd_simplelog.js?626d4890b8c52a0a2328da845408d0f7da2a6c3f\",\"sourceMap\":\"packages/robbinsd_simplelog.js.map\",\"sourceMapUrl\":\"/packages/626d4890b8c52a0a2328da845408d0f7da2a6c3f.map\",\"size\":10798,\"hash\":\"626d4890b8c52a0a2328da845408d0f7da2a6c3f\"},{\"path\":\"packages/robbinsd_emmi-client.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/robbinsd_emmi-client.js?e2485d6f6e790fbe536ce27e82486e680bb33d5c\",\"sourceMap\":\"packages/robbinsd_emmi-client.js.map\",\"sourceMapUrl\":\"/packages/e2485d6f6e790fbe536ce27e82486e680bb33d5c.map\",\"size\":2072,\"hash\":\"e2485d6f6e790fbe536ce27e82486e680bb33d5c\"},{\"path\":\"packages/practicalmeteor_chai.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/practicalmeteor_chai.js?7fbbbec9a13f4adf082b394c5ddd7230d84afc48\",\"sourceMap\":\"packages/practicalmeteor_chai.js.map\",\"sourceMapUrl\":\"/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map\",\"size\":570118,\"hash\":\"7fbbbec9a13f4adf082b394c5ddd7230d84afc48\"},{\"path\":\"packages/practicalmeteor_loglevel.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/practicalmeteor_loglevel.js?9185331dfa11fd235edfbef93838d4ca3244d638\",\"sourceMap\":\"packages/practicalmeteor_loglevel.js.map\",\"sourceMapUrl\":\"/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map\",\"size\":28719,\"hash\":\"9185331dfa11fd235edfbef93838d4ca3244d638\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?82241038c303e73253980ddbae67ac50a3e9f6ad\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/82241038c303e73253980ddbae67ac50a3e9f6ad.map\",\"size\":12238,\"hash\":\"82241038c303e73253980ddbae67ac50a3e9f6ad\"},{\"path\":\"packages/velocity_shim.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_shim.js?14363d085a412115605c41536e4f2867425b89d5\",\"sourceMap\":\"packages/velocity_shim.js.map\",\"sourceMapUrl\":\"/packages/14363d085a412115605c41536e4f2867425b89d5.map\",\"size\":2905,\"hash\":\"14363d085a412115605c41536e4f2867425b89d5\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?04ba42a040aed861ffffa46e10517174e66b3a8b\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/04ba42a040aed861ffffa46e10517174e66b3a8b.map\",\"size\":496993,\"hash\":\"04ba42a040aed861ffffa46e10517174e66b3a8b\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?cf94ce8ed8b0cdf6e387fa55b112e0e005882a1d\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/cf94ce8ed8b0cdf6e387fa55b112e0e005882a1d.map\",\"size\":85561,\"hash\":\"cf94ce8ed8b0cdf6e387fa55b112e0e005882a1d\"},{\"path\":\"packages/meteorhacks_async.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteorhacks_async.js?e687b9e863dc811fb3f313d1c6f237c7a2b1924b\",\"sourceMap\":\"packages/meteorhacks_async.js.map\",\"sourceMapUrl\":\"/packages/e687b9e863dc811fb3f313d1c6f237c7a2b1924b.map\",\"size\":1360,\"hash\":\"e687b9e863dc811fb3f313d1c6f237c7a2b1924b\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?e61e0f0793205908b2f68f199426c7d6cfb57b3c\",\"size\":1147,\"hash\":\"e61e0f0793205908b2f68f199426c7d6cfb57b3c\"},{\"path\":\"app/client/views/include/template.access_denied.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.access_denied.js?ec776620ed928e23b5bbceb01c3004aadbf192d4\",\"size\":274,\"hash\":\"ec776620ed928e23b5bbceb01c3004aadbf192d4\"},{\"path\":\"app/client/views/include/template.adminbuttons.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.adminbuttons.js?738bc58b0285a1772d9e60874e6425842717a742\",\"size\":1140,\"hash\":\"738bc58b0285a1772d9e60874e6425842717a742\"},{\"path\":\"app/client/views/include/template.attributeRow.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.attributeRow.js?de0bb4752f69781e2249a956bdda6fd9df69c16d\",\"size\":520,\"hash\":\"de0bb4752f69781e2249a956bdda6fd9df69c16d\"},{\"path\":\"app/client/views/include/template.header.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.header.js?bcc123a0abf27b7aafc53b4b13c2e96607e3ea08\",\"size\":1815,\"hash\":\"bcc123a0abf27b7aafc53b4b13c2e96607e3ea08\"},{\"path\":\"app/client/views/include/template.loading.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.loading.js?0b820746542c3b65b4fd0c78c00237f88a5c9a3f\",\"size\":206,\"hash\":\"0b820746542c3b65b4fd0c78c00237f88a5c9a3f\"},{\"path\":\"app/client/views/include/template.navButtons.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.navButtons.js?9b7ca826bb6550d54ac1a140fa8426cf855b4ea4\",\"size\":578,\"hash\":\"9b7ca826bb6550d54ac1a140fa8426cf855b4ea4\"},{\"path\":\"app/client/views/include/template.utilityButtons.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/include/template.utilityButtons.js?a635944dfc57b2506b03cccf0a1aa51539e2752b\",\"size\":180,\"hash\":\"a635944dfc57b2506b03cccf0a1aa51539e2752b\"},{\"path\":\"app/client/views/patients/template.addPatient.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/template.addPatient.js?2912655346e583ebae882d8ba4095174ce237081\",\"size\":3173,\"hash\":\"2912655346e583ebae882d8ba4095174ce237081\"},{\"path\":\"app/client/views/patients/template.editPatient.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/template.editPatient.js?7a961e7a236cd09bba0c7b02a6350cf335d18367\",\"size\":3809,\"hash\":\"7a961e7a236cd09bba0c7b02a6350cf335d18367\"},{\"path\":\"app/client/views/patients/template.listPatients.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/template.listPatients.js?45b434aa0c4d619fa8a8a147dfa085772ea2406e\",\"size\":2647,\"hash\":\"45b434aa0c4d619fa8a8a147dfa085772ea2406e\"},{\"path\":\"app/client/views/patients/template.viewPatient.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/template.viewPatient.js?25de1de94a60c70baaf224d475c849cff7d537d5\",\"size\":3389,\"hash\":\"25de1de94a60c70baaf224d475c849cff7d537d5\"},{\"path\":\"app/client/views/template.home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/template.home.js?847bc69dc26bb18dae136b89ab86a0a9f9bffa47\",\"size\":223,\"hash\":\"847bc69dc26bb18dae136b89ab86a0a9f9bffa47\"},{\"path\":\"app/client/template.layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/template.layout.js?56df5f95b000a1473993b46d6b5182ac3ab6badc\",\"size\":1084,\"hash\":\"56df5f95b000a1473993b46d6b5182ac3ab6badc\"},{\"path\":\"app/lib/router.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/router.coffee.js?8bdd21ac5f87578cbc1f6b38ed3c3950908b335e\",\"sourceMap\":\"app/lib/router.coffee.js.map\",\"sourceMapUrl\":\"/lib/8bdd21ac5f87578cbc1f6b38ed3c3950908b335e.map\",\"size\":2362,\"hash\":\"8bdd21ac5f87578cbc1f6b38ed3c3950908b335e\"},{\"path\":\"app/lib/utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/utils.js?7a87f0abe82b1c4cf3e6be5b95964781fb820478\",\"size\":457,\"hash\":\"7a87f0abe82b1c4cf3e6be5b95964781fb820478\"},{\"path\":\"app/client/views/patients/addPatient.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/addPatient.coffee.js?b4abaa2528b41b908680d98d3af645a07e0a1ec1\",\"sourceMap\":\"app/client/views/patients/addPatient.coffee.js.map\",\"sourceMapUrl\":\"/client/views/patients/b4abaa2528b41b908680d98d3af645a07e0a1ec1.map\",\"size\":2704,\"hash\":\"b4abaa2528b41b908680d98d3af645a07e0a1ec1\"},{\"path\":\"app/client/views/patients/editPatient.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/editPatient.coffee.js?080536e0571cee87f2af1be83a61076d64a8a2d1\",\"sourceMap\":\"app/client/views/patients/editPatient.coffee.js.map\",\"sourceMapUrl\":\"/client/views/patients/080536e0571cee87f2af1be83a61076d64a8a2d1.map\",\"size\":1147,\"hash\":\"080536e0571cee87f2af1be83a61076d64a8a2d1\"},{\"path\":\"app/client/views/patients/listPatients.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/listPatients.coffee.js?12cc17bfddd5ed3de47f0de3f5f03c3eb493f1bf\",\"sourceMap\":\"app/client/views/patients/listPatients.coffee.js.map\",\"sourceMapUrl\":\"/client/views/patients/12cc17bfddd5ed3de47f0de3f5f03c3eb493f1bf.map\",\"size\":958,\"hash\":\"12cc17bfddd5ed3de47f0de3f5f03c3eb493f1bf\"},{\"path\":\"app/client/views/patients/viewPatient.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/patients/viewPatient.coffee.js?61c37f73650cfbd95a80a1cc702463474c7068a5\",\"sourceMap\":\"app/client/views/patients/viewPatient.coffee.js.map\",\"sourceMapUrl\":\"/client/views/patients/61c37f73650cfbd95a80a1cc702463474c7068a5.map\",\"size\":293,\"hash\":\"61c37f73650cfbd95a80a1cc702463474c7068a5\"},{\"path\":\"app/client/helpers/activeRouteClass.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/helpers/activeRouteClass.coffee.js?4d1437f2c833ac977ebcec0aac0c502e886c9e89\",\"sourceMap\":\"app/client/helpers/activeRouteClass.coffee.js.map\",\"sourceMapUrl\":\"/client/helpers/4d1437f2c833ac977ebcec0aac0c502e886c9e89.map\",\"size\":371,\"hash\":\"4d1437f2c833ac977ebcec0aac0c502e886c9e89\"},{\"path\":\"app/client/helpers/config.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/helpers/config.coffee.js?a64555e8cb4f71a0cf8e950e8ffad3fb7b715209\",\"sourceMap\":\"app/client/helpers/config.coffee.js.map\",\"sourceMapUrl\":\"/client/helpers/a64555e8cb4f71a0cf8e950e8ffad3fb7b715209.map\",\"size\":307,\"hash\":\"a64555e8cb4f71a0cf8e950e8ffad3fb7b715209\"},{\"path\":\"app/collections/modules.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/modules.js?2e28ff772636ac61f4449fe5eab6ad144238e039\",\"size\":57,\"hash\":\"2e28ff772636ac61f4449fe5eab6ad144238e039\"},{\"path\":\"app/collections/patients.coffee.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/patients.coffee.js?fe75805f55276267541cddb28464e83d63d1dde3\",\"sourceMap\":\"app/collections/patients.coffee.js.map\",\"sourceMapUrl\":\"/collections/fe75805f55276267541cddb28464e83d63d1dde3.map\",\"size\":3415,\"hash\":\"fe75805f55276267541cddb28464e83d63d1dde3\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"packages/velocity_test-proxy.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_test-proxy.js?485cfaa2d8f8a9df15646ad027ceb24cd84d678c\",\"sourceMap\":\"packages/velocity_test-proxy.js.map\",\"sourceMapUrl\":\"/packages/485cfaa2d8f8a9df15646ad027ceb24cd84d678c.map\",\"size\":2648,\"hash\":\"485cfaa2d8f8a9df15646ad027ceb24cd84d678c\"},{\"path\":\"packages/velocity_node-soft-mirror.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_node-soft-mirror.js?cfbadc9d9aff21e824a2b9cf98841d5961cd08d2\",\"sourceMap\":\"packages/velocity_node-soft-mirror.js.map\",\"sourceMapUrl\":\"/packages/cfbadc9d9aff21e824a2b9cf98841d5961cd08d2.map\",\"size\":1310,\"hash\":\"cfbadc9d9aff21e824a2b9cf98841d5961cd08d2\"},{\"path\":\"dc47293ca0fdfedf7f44d13e6750563172e5fa3b.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/dc47293ca0fdfedf7f44d13e6750563172e5fa3b.css\",\"sourceMap\":\"dc47293ca0fdfedf7f44d13e6750563172e5fa3b.css.map\",\"sourceMapUrl\":\"/dc47293ca0fdfedf7f44d13e6750563172e5fa3b.map\",\"size\":186616,\"hash\":\"dc47293ca0fdfedf7f44d13e6750563172e5fa3b\"},{\"path\":\"packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot\",\"size\":20335,\"hash\":\"f3a9a3b609133c3d21d6b42abbf7f43bd111df72\"},{\"path\":\"packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf\",\"size\":41280,\"hash\":\"aafafdc09404c4aa4447d7e898a2183def9cc1b1\"},{\"path\":\"packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg\",\"size\":62926,\"hash\":\"66b1fc67e37d01ee45ca75c4eefb144d2dbe98fa\"},{\"path\":\"packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/mizzao_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff\",\"size\":23320,\"hash\":\"22037a3455914e5662fa51a596677bdb329e2c5c\"},{\"path\":\"packages/velocity_html-reporter/lib/velocity_logo.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/velocity_logo.svg\",\"size\":3723,\"hash\":\"bd19ecdc8eb1084f7bb562c298e4ce41f9cdc698\"},{\"path\":\"packages/velocity_html-reporter/lib/velocity_cog.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/velocity_cog.svg\",\"size\":987,\"hash\":\"6e74acfffcbd2bafdc8a95d9db7762ece07b1e81\"},{\"path\":\"packages/velocity_html-reporter/lib/icon-time.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/icon-time.png\",\"size\":2834,\"hash\":\"868f492022a4dab0f1522de6aae0773531bc6e85\"},{\"path\":\"app/GitHub-Mark-32px.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/GitHub-Mark-32px.png\",\"size\":1714,\"hash\":\"fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"db8445ee071a33020da86be2c2f33ea82d8f4df0\"}],\"version\":\"38c6f08d34f560bacded3b6b9cbcfd9d1905da6e\"}"
                 },
                 "type": {
                   "type": "constant",
@@ -9832,6 +10060,14 @@ var packageMetadata = {
         },
         "validPid": {
           "type": "function"
+        },
+        "refreshableAssets": {
+          "type": "object",
+          "members": {
+            "allCss": {
+              "type": "array"
+            }
+          }
         }
       }
     }
@@ -10567,30 +10803,6 @@ var packageMetadata = {
     }
   },
   "mizzao:bootstrap-3": {},
-  "reactive-dict": {
-    "ReactiveDict": {
-      "type": "function",
-      "members": {
-        "prototype": {
-          "type": "object",
-          "members": {
-            "set": {
-              "type": "function"
-            },
-            "setDefault": {
-              "type": "function"
-            },
-            "get": {
-              "type": "function"
-            },
-            "equals": {
-              "type": "function"
-            }
-          }
-        }
-      }
-    }
-  },
   "iron:core": {
     "Iron": {
       "type": "object",
@@ -10636,6 +10848,9 @@ var packageMetadata = {
             },
             "debug": {
               "type": "function"
+            },
+            "get": {
+              "type": "function"
             }
           }
         },
@@ -10644,73 +10859,85 @@ var packageMetadata = {
           "members": {
             "getParentDataContext": {
               "type": "function",
-              "refID": 29
-            },
-            "getInclusionArguments": {
-              "type": "function",
               "refID": 31
             },
-            "args": {
+            "getDataContext": {
               "type": "function",
               "refID": 33
             },
-            "extend": {
+            "getInclusionArguments": {
               "type": "function",
               "refID": 35
+            },
+            "args": {
+              "type": "function",
+              "refID": 37
+            },
+            "extend": {
+              "type": "function",
+              "refID": 39
+            },
+            "findFirstLookupHost": {
+              "type": "function",
+              "refID": 41
+            },
+            "findLookupHostWithProperty": {
+              "type": "function",
+              "refID": 43
+            },
+            "findLookupHostWithHelper": {
+              "type": "function",
+              "refID": 45
             },
             "prototype": {
               "type": "object",
               "members": {
                 "template": {
                   "type": "function",
-                  "refID": 38
+                  "refID": 48
                 },
                 "defaultTemplate": {
                   "type": "function",
-                  "refID": 40
+                  "refID": 50
                 },
                 "clear": {
                   "type": "function"
                 },
                 "data": {
                   "type": "function",
-                  "refID": 44
+                  "refID": 54
                 },
                 "create": {
                   "type": "function",
-                  "refID": 46
-                },
-                "destroy": {
-                  "type": "function",
-                  "refID": 48
-                },
-                "onViewCreated": {
-                  "type": "function",
-                  "refID": 50
-                },
-                "onViewReady": {
-                  "type": "function",
-                  "refID": 52
-                },
-                "onViewDestroyed": {
-                  "type": "function",
-                  "refID": 54
-                },
-                "insert": {
-                  "type": "function",
                   "refID": 56
                 },
-                "getController": {
+                "renderView": {
                   "type": "function",
                   "refID": 58
                 },
-                "setController": {
+                "destroy": {
                   "type": "function",
                   "refID": 60
                 },
-                "hasController": {
+                "onViewCreated": {
                   "type": "function",
                   "refID": 62
+                },
+                "onViewReady": {
+                  "type": "function",
+                  "refID": 64
+                },
+                "onViewDestroyed": {
+                  "type": "function",
+                  "refID": 66
+                },
+                "events": {
+                  "type": "function",
+                  "refID": 68
+                },
+                "insert": {
+                  "type": "function",
+                  "refID": 70
                 }
               }
             }
@@ -10718,29 +10945,41 @@ var packageMetadata = {
         },
         "Layout": {
           "type": "function",
-          "refID": 64,
+          "refID": 72,
           "members": {
             "DEFAULT_REGION": {
               "type": "constant",
               "value": "main"
             },
             "getParentDataContext": {
-              "ref": 29
-            },
-            "getInclusionArguments": {
               "ref": 31
             },
-            "args": {
+            "getDataContext": {
               "ref": 33
             },
-            "extend": {
+            "getInclusionArguments": {
               "ref": 35
+            },
+            "args": {
+              "ref": 37
+            },
+            "extend": {
+              "ref": 39
+            },
+            "findFirstLookupHost": {
+              "ref": 41
+            },
+            "findLookupHostWithProperty": {
+              "ref": 43
+            },
+            "findLookupHostWithHelper": {
+              "ref": 45
             },
             "prototype": {
               "type": "object",
               "members": {
                 "constructor": {
-                  "ref": 64
+                  "ref": 72
                 },
                 "region": {
                   "type": "function"
@@ -10776,40 +11015,396 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "template": {
-                  "ref": 38
-                },
-                "defaultTemplate": {
-                  "ref": 40
-                },
-                "data": {
-                  "ref": 44
-                },
-                "create": {
-                  "ref": 46
-                },
-                "destroy": {
                   "ref": 48
                 },
-                "onViewCreated": {
+                "defaultTemplate": {
                   "ref": 50
                 },
-                "onViewReady": {
-                  "ref": 52
-                },
-                "onViewDestroyed": {
+                "data": {
                   "ref": 54
                 },
-                "insert": {
+                "create": {
                   "ref": 56
                 },
-                "getController": {
+                "renderView": {
                   "ref": 58
                 },
-                "setController": {
+                "destroy": {
                   "ref": 60
                 },
-                "hasController": {
+                "onViewCreated": {
                   "ref": 62
+                },
+                "onViewReady": {
+                  "ref": 64
+                },
+                "onViewDestroyed": {
+                  "ref": 66
+                },
+                "events": {
+                  "ref": 68
+                },
+                "insert": {
+                  "ref": 70
+                }
+              }
+            }
+          }
+        },
+        "Url": {
+          "type": "function",
+          "members": {
+            "normalize": {
+              "type": "function"
+            },
+            "isSameOrigin": {
+              "type": "function"
+            },
+            "fromQueryString": {
+              "type": "function"
+            },
+            "toQueryString": {
+              "type": "function"
+            },
+            "parse": {
+              "type": "function"
+            },
+            "prototype": {
+              "type": "object",
+              "members": {
+                "test": {
+                  "type": "function"
+                },
+                "exec": {
+                  "type": "function"
+                },
+                "params": {
+                  "type": "function"
+                },
+                "resolve": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "MiddlewareStack": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "findByName": {
+                  "type": "function"
+                },
+                "push": {
+                  "type": "function"
+                },
+                "append": {
+                  "type": "function"
+                },
+                "insertAt": {
+                  "type": "function"
+                },
+                "insertBefore": {
+                  "type": "function"
+                },
+                "insertAfter": {
+                  "type": "function"
+                },
+                "concat": {
+                  "type": "function"
+                },
+                "dispatch": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "Controller": {
+          "type": "function",
+          "members": {
+            "extend": {
+              "type": "function",
+              "refID": 135
+            },
+            "events": {
+              "type": "function",
+              "refID": 137
+            },
+            "helpers": {
+              "type": "function",
+              "refID": 139
+            },
+            "prototype": {
+              "type": "object",
+              "members": {
+                "layout": {
+                  "type": "function",
+                  "refID": 142
+                },
+                "render": {
+                  "type": "function",
+                  "refID": 144
+                },
+                "beginRendering": {
+                  "type": "function",
+                  "refID": 146
+                },
+                "init": {
+                  "type": "function"
+                },
+                "wait": {
+                  "type": "function",
+                  "refID": 150
+                },
+                "ready": {
+                  "type": "function",
+                  "refID": 152
+                }
+              }
+            }
+          }
+        },
+        "RouteController": {
+          "type": "function",
+          "members": {
+            "extend": {
+              "ref": 135
+            },
+            "events": {
+              "ref": 137
+            },
+            "helpers": {
+              "ref": 139
+            },
+            "prototype": {
+              "type": "object",
+              "members": {
+                "constructor": {
+                  "type": "function"
+                },
+                "lookupOption": {
+                  "type": "function"
+                },
+                "configureFromUrl": {
+                  "type": "function"
+                },
+                "runHooks": {
+                  "type": "function"
+                },
+                "getParams": {
+                  "type": "function"
+                },
+                "setParams": {
+                  "type": "function"
+                },
+                "init": {
+                  "type": "function"
+                },
+                "dispatch": {
+                  "type": "function"
+                },
+                "layout": {
+                  "ref": 142
+                },
+                "render": {
+                  "ref": 144
+                },
+                "beginRendering": {
+                  "ref": 146
+                },
+                "wait": {
+                  "ref": 150
+                },
+                "ready": {
+                  "ref": 152
+                }
+              }
+            }
+          }
+        },
+        "Route": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "getName": {
+                  "type": "function"
+                },
+                "findControllerConstructor": {
+                  "type": "function"
+                },
+                "createController": {
+                  "type": "function"
+                },
+                "setControllerParams": {
+                  "type": "function"
+                },
+                "dispatch": {
+                  "type": "function"
+                },
+                "path": {
+                  "type": "function"
+                },
+                "url": {
+                  "type": "function"
+                },
+                "params": {
+                  "type": "function"
+                },
+                "get": {
+                  "type": "function"
+                },
+                "post": {
+                  "type": "function"
+                },
+                "put": {
+                  "type": "function"
+                },
+                "delete": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "Router": {
+          "type": "function",
+          "members": {
+            "HOOK_TYPES": {
+              "type": "array"
+            },
+            "hooks": {
+              "type": "object",
+              "members": {
+                "loading": {
+                  "type": "function"
+                },
+                "dataNotFound": {
+                  "type": "function"
+                }
+              }
+            },
+            "plugins": {
+              "type": "object",
+              "members": {
+                "loading": {
+                  "type": "function"
+                },
+                "dataNotFound": {
+                  "type": "function"
+                }
+              }
+            },
+            "bodyParser": {
+              "type": "function",
+              "members": {
+                "json": {
+                  "type": "function"
+                },
+                "raw": {
+                  "type": "function"
+                },
+                "text": {
+                  "type": "function"
+                },
+                "urlencoded": {
+                  "type": "function"
+                }
+              }
+            },
+            "prototype": {
+              "type": "object",
+              "members": {
+                "init": {
+                  "type": "function"
+                },
+                "configure": {
+                  "type": "function"
+                },
+                "map": {
+                  "type": "function"
+                },
+                "route": {
+                  "type": "function"
+                },
+                "findFirstRoute": {
+                  "type": "function"
+                },
+                "path": {
+                  "type": "function"
+                },
+                "url": {
+                  "type": "function"
+                },
+                "createController": {
+                  "type": "function"
+                },
+                "setTemplateNameConverter": {
+                  "type": "function"
+                },
+                "setControllerNameConverter": {
+                  "type": "function"
+                },
+                "toTemplateName": {
+                  "type": "function"
+                },
+                "toControllerName": {
+                  "type": "function"
+                },
+                "addHook": {
+                  "type": "function"
+                },
+                "lookupHook": {
+                  "type": "function"
+                },
+                "getHooks": {
+                  "type": "function"
+                },
+                "onRun": {
+                  "type": "function"
+                },
+                "onRerun": {
+                  "type": "function"
+                },
+                "onBeforeAction": {
+                  "type": "function"
+                },
+                "onAfterAction": {
+                  "type": "function"
+                },
+                "onStop": {
+                  "type": "function"
+                },
+                "waitOn": {
+                  "type": "function"
+                },
+                "load": {
+                  "type": "function"
+                },
+                "before": {
+                  "type": "function"
+                },
+                "after": {
+                  "type": "function"
+                },
+                "unload": {
+                  "type": "function"
+                },
+                "plugin": {
+                  "type": "function"
+                },
+                "configureBodyParsers": {
+                  "type": "function"
+                },
+                "start": {
+                  "type": "function"
+                },
+                "dispatch": {
+                  "type": "function"
                 }
               }
             }
@@ -10820,86 +11415,64 @@ var packageMetadata = {
   },
   "iron:dynamic-template": {},
   "iron:layout": {},
-  "iron:router": {
-    "RouteController": {
+  "iron:url": {},
+  "iron:middleware-stack": {
+    "Handler": {
       "type": "function",
-      "refID": 0,
-      "members": {
-        "extend": {
-          "type": "function"
-        },
-        "prototype": {
-          "type": "object",
-          "members": {
-            "constructor": {
-              "ref": 0
-            },
-            "action": {
-              "type": "function"
-            },
-            "lookupProperty": {
-              "type": "function"
-            },
-            "runHooks": {
-              "type": "function"
-            },
-            "stop": {
-              "type": "function"
-            }
-          }
-        }
-      }
-    },
-    "Route": {
-      "type": "function",
-      "refID": 0,
       "members": {
         "prototype": {
           "type": "object",
           "members": {
-            "constructor": {
-              "ref": 0
-            },
-            "compile": {
+            "test": {
               "type": "function"
             },
             "params": {
               "type": "function"
             },
-            "normalizePath": {
-              "type": "function"
-            },
-            "test": {
-              "type": "function"
-            },
-            "exec": {
-              "type": "function"
-            },
             "resolve": {
               "type": "function"
             },
-            "path": {
-              "type": "function"
-            },
-            "url": {
-              "type": "function"
-            },
-            "findController": {
-              "type": "function"
-            },
-            "newController": {
-              "type": "function"
-            },
-            "getController": {
+            "clone": {
               "type": "function"
             }
           }
         }
       }
-    },
-    "Router": {
-      "type": "object",
+    }
+  },
+  "iron:location": {},
+  "reactive-dict": {
+    "ReactiveDict": {
+      "type": "function",
       "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "set": {
+              "type": "function"
+            },
+            "setDefault": {
+              "type": "function"
+            },
+            "get": {
+              "type": "function"
+            },
+            "equals": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "iron:controller": {},
+  "iron:router": {
+    "Router": {
+      "type": "function",
+      "members": {
+        "routes": {
+          "type": "array"
+        },
         "options": {
           "type": "object",
           "members": {
@@ -10913,13 +11486,55 @@ var packageMetadata = {
             }
           }
         },
-        "routes": {
-          "type": "array"
+        "init": {
+          "type": "function"
+        },
+        "configure": {
+          "type": "function"
+        },
+        "map": {
+          "type": "function"
+        },
+        "route": {
+          "type": "function"
+        },
+        "findFirstRoute": {
+          "type": "function"
+        },
+        "path": {
+          "type": "function"
+        },
+        "url": {
+          "type": "function"
+        },
+        "createController": {
+          "type": "function"
+        },
+        "setTemplateNameConverter": {
+          "type": "function"
+        },
+        "setControllerNameConverter": {
+          "type": "function"
+        },
+        "toTemplateName": {
+          "type": "function"
+        },
+        "toControllerName": {
+          "type": "function"
+        },
+        "addHook": {
+          "type": "function"
+        },
+        "lookupHook": {
+          "type": "function"
+        },
+        "getHooks": {
+          "type": "function"
         },
         "onRun": {
           "type": "function"
         },
-        "onData": {
+        "onRerun": {
           "type": "function"
         },
         "onBeforeAction": {
@@ -10946,325 +11561,72 @@ var packageMetadata = {
         "unload": {
           "type": "function"
         },
-        "constructor": {
-          "type": "function",
-          "refID": 23,
-          "members": {
-            "HOOK_TYPES": {
-              "type": "array"
-            },
-            "LEGACY_HOOK_TYPES": {
-              "type": "object",
-              "members": {
-                "load": {
-                  "type": "constant",
-                  "value": "onRun"
-                },
-                "before": {
-                  "type": "constant",
-                  "value": "onBeforeAction"
-                },
-                "after": {
-                  "type": "constant",
-                  "value": "onAfterAction"
-                },
-                "unload": {
-                  "type": "constant",
-                  "value": "onStop"
-                }
-              }
-            },
-            "prototype": {
-              "type": "object",
-              "members": {
-                "constructor": {
-                  "ref": 23
-                },
-                "start": {
-                  "type": "function",
-                  "refID": 27
-                },
-                "onRequest": {
-                  "type": "function",
-                  "refID": 29
-                },
-                "run": {
-                  "type": "function",
-                  "refID": 31
-                },
-                "stop": {
-                  "type": "function",
-                  "refID": 33
-                },
-                "onUnhandled": {
-                  "type": "function",
-                  "refID": 35
-                },
-                "onRouteNotFound": {
-                  "type": "function",
-                  "refID": 37
-                },
-                "configure": {
-                  "type": "function",
-                  "refID": 39
-                },
-                "convertTemplateName": {
-                  "type": "function",
-                  "refID": 41
-                },
-                "convertRouteControllerName": {
-                  "type": "function",
-                  "refID": 43
-                },
-                "setNameConverter": {
-                  "type": "function",
-                  "refID": 45
-                },
-                "addHook": {
-                  "type": "function",
-                  "refID": 47
-                },
-                "getHooks": {
-                  "type": "function",
-                  "refID": 49
-                },
-                "map": {
-                  "type": "function",
-                  "refID": 51
-                },
-                "route": {
-                  "type": "function",
-                  "refID": 53
-                },
-                "path": {
-                  "type": "function",
-                  "refID": 55
-                },
-                "url": {
-                  "type": "function",
-                  "refID": 57
-                },
-                "match": {
-                  "type": "function",
-                  "refID": 59
-                },
-                "dispatch": {
-                  "type": "function",
-                  "refID": 61
-                }
-              }
-            }
-          }
+        "plugin": {
+          "type": "function"
+        },
+        "configureBodyParsers": {
+          "type": "function"
         },
         "start": {
-          "ref": 27
-        },
-        "onRequest": {
-          "ref": 29
-        },
-        "run": {
-          "ref": 31
-        },
-        "stop": {
-          "ref": 33
-        },
-        "onUnhandled": {
-          "ref": 35
-        },
-        "onRouteNotFound": {
-          "ref": 37
-        },
-        "configure": {
-          "ref": 39
-        },
-        "convertTemplateName": {
-          "ref": 41
-        },
-        "convertRouteControllerName": {
-          "ref": 43
-        },
-        "setNameConverter": {
-          "ref": 45
-        },
-        "addHook": {
-          "ref": 47
-        },
-        "getHooks": {
-          "ref": 49
-        },
-        "map": {
-          "ref": 51
-        },
-        "route": {
-          "ref": 53
-        },
-        "path": {
-          "ref": 55
-        },
-        "url": {
-          "ref": 57
-        },
-        "match": {
-          "ref": 59
+          "type": "function"
         },
         "dispatch": {
-          "ref": 61
+          "type": "function"
         }
       }
     },
-    "Utils": {
-      "type": "object",
+    "RouteController": {
+      "type": "function",
       "members": {
-        "assert": {
-          "type": "function"
-        },
-        "warn": {
-          "type": "function"
-        },
-        "notifyDeprecated": {
-          "type": "function"
-        },
-        "withDeprecatedNotice": {
-          "type": "function"
-        },
-        "resolveValue": {
-          "type": "function"
-        },
-        "hasOwnProperty": {
-          "type": "function"
-        },
-        "inherits": {
-          "type": "function"
-        },
-        "toArray": {
-          "type": "function"
-        },
-        "typeOf": {
-          "type": "function"
-        },
         "extend": {
           "type": "function"
         },
-        "create": {
+        "events": {
           "type": "function"
         },
-        "capitalize": {
+        "helpers": {
           "type": "function"
-        },
-        "upperCamelCase": {
-          "type": "function"
-        },
-        "camelCase": {
-          "type": "function"
-        },
-        "pick": {
-          "type": "function"
-        },
-        "StringConverters": {
-          "type": "object",
-          "members": {
-            "none": {
-              "type": "function"
-            },
-            "upperCamelCase": {
-              "type": "function"
-            },
-            "camelCase": {
-              "type": "function"
-            }
-          }
-        },
-        "rewriteLegacyHooks": {
-          "type": "function"
-        }
-      }
-    },
-    "IronRouter": {
-      "type": "function",
-      "refID": 0,
-      "members": {
-        "HOOK_TYPES": {
-          "type": "array"
-        },
-        "LEGACY_HOOK_TYPES": {
-          "type": "object",
-          "members": {
-            "load": {
-              "type": "constant",
-              "value": "onRun"
-            },
-            "before": {
-              "type": "constant",
-              "value": "onBeforeAction"
-            },
-            "after": {
-              "type": "constant",
-              "value": "onAfterAction"
-            },
-            "unload": {
-              "type": "constant",
-              "value": "onStop"
-            }
-          }
         },
         "prototype": {
           "type": "object",
           "members": {
             "constructor": {
-              "ref": 0
-            },
-            "start": {
               "type": "function"
             },
-            "onRequest": {
+            "lookupOption": {
               "type": "function"
             },
-            "run": {
+            "configureFromUrl": {
               "type": "function"
             },
-            "stop": {
+            "runHooks": {
               "type": "function"
             },
-            "onUnhandled": {
+            "getParams": {
               "type": "function"
             },
-            "onRouteNotFound": {
+            "setParams": {
               "type": "function"
             },
-            "configure": {
-              "type": "function"
-            },
-            "convertTemplateName": {
-              "type": "function"
-            },
-            "convertRouteControllerName": {
-              "type": "function"
-            },
-            "setNameConverter": {
-              "type": "function"
-            },
-            "addHook": {
-              "type": "function"
-            },
-            "getHooks": {
-              "type": "function"
-            },
-            "map": {
-              "type": "function"
-            },
-            "route": {
-              "type": "function"
-            },
-            "path": {
-              "type": "function"
-            },
-            "url": {
-              "type": "function"
-            },
-            "match": {
+            "init": {
               "type": "function"
             },
             "dispatch": {
+              "type": "function"
+            },
+            "layout": {
+              "type": "function"
+            },
+            "render": {
+              "type": "function"
+            },
+            "beginRendering": {
+              "type": "function"
+            },
+            "wait": {
+              "type": "function"
+            },
+            "ready": {
               "type": "function"
             }
           }
@@ -11322,11 +11684,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "d39687d0000bd61b1b4b8a2369c17e4402be9bb9"
+          "value": "mq4kMreeEfhJT7Cjj"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "04db744c54f78170dc0d232824730b8e3a3e729e"
+          "value": "adb6bbbc57bed6f27e963de0055b2d5be2ed5dfe"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -11411,417 +11773,6 @@ var packageMetadata = {
     }
   },
   "mrt:accounts-admin-ui-bootstrap-3": {},
-  "mrt:moment": {
-    "moment": {
-      "type": "function",
-      "members": {
-        "createFromInputFallback": {
-          "type": "function"
-        },
-        "min": {
-          "type": "function"
-        },
-        "max": {
-          "type": "function"
-        },
-        "utc": {
-          "type": "function"
-        },
-        "unix": {
-          "type": "function"
-        },
-        "duration": {
-          "type": "function",
-          "members": {
-            "fn": {
-              "type": "object",
-              "members": {
-                "abs": {
-                  "type": "function"
-                },
-                "weeks": {
-                  "type": "function"
-                },
-                "valueOf": {
-                  "type": "function"
-                },
-                "humanize": {
-                  "type": "function"
-                },
-                "add": {
-                  "type": "function"
-                },
-                "subtract": {
-                  "type": "function"
-                },
-                "get": {
-                  "type": "function"
-                },
-                "as": {
-                  "type": "function"
-                },
-                "lang": {
-                  "type": "function",
-                  "refID": 29
-                },
-                "locale": {
-                  "type": "function",
-                  "refID": 31
-                },
-                "toIsoString": {
-                  "type": "function"
-                },
-                "toISOString": {
-                  "type": "function"
-                },
-                "localeData": {
-                  "type": "function"
-                },
-                "milliseconds": {
-                  "type": "function"
-                },
-                "seconds": {
-                  "type": "function"
-                },
-                "minutes": {
-                  "type": "function"
-                },
-                "hours": {
-                  "type": "function"
-                },
-                "days": {
-                  "type": "function"
-                },
-                "months": {
-                  "type": "function"
-                },
-                "years": {
-                  "type": "function"
-                },
-                "asMilliseconds": {
-                  "type": "function"
-                },
-                "asSeconds": {
-                  "type": "function"
-                },
-                "asMinutes": {
-                  "type": "function"
-                },
-                "asHours": {
-                  "type": "function"
-                },
-                "asDays": {
-                  "type": "function"
-                },
-                "asWeeks": {
-                  "type": "function"
-                },
-                "asMonths": {
-                  "type": "function"
-                },
-                "asYears": {
-                  "type": "function"
-                }
-              }
-            }
-          }
-        },
-        "version": {
-          "type": "constant",
-          "value": "2.8.1"
-        },
-        "defaultFormat": {
-          "type": "constant",
-          "value": "YYYY-MM-DDTHH:mm:ssZ"
-        },
-        "ISO_8601": {
-          "type": "function"
-        },
-        "momentProperties": {
-          "type": "array"
-        },
-        "updateOffset": {
-          "type": "function"
-        },
-        "relativeTimeThreshold": {
-          "type": "function"
-        },
-        "lang": {
-          "type": "function"
-        },
-        "locale": {
-          "type": "function"
-        },
-        "defineLocale": {
-          "type": "function"
-        },
-        "langData": {
-          "type": "function"
-        },
-        "localeData": {
-          "type": "function"
-        },
-        "isMoment": {
-          "type": "function"
-        },
-        "isDuration": {
-          "type": "function"
-        },
-        "weekdaysMin": {
-          "type": "function"
-        },
-        "weekdaysShort": {
-          "type": "function"
-        },
-        "weekdays": {
-          "type": "function"
-        },
-        "monthsShort": {
-          "type": "function"
-        },
-        "months": {
-          "type": "function"
-        },
-        "normalizeUnits": {
-          "type": "function"
-        },
-        "invalid": {
-          "type": "function"
-        },
-        "parseZone": {
-          "type": "function"
-        },
-        "parseTwoDigitYear": {
-          "type": "function"
-        },
-        "fn": {
-          "type": "object",
-          "members": {
-            "clone": {
-              "type": "function"
-            },
-            "valueOf": {
-              "type": "function"
-            },
-            "unix": {
-              "type": "function"
-            },
-            "toString": {
-              "type": "function"
-            },
-            "toDate": {
-              "type": "function"
-            },
-            "toISOString": {
-              "type": "function",
-              "refID": 120
-            },
-            "toArray": {
-              "type": "function"
-            },
-            "isValid": {
-              "type": "function"
-            },
-            "isDSTShifted": {
-              "type": "function"
-            },
-            "parsingFlags": {
-              "type": "function"
-            },
-            "invalidAt": {
-              "type": "function"
-            },
-            "utc": {
-              "type": "function"
-            },
-            "local": {
-              "type": "function"
-            },
-            "format": {
-              "type": "function"
-            },
-            "add": {
-              "type": "function"
-            },
-            "subtract": {
-              "type": "function"
-            },
-            "diff": {
-              "type": "function"
-            },
-            "from": {
-              "type": "function"
-            },
-            "fromNow": {
-              "type": "function"
-            },
-            "calendar": {
-              "type": "function"
-            },
-            "isLeapYear": {
-              "type": "function"
-            },
-            "isDST": {
-              "type": "function"
-            },
-            "day": {
-              "type": "function",
-              "refID": 154
-            },
-            "month": {
-              "type": "function",
-              "refID": 156
-            },
-            "startOf": {
-              "type": "function"
-            },
-            "endOf": {
-              "type": "function"
-            },
-            "isAfter": {
-              "type": "function"
-            },
-            "isBefore": {
-              "type": "function"
-            },
-            "isSame": {
-              "type": "function"
-            },
-            "min": {
-              "type": "function"
-            },
-            "max": {
-              "type": "function"
-            },
-            "zone": {
-              "type": "function"
-            },
-            "zoneAbbr": {
-              "type": "function"
-            },
-            "zoneName": {
-              "type": "function"
-            },
-            "parseZone": {
-              "type": "function"
-            },
-            "hasAlignedHourOffset": {
-              "type": "function"
-            },
-            "daysInMonth": {
-              "type": "function"
-            },
-            "dayOfYear": {
-              "type": "function"
-            },
-            "quarter": {
-              "type": "function",
-              "refID": 186
-            },
-            "weekYear": {
-              "type": "function"
-            },
-            "isoWeekYear": {
-              "type": "function"
-            },
-            "week": {
-              "type": "function",
-              "refID": 192
-            },
-            "isoWeek": {
-              "type": "function",
-              "refID": 194
-            },
-            "weekday": {
-              "type": "function"
-            },
-            "isoWeekday": {
-              "type": "function"
-            },
-            "isoWeeksInYear": {
-              "type": "function"
-            },
-            "weeksInYear": {
-              "type": "function"
-            },
-            "get": {
-              "type": "function"
-            },
-            "set": {
-              "type": "function"
-            },
-            "locale": {
-              "ref": 31
-            },
-            "lang": {
-              "ref": 29
-            },
-            "localeData": {
-              "type": "function"
-            },
-            "milliseconds": {
-              "type": "function",
-              "refID": 210
-            },
-            "millisecond": {
-              "ref": 210
-            },
-            "seconds": {
-              "type": "function",
-              "refID": 212
-            },
-            "second": {
-              "ref": 212
-            },
-            "minutes": {
-              "type": "function",
-              "refID": 214
-            },
-            "minute": {
-              "ref": 214
-            },
-            "hours": {
-              "type": "function",
-              "refID": 216
-            },
-            "hour": {
-              "ref": 216
-            },
-            "date": {
-              "type": "function"
-            },
-            "dates": {
-              "type": "function"
-            },
-            "year": {
-              "type": "function"
-            },
-            "years": {
-              "type": "function"
-            },
-            "days": {
-              "ref": 154
-            },
-            "months": {
-              "ref": 156
-            },
-            "weeks": {
-              "ref": 192
-            },
-            "isoWeeks": {
-              "ref": 194
-            },
-            "quarters": {
-              "ref": 186
-            },
-            "toJSON": {
-              "ref": 120
-            }
-          }
-        }
-      }
-    }
-  },
   "steeve:simple-bootstrap3-alerts": {},
   "meteorhacks:npm": {},
   "rajit:bootstrap3-datepicker": {},
@@ -11903,18 +11854,37 @@ var packageMetadata = {
       }
     }
   },
+  "practicalmeteor:loglevel": {
+    "loglevel": {
+      "type": "object",
+      "members": {
+        "createLogger": {
+          "type": "function"
+        },
+        "createPackageLogger": {
+          "type": "function"
+        },
+        "createAppLogger": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "velocity:core": {
     "Velocity": {
       "type": "object",
       "members": {
-        "getMirrorPath": {
+        "startup": {
+          "type": "function"
+        },
+        "getAppPath": {
           "type": "function"
         },
         "getTestsPath": {
           "type": "function"
         },
-        "addPreProcessor": {
-          "type": "function"
+        "postProcessors": {
+          "type": "array"
         },
         "addPostProcessor": {
           "type": "function"
@@ -11925,22 +11895,22 @@ var packageMetadata = {
         "registerTestingFramework": {
           "type": "function"
         },
-        "parseXmlFiles": {
+        "onTest": {
           "type": "function"
         },
-        "FileCopier": {
-          "type": "function",
+        "Mirror": {
+          "type": "object",
           "members": {
-            "prototype": {
-              "type": "object",
-              "members": {
-                "start": {
-                  "type": "function"
-                },
-                "stop": {
-                  "type": "function"
-                }
-              }
+            "start": {
+              "type": "function"
+            }
+          }
+        },
+        "ProxyPackageSync": {
+          "type": "object",
+          "members": {
+            "regeneratePackageJs": {
+              "type": "function"
             }
           }
         }
@@ -12121,6 +12091,20 @@ var packageMetadata = {
       }
     }
   },
+  "velocity:shim": {},
+  "velocity:meteor-stubs": {
+    "MeteorStubs": {
+      "type": "object",
+      "members": {
+        "install": {
+          "type": "function"
+        },
+        "uninstall": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "alanning:package-stubber": {
     "PackageStubber": {
       "type": "object",
@@ -12187,7 +12171,107 @@ var packageMetadata = {
       }
     }
   },
-  "sanjo:jasmine": {},
+  "sanjo:karma": {
+    "Karma": {
+      "type": "object",
+      "members": {
+        "start": {
+          "type": "function"
+        },
+        "setConfig": {
+          "type": "function"
+        }
+      }
+    },
+    "KarmaInternals": {
+      "type": "object",
+      "members": {
+        "karmaChilds": {
+          "type": "object",
+          "members": {
+            "jasmine-client-unit": {
+              "type": "object",
+              "members": {
+                "taskName": {
+                  "type": "constant",
+                  "value": "jasmine-client-unit"
+                },
+                "appPath": {
+                  "type": "constant",
+                  "value": "/Users/robbinsd/Desktop/NoCloud/TCBF/kassebaum"
+                },
+                "pid": {
+                  "type": "constant",
+                  "value": 62103
+                },
+                "getTaskName": {
+                  "type": "function"
+                },
+                "getChild": {
+                  "type": "function"
+                },
+                "getPid": {
+                  "type": "function"
+                },
+                "isDead": {
+                  "type": "function"
+                },
+                "isRunning": {
+                  "type": "function"
+                },
+                "readPid": {
+                  "type": "function"
+                },
+                "spawn": {
+                  "type": "function"
+                },
+                "kill": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "getKarmaChild": {
+          "type": "function"
+        },
+        "setKarmaChild": {
+          "type": "function"
+        },
+        "startKarmaServer": {
+          "type": "function"
+        },
+        "writeKarmaConfig": {
+          "type": "function"
+        },
+        "generateKarmaConfig": {
+          "type": "function"
+        },
+        "readKarmaConfig": {
+          "type": "function"
+        },
+        "getConfigPath": {
+          "type": "function"
+        },
+        "getAppPath": {
+          "type": "function"
+        },
+        "getKarmaPath": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "sanjo:jasmine": {
+    "Jasmine": {
+      "type": "object",
+      "members": {
+        "onTest": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "velocity:html-reporter": {},
   "meteorhacks:async": {
     "Async": {
@@ -12240,7 +12324,9 @@ var packageMetadata = {
         }
       }
     }
-  }
+  },
+  "velocity:test-proxy": {},
+  "velocity:node-soft-mirror": {}
 }
 var globalContext = (typeof global !== 'undefined') ? global : window
 var originalContext = []
