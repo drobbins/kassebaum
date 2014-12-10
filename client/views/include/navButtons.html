@@ -1,5 +1,7 @@
 <template name="navButtons">
-    {{#if currentUser}}
-        <li class="{{activeRouteClass 'addPatient'}}"><a href="{{pathFor 'addPatient'}}">Add Patient</a></li>
-    {{/if}}
+    <div class="navButtons">
+        {{#if currentUser}}
+            <li class="{{activeRouteClass 'addPatient'}}"><a href="{{pathFor 'addPatient'}}">Add Patient</a></li>
+        {{/if}}
+    </div>
 </template>
