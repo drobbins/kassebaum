@@ -28,5 +28,33 @@ describe "Header template", ->
             expect(err).toBeUndefined()
             done()
 
+    it "should display add patient nav button to admins", ->
+        div = document.createElement "DIV"
+        Blaze.render Template.header, div
+        button = $(div).find(".navbar-nav").first().find("li a").first()
+        expect(button.text()).toBe "Add Patient"
+        expect(button.attr("href")).toBe "/patients/new"
+
+    it "should display list patients nav button to admins", ->
+        div = document.createElement "DIV"
+        Blaze.render Template.header, div
+        button = $(div).find(".navbar-right li a").first()
+        expect(button.text()).toBe "Patients"
+        expect(button.attr("href")).toBe "/patients"
+
+    it "should display logs nav button to admins", ->
+        div = document.createElement "DIV"
+        Blaze.render Template.header, div
+        button = $(div).find(".navbar-right li a").slice(1).first()
+        expect(button.text()).toBe "Logs"
+        expect(button.attr("href")).toBe "/logs"
+
+    it "should display admin nav button to admins", ->
+        div = document.createElement "DIV"
+        Blaze.render Template.header, div
+        button = $(div).find(".navbar-right li a").slice(2).first()
+        expect(button.text()).toBe "Admin"
+        expect(button.attr("href")).toBe "/admin"
+
     it "should be able to logout", (done) ->
         Meteor.logout done
