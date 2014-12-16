@@ -31,3 +31,6 @@ robbinsd:simplelog
 robbinsd:emmi-client
 sanjo:jasmine
 velocity:html-reporter
+xolvio:cucumber
+xolvio:webdriver
+
