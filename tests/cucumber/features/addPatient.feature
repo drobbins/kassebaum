@@ -5,4 +5,7 @@ Feature: Adding a Patient
     Scenario: Adding a patient as a Technician
         Given I'm on the home page
         And I'm logged in as a "tech"
-        Then the "Add Patient" link should be visible.
+        And the "Add Patient" link is visible
+        When I click on the "Add Patient" link
+        And enter and submit a test patient
+        Then an alert with "Successfully added patient. Patient code:" should be displayed
