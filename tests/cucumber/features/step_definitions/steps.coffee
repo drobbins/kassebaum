@@ -17,6 +17,7 @@ module.exports = ->
     helper = @
 
     linkXpath = (text) -> "//a[contains(text(),\"#{text}\")]"
+    buttonXpath = (text) -> "//button[contains(text(),\"#{text}\")]"
 
     @.Given /^I'm on the home page$/, (next) =>
         @.world.browser.url helper.world.cucumber.mirror.rootUrl
@@ -25,19 +26,14 @@ module.exports = ->
     @.Given /^I'm logged in as a[n]? "([^"]*)"/, (role, next) =>
         @.world.browser
             .executeAsync (done) -> Meteor.logout(done)
-            .waitForVisible linkXpath("sign in")
-            .click linkXpath "sign in"
+            .waitForVisible linkXpath("Sign in")
+            .click linkXpath "Sign in"
             .setValue "#login-username", Data[role].username
             .setValue "#login-password", Data[role].password
-            .waitForVisible linkXpath Data[role].name, 1000, false, next
+            .click '//button[@id="login-buttons-password"]'
+            .waitForExist linkXpath Data[role].name
             .call next
 
     @.Given /the "([^"]*)" link should be visible./, (text, next) =>
         @.world.browser.waitForVisible linkXpath(text)
             .call next
-        #getHTML linkXpath(text), (error, actualText) ->
-        #    console.log error, actualText
-        #    if not actualText.match text
-        #        next.fail "#{actualText} did not match #{text}"
-        #    else
-        #        next()
