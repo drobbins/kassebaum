@@ -1,6 +1,5 @@
 accounts-base@1.1.2
 accounts-password@1.0.4
-alanning:package-stubber@0.0.9
 alanning:roles@1.2.13
 amplify@1.0.0
 application-configuration@1.0.3
@@ -70,8 +69,6 @@ robbinsd:emmi-client@0.1.0
 robbinsd:simplelog@0.0.0
 routepolicy@1.0.2
 sacha:spin@0.2.4
-sanjo:jasmine@0.8.4
-sanjo:karma@1.1.1
 service-configuration@1.0.2
 session@1.0.4
 sha@1.0.1
@@ -88,7 +85,6 @@ underscore@1.0.1
 url@1.0.2
 velocity:core@0.4.3
 velocity:html-reporter@0.3.1
-velocity:meteor-stubs@1.0.0_2
 velocity:node-soft-mirror@0.1.0
 velocity:shim@0.1.0
 velocity:test-proxy@0.0.4
