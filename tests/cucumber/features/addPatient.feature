@@ -4,4 +4,5 @@ Feature: Adding a Patient
 
     Scenario: Adding a patient as a Technician
         Given I'm on the home page
-        Then The "sign in" link should be visible.
+        And I'm logged in as a "tech"
+        Then the "Add Patient" link should be visible.
