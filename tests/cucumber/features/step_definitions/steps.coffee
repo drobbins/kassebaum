@@ -36,9 +36,14 @@ module.exports = ->
             .waitForExist linkXpath Data[role].name
             .call next
 
-    @.Given /the "([^"]*)" link .* visible/, (text, next) =>
+    @.Given /the "([^"]*)" link (?:is|should be) visible/, (text, next) =>
         @.world.browser.waitForVisible linkXpath(text)
             .call next
+
+    @.Given /the "([^"]*)" link is not visible$/, (text, next) =>
+        @.world.browser.isVisible linkXpath(text), (err, visible) ->
+            if visible is true then next.fail "Expected #{text} link to not be visible, but it was."
+            else next()
 
     @.When /I click on the "([^"]*)" link/, (text, next) =>
         @.world.browser.click linkXpath text
