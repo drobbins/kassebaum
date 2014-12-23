@@ -19,6 +19,7 @@ module.exports = ->
     linkXpath = (text) -> "//a[contains(text(),\"#{text}\")]"
     buttonXpath = (text) -> "//button[contains(text(),\"#{text}\")]"
     alertXpath = (text) -> "//div[contains(@class,\"alert\")][contains(text(),\"#{text}\")]"
+    tdXpath = (text) -> "//td[contains(text(),\"#{text}\")]"
 
     @.Given /^I'm on the home page$/, (next) =>
         @.world.browser.url helper.world.cucumber.mirror.rootUrl
@@ -53,4 +54,9 @@ module.exports = ->
 
     @.Given /an alert with "([^"]*)" should be displayed/, (text, next) =>
         @.world.browser.waitForVisible alertXpath(text)
+            .call next
+
+    @.Given /the new patient should appear in the patient list/, (next) =>
+        @world.browser.click linkXpath "Patients"
+            .waitForVisible tdXpath Data.patient.mrn
             .call next
