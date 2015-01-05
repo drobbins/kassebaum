@@ -17,4 +17,3 @@ Feature: Adding a Patient
         When I click on the "Add Patient" link
         And enter and submit a test patient
         Then an alert with "Successfully added patient. Patient code:" should be displayed
-        And the new patient should appear in the patient list
