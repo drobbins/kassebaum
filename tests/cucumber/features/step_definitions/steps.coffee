@@ -12,6 +12,8 @@ Data =
         lastName: "McTestington"
         mrn: "1234512345"
 
+screenshotPath = "../../../../../tests/cucumber/screenshots"
+
 module.exports = ->
 
     helper = @
@@ -20,6 +22,7 @@ module.exports = ->
     buttonXpath = (text) -> "//button[contains(text(),\"#{text}\")]"
     alertXpath = (text) -> "//div[contains(@class,\"alert\")][contains(text(),\"#{text}\")]"
     tdXpath = (text) -> "//td[contains(text(),\"#{text}\")]"
+    h2Xpath = (text) -> "//h2[contains(text(),\"#{text}\")]"
 
     @.Given /^I'm on the home page$/, (next) =>
         @.world.browser.url helper.world.cucumber.mirror.rootUrl
@@ -61,7 +64,9 @@ module.exports = ->
         @.world.browser.waitForVisible alertXpath(text)
             .call next
 
-    @.Given /the new patient should appear in the patient list/, (next) =>
-        @world.browser.click linkXpath "Patients"
-            .waitForVisible tdXpath Data.patient.mrn
-            .call next
+    @.Given /^I should see a list of the existing patients$/, (next) =>
+        @world.browser
+            .waitForVisible "//h2[contains(text(),\"Patients\")]"
+            .elements "#patientList tbody tr", (err, result) ->
+                rows = result.value
+                if rows.length isnt 3 then next.fail("#{rows.length} patients found, expected 3") else next()
