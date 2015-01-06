@@ -12,9 +12,9 @@ module.exports = ->
 
     @.Before =>
         next = arguments[arguments.length - 1]
-        @.world.browser.url @.world.cucumber.mirror.rootUrl
-            .executeAsync (done) -> Meteor.call("/fixtures/reloadpatients", done)
-            .call next
+        connection = DDP.connect @.world.cucumber.mirror.host
+        connection.call "/fixtures/reloadpatients", (err, res) ->
+            if err then next.fail(err) else next()
 
     @.After =>
         next = arguments[arguments.length - 1]
