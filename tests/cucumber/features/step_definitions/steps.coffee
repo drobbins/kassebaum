@@ -64,9 +64,16 @@ module.exports = ->
         @.world.browser.waitForVisible alertXpath(text)
             .call next
 
-    @.Given /^I should see a list of the existing patients$/, (next) =>
+    @.Given /^I should see a list of the "([^"]*)" (?:existing|matching) patients$/, (count, next) =>
+        count = parseInt count, 10
         @world.browser
+            .saveScreenshot "#{screenshotPath}/patienlist1.png" # makes it pass for some reason?
             .waitForVisible "//h2[contains(text(),\"Patients\")]"
             .elements "#patientList tbody tr", (err, result) ->
                 rows = result.value
-                if rows.length isnt 3 then next.fail("#{rows.length} patients found, expected 3") else next()
+                if rows.length isnt count then next.fail("#{rows.length} patients found, expected #{count}") else next()
+
+    @.When /^Enter the search term "([^"]*)"$/, (term, next) =>
+        @.world.browser
+            .setValue "input[name=search]", term
+            .call next
