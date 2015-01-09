@@ -11,6 +11,5 @@ Feature: Listing Patients
         Given I'm on the home page
         And I'm logged in as an "admin"
         And the "Patients" link is visible
-        # When I temp on the "Patients" link
         When I click on the "Patients" link
         Then I should see a list of the existing patients
