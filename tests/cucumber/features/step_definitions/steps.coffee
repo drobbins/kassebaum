@@ -19,6 +19,7 @@ module.exports = ->
     helper = @
 
     linkXpath = (text) -> "//a[contains(text(),\"#{text}\")]"
+    linkTitleXpath = (text) -> "//a[@title='#{text}']"
     buttonXpath = (text) -> "//button[contains(text(),\"#{text}\")]"
     alertXpath = (text) -> "//div[contains(@class,\"alert\")][contains(text(),\"#{text}\")]"
     tdXpath = (text) -> "//td[contains(text(),\"#{text}\")]"
@@ -77,3 +78,12 @@ module.exports = ->
         @.world.browser
             .setValue "input[name=search]", term
             .call next
+
+    @.When /^I click on the "([^"]*)" patient link for patient "([^"]*)"$/, (operation, shortId, next) =>
+        linkTitle = "#{operation} patient #{shortId} file."
+        @.world.browser.click linkTitleXpath linkTitle
+            .call next
+
+    @.Then /^I should see the details for patient "([^"]*)"$/, (shortId, next) => 
+        @.world.browser.getText "h2", (err, result) ->
+            if result.match "Code: #{shortId}" then next() else next.fail "View Patient did not match #{shortId}. #{result}"

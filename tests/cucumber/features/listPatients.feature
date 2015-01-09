@@ -21,3 +21,11 @@ Feature: Listing Patients
         When I click on the "Patients" link
         And Enter the search term "abcdEF"
         Then I should see a list of the "1" matching patients
+
+    Scenario: Viewing a patient as an Admin
+        Given I'm on the home page
+        And I'm logged in as an "admin"
+        And the "Patients" link is visible
+        When I click on the "Patients" link
+        And I click on the "View" patient link for patient "abcdEF"
+        Then I should see the details for patient "abcdEF"
