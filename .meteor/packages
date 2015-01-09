@@ -32,3 +32,4 @@ robbinsd:emmi-client
 velocity:html-reporter
 xolvio:cucumber
 xolvio:webdriver
+sanjo:jasmine

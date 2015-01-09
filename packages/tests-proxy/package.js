@@ -7,4 +7,7 @@ Package.describe({
 
 Package.on_use(function (api) {
 	api.use("coffeescript", ["client", "server"]);
+	api.add_files("tests/jasmine/client/integration/_wait_for_router_helper.js",["client"]);
+	api.add_files("tests/jasmine/client/integration/headerTemplate.coffee",["client"]);
+	api.add_files("tests/jasmine/client/integration/patientCRUD.coffee",["client"]);
 });
