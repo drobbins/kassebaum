@@ -45,6 +45,8 @@ if process.env.NODE_ENV is "development"
             Patients.remove {}
             Patients.insert patient for patient in patients
         "/fixtures/reloadlogs": (count) -> Logs.loadFixture(count)
+        "/fixtures/removetestuser": (username) -> Meteor.users.remove "username": username
+
 
     patients = [
         {

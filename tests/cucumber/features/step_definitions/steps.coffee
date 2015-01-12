@@ -7,6 +7,10 @@ Data =
         username: "admin"
         password: "password"
         name: "Admin"
+    newUser:
+        username: "wally"
+        password: "password"
+        name: "Wally McWally"
     patient:
         firstName: "Adolphus"
         lastName: "McTestington"
@@ -38,6 +42,11 @@ module.exports = ->
             .setValue "#login-password", Data[role].password
             .click '//button[@id="login-buttons-password"]'
             .waitForExist linkXpath Data[role].name
+            .call next
+
+    @.Given /^I'm not logged in$/, (next) =>
+        @.world.browser
+            .executeAsync (done) -> Meteor.logout(done)
             .call next
 
     @.Given /the "([^"]*)" link (?:is|should be) visible/, (text, next) =>
@@ -111,3 +120,18 @@ module.exports = ->
             .elements "#logItems div.panel", (err, result) ->
                 rows = result.value
                 if rows.length isnt count then next.fail("#{rows.length} log entries found, expected #{count}") else next()
+
+    @.When /^enter and submit a new username and password$/, (next) =>
+        connection = DDP.connect @.world.cucumber.mirror.host
+        connection.call "/fixtures/removetestuser", Data.newUser.username, (err, result) =>
+            if err then next.fail(err)
+            @.world.browser
+                .setValue "input#login-username", Data.newUser.username
+                .setValue "input#login-password", Data.newUser.password
+                .setValue "input#login-password-again", Data.newUser.password
+                .click "#login-buttons-password"
+                .call next
+
+    @.Then /^I should be logged in as this new user$/, (next) =>
+        @.world.browser.waitForExist linkXpath Data.newUser.username
+            .call next
