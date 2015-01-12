@@ -84,6 +84,17 @@ module.exports = ->
         @.world.browser.click linkTitleXpath linkTitle
             .call next
 
+    @.When /^update a field and submit the form$/, (next) =>
+        @.world.browser
+            .setValue "input[name=firstName]", Data.patient.firstName
+            .click buttonXpath "Save Patient"
+            .call next
+
     @.Then /^I should see the (?:details|edit page) for patient "([^"]*)"$/, (shortId, next) =>
         @.world.browser.getText "h2", (err, result) ->
             if result.match "Code: #{shortId}" then next() else next.fail "View Patient did not match #{shortId}. #{result}"
+
+    @.Then /^I should see the edit reflected in the patients list$/, (next) =>
+        @.world.browser.element (tdXpath Data.patient.firstName), (err, el) ->
+            if el then next() else next.fail "Expected edit did not appear in patients list."
+            

@@ -36,4 +36,5 @@ Feature: Listing Patients
         And the "Patients" link is visible
         When I click on the "Patients" link
         And I click on the "Edit" patient link for patient "abcdEF"
-        Then I should see the edit page for patient "abcdEF"
+        And update a field and submit the form
+        Then I should see the edit reflected in the patients list
