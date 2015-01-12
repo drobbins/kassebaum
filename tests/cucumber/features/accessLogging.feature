@@ -13,4 +13,5 @@ Feature: Access Logging
         And the "Logs" link is visible
         And there are 3 log entries
         When I click on the "Logs" link
-        Then I should see a list of the "5" existing log entries # Browsing to Logs adds two entries
+        # Browsing to Logs adds two entries
+        Then I should see a list of the "5" existing log entries
