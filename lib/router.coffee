@@ -56,7 +56,7 @@ requireAdmin = ->
 
 logNavigation = ->
     if Meteor.user()
-        Logs.add "info", "loaded #{@.path}"
+        Logs.add "info", "loaded #{@.url}"
 
 Router.onBeforeAction requireLogin, except: ["home", "accessDenied", "modules"]
 Router.onBeforeAction requireAdmin, except: ["home", "accessDenied", "modules", "addPatient"]

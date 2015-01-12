@@ -44,6 +44,7 @@ if process.env.NODE_ENV is "development"
         "/fixtures/reloadpatients": ->
             Patients.remove {}
             Patients.insert patient for patient in patients
+        "/fixtures/reloadlogs": (count) -> Logs.loadFixture(count)
 
     patients = [
         {

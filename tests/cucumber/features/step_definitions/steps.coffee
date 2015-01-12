@@ -97,4 +97,17 @@ module.exports = ->
     @.Then /^I should see the edit reflected in the patients list$/, (next) =>
         @.world.browser.element (tdXpath Data.patient.firstName), (err, el) ->
             if el then next() else next.fail "Expected edit did not appear in patients list."
-            
+
+    @.Given /^there are (\d+) log entries$/, (count, next) =>
+        connection = DDP.connect @.world.cucumber.mirror.host
+        connection.call "/fixtures/reloadlogs", count, (err, res) ->
+            if err then next.fail(err) else next()
+
+    @.Given /^I should see a list of the "([^"]*)" (?:existing|matching) log entries$/, (count, next) =>
+        count = parseInt count, 10
+        @world.browser
+            .saveScreenshot "#{screenshotPath}/logentries.png" # makes it pass for some reason?
+            .waitForVisible "//h2[contains(text(),\"Logs\")]"
+            .elements "#logItems div.panel", (err, result) ->
+                rows = result.value
+                if rows.length isnt count then next.fail("#{rows.length} log entries found, expected #{count}") else next()
