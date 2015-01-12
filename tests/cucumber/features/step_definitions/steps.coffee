@@ -84,6 +84,6 @@ module.exports = ->
         @.world.browser.click linkTitleXpath linkTitle
             .call next
 
-    @.Then /^I should see the details for patient "([^"]*)"$/, (shortId, next) => 
+    @.Then /^I should see the (?:details|edit page) for patient "([^"]*)"$/, (shortId, next) =>
         @.world.browser.getText "h2", (err, result) ->
             if result.match "Code: #{shortId}" then next() else next.fail "View Patient did not match #{shortId}. #{result}"

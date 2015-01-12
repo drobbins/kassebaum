@@ -29,3 +29,11 @@ Feature: Listing Patients
         When I click on the "Patients" link
         And I click on the "View" patient link for patient "abcdEF"
         Then I should see the details for patient "abcdEF"
+
+    Scenario: Editing a patient as an Admin
+        Given I'm on the home page
+        And I'm logged in as an "admin"
+        And the "Patients" link is visible
+        When I click on the "Patients" link
+        And I click on the "Edit" patient link for patient "abcdEF"
+        Then I should see the edit page for patient "abcdEF"
