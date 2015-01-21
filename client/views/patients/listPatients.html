@@ -11,7 +11,7 @@
         </form>
     </span>
     <h2>Patients</h2>
-    <table class="table table-hover">
+    <table class="table table-hover" id="patientList">
         <thead>
             <tr>
                 <th>Short ID</th>
@@ -34,8 +34,8 @@
         <td>{{mrn}}</td>
         <td>{{firstName}} {{lastName}}</td>
         <td>
-            <a class="btn btn-default" href="{{pathFor 'viewPatient'}}" title="View patient file."><span class="glyphicon glyphicon-folder-open"></span></a>
-            <a class="btn btn-default" href="{{pathFor 'editPatient'}}" title="Edit patient file."><span class="glyphicon glyphicon-pencil"></span></a>
+            <a class="btn btn-default" href="{{pathFor 'viewPatient'}}" title="View patient {{shortId}} file."><span class="glyphicon glyphicon-folder-open"></span></a>
+            <a class="btn btn-default" href="{{pathFor 'editPatient'}}" title="Edit patient {{shortId}} file."><span class="glyphicon glyphicon-pencil"></span></a>
         </td>
     </tr>
 </template>

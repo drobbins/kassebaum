@@ -29,4 +29,7 @@ alanning:roles # roles
 npm-container
 robbinsd:simplelog
 robbinsd:emmi-client
-
+velocity:html-reporter
+xolvio:cucumber
+xolvio:webdriver
+sanjo:jasmine
