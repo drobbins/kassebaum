@@ -7,7 +7,7 @@ Logs =
             message: msg
             level: level
             data: _.extend data,
-                user: Meteor.user()
+                user: _.pick Meteor.user(), "_id", "profile", "roles", "username"
                 url: Meteor.absoluteUrl()
                 path: location.pathname
             timestamp: Date.now()
