@@ -19,3 +19,10 @@ Template.editPatient.events
             currentPatientId = @_id
             Patients.remove currentPatientId
             Router.go "listPatients"
+
+    "DOMNodeInserted": ->
+        # Initialize any new datepicker fields after insertion into the DOM
+        initializeDatePickers()
+
+Template.editPatient.rendered = ->
+    initializeDatePickers()

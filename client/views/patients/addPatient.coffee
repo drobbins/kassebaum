@@ -47,16 +47,8 @@ Template.addPatient.helpers
     surgicalPathologyNumbers: ->
         Session.get "surgicalPathologyNumbers"
 
-
 Template.addPatient.rendered = ->
     initializeDatePickers()
 
-
 Meteor.startup ->
     Session.set "surgicalPathologyNumbers", [ { id: Meteor.uuid() } ]
-
-initializeDatePickers = ->
-    $('.datepicker').datepicker
-        format: Session.get "datepickerDateFormat"
-        todayBtn: "linked"
-        todayHighlight: true
