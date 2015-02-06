@@ -1,2 +1,6 @@
 Template.surgicalPathologyNumberRow.helpers
-    dateString: -> moment(@date).format Session.get "momentDateFormat"
+    ageAtCollectionString: (dateOfBirth) -> 
+        moment.duration(@date-dateOfBirth).humanize()
+
+Template.viewPatient.helpers
+    dateOfBirthString: -> window.formatDateString @dateOfBirth
