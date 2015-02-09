@@ -21,13 +21,13 @@
         </thead>
         <tbody>
             {{#each instancesOfProcurement}}
-                {{> surgicalPathologyNumberRow}}
+                {{> instanceOfProcurementRow}}
             {{/each}}
         </tbody>
     </table>
 </template>
 
-<template name="surgicalPathologyNumberRow">
+<template name="instanceOfProcurementRow">
     <tr>
         <td>{{formatDateString}}</td>
         <td>{{ageAtCollectionString ../dateOfBirth}}</td>
@@ -35,7 +35,7 @@
             <span class="pull-right">
                 <a class="btn btn-default btn-xs" href="" title="Open Surgical Pathology Report"><span class="glyphicon glyphicon-new-window"></span></a>
             </span>
-            {{surgicalPathologyNumber}}
+            {{instanceOfProcurement}}
         </td>
     </tr>
 </template>

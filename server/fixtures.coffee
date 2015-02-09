@@ -55,11 +55,11 @@ if process.env.NODE_ENV is "development"
             mrn: "1234567890"
             instancesOfProcurement: [
                 {
-                    surgicalPathologyNumber: "0192837465"
+                    instanceOfProcurement: "0192837465"
                     date: now - 2 * hour
                 }
                 {
-                    surgicalPathologyNumber: "0912873456"
+                    instanceOfProcurement: "0912873456"
                     date: now - 26 * hour
                 }
             ]
@@ -74,11 +74,11 @@ if process.env.NODE_ENV is "development"
             mrn: "1357902468"
             instancesOfProcurement: [
                 {
-                    surgicalPathologyNumber: "0192867465"
+                    instanceOfProcurement: "0192867465"
                     date: now - 2 * hour
                 }
                 {
-                    surgicalPathologyNumber: "6912873456"
+                    instanceOfProcurement: "6912873456"
                     date: now - 26 * hour
                 }
             ]
@@ -93,11 +93,11 @@ if process.env.NODE_ENV is "development"
             mrn: "1234567891"
             instancesOfProcurement: [
                 {
-                    surgicalPathologyNumber: "1094859925"
+                    instanceOfProcurement: "1094859925"
                     date: now - 2 * hour
                 }
                 {
-                    surgicalPathologyNumber: "1993848458"
+                    instanceOfProcurement: "1993848458"
                     date: now - 26 * hour
                 }
             ]

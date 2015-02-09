@@ -10,7 +10,7 @@ Template.addPatient.events
             instancesOfProcurement: $(e.target).find ".surgical-path-number"
                 .map (i,el) ->
                     return {
-                        surgicalPathologyNumber: $(el).find("[name=surgicalPathologyNumber]").val()
+                        instanceOfProcurement: $(el).find("[name=instanceOfProcurement]").val()
                         date: $(el).find("[name=date]").datepicker("getDate").getTime()
                     }
                 .get()
