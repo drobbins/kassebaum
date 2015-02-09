@@ -10,13 +10,14 @@
     {{> attributeRow attribute="MRN" value=mrn}}
     {{> attributeRow attribute="Date of Birth" value=dateOfBirthString}}
     {{> attributeRow attribute="Code" value=shortId}}
-    <h4>Surgical Pathology Reports</h4>
+    <h4>Instances of Procurement</h4>
     <table class="table table-hover">
         <thead>
             <tr>
                 <th>Date</th>
-                <th>Age at Collection</th>
+                <th>Age at Procurement</th>
                 <th>Surgical Path Number</th>
+                <th>Other Number</th>
             </tr>
         </thead>
         <tbody>
@@ -32,10 +33,11 @@
         <td>{{formatDateString}}</td>
         <td>{{ageAtCollectionString ../dateOfBirth}}</td>
         <td>
-            <span class="pull-right">
+            <!--span class="pull-right">
                 <a class="btn btn-default btn-xs" href="" title="Open Surgical Pathology Report"><span class="glyphicon glyphicon-new-window"></span></a>
-            </span>
-            {{instanceOfProcurement}}
+            </span-->
+            {{surgicalPathologyNumber}}
         </td>
+        <td>{{otherNumber}}</td>
     </tr>
 </template>
