@@ -53,13 +53,13 @@ if process.env.NODE_ENV is "development"
             firstName: "Makena"
             lastName: "Asaph"
             mrn: "1234567890"
-            surgicalPathologyNumbers: [
+            instancesOfProcurement: [
                 {
                     surgicalPathologyNumber: "0192837465"
                     date: now - 2 * hour
                 }
                 {
-                    surgicalPathologyNumber: "0912873456"
+                    otherNumber: "0912873456"
                     date: now - 26 * hour
                 }
             ]
@@ -72,13 +72,13 @@ if process.env.NODE_ENV is "development"
             lastName: "Margarita"
             middleName: "P"
             mrn: "1357902468"
-            surgicalPathologyNumbers: [
+            instancesOfProcurement: [
                 {
                     surgicalPathologyNumber: "0192867465"
                     date: now - 2 * hour
                 }
                 {
-                    surgicalPathologyNumber: "6912873456"
+                    otherNumber: "6912873456"
                     date: now - 26 * hour
                 }
             ]
@@ -91,13 +91,13 @@ if process.env.NODE_ENV is "development"
             firstName: "Yasmeen"
             lastName: "Capucine"
             mrn: "1234567891"
-            surgicalPathologyNumbers: [
+            instancesOfProcurement: [
                 {
                     surgicalPathologyNumber: "1094859925"
                     date: now - 2 * hour
                 }
                 {
-                    surgicalPathologyNumber: "1993848458"
+                    otherNumber: "1993848458"
                     date: now - 26 * hour
                 }
             ]

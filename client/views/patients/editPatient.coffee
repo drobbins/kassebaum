@@ -1,5 +1,5 @@
 Template.editPatient.events
-    "submit form": (e) ->
+    "submit form": (e, t) ->
         e.preventDefault()
         currentPatientId = @_id
         patientProperties =
@@ -8,6 +8,7 @@ Template.editPatient.events
             middleName: $(e.target).find("[name=middleName]").val()
             dateOfBirth: $(e.target).find("[name=dateOfBirth]").datepicker("getDate").getTime()
             mrn: $(e.target).find("[name=mrn]").val()
+        patientProperties.instancesOfProcurement = @instancesOfProcurementCollection.find().fetch()
         Patients.update currentPatientId, {$set: patientProperties}, (error) ->
             if error
                 Alert.add error.message, "danger"

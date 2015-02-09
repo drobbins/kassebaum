@@ -8,10 +8,10 @@ if Meteor.isServer
     Hashids = Meteor.npmRequire "hashids"
 
     mergeSurgicalPathologyNumbers = (oldNumbers, newNumbers) ->
-        surgicalPathologyNumbers = oldNumbers.concat newNumbers
+        instancesOfProcurement = oldNumbers.concat newNumbers
         # Based on http://coffeescriptcookbook.com/chapters/arrays/removing-duplicate-elements-from-arrays
         output = {}
-        output[JSON.stringify(surgicalPathologyNumbers[key])] = JSON.stringify(surgicalPathologyNumbers[key]) for key in [0...surgicalPathologyNumbers.length]
+        output[JSON.stringify(instancesOfProcurement[key])] = JSON.stringify(instancesOfProcurement[key]) for key in [0...instancesOfProcurement.length]
         return (JSON.parse(value) for key, value of output)
 
     generateUniqueShortId = (mrn) ->
@@ -33,8 +33,8 @@ if Meteor.isServer
                 throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
 
             if patientWithSameMRN # Update Patient with any new Surgical Path #'s
-                surgicalPathologyNumbers = mergeSurgicalPathologyNumbers patientWithSameMRN.surgicalPathologyNumbers, patientAttributes.surgicalPathologyNumbers
-                Patients.update patientWithSameMRN._id, $set: surgicalPathologyNumbers: surgicalPathologyNumbers
+                instancesOfProcurement = mergeSurgicalPathologyNumbers patientWithSameMRN.instancesOfProcurement, patientAttributes.instancesOfProcurement
+                Patients.update patientWithSameMRN._id, $set: instancesOfProcurement: instancesOfProcurement
                 return patientWithSameMRN.shortId
 
 

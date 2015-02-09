@@ -1,4 +1,4 @@
-Template.surgicalPathologyNumberRow.helpers
+Template.instanceOfProcurementRow.helpers
     ageAtCollectionString: (dateOfBirth) -> 
         moment.duration(@date-dateOfBirth).humanize()
 

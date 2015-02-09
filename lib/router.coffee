@@ -26,6 +26,7 @@ Router.map ->
     @route "addPatient",
         path: "/patients/new"
         template: "addPatient"
+        data: {}
     @route "viewPatient",
         path: "/patients/:_id"
         template: "viewPatient"
