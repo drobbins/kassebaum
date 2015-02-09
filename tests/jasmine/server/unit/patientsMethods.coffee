@@ -18,7 +18,7 @@ patient =
     firstName: "Adolphus"
     lastName: "McTestington"
     mrn: "1234512345"
-    surgicalPathologyNumbers: [ "111", "222", "333"]
+    instancesOfProcurement: [ "111", "222", "333"]
 
 emmi_result =
     result:
@@ -90,7 +90,7 @@ describe "Patients", ->
                 lastName: "McTestington"
                 mrn: "1234512345"
                 shortId: "abcdef"
-                surgicalPathologyNumbers: [ "111", "222", "444"]
+                instancesOfProcurement: [ "111", "222", "444"]
             spyOn Meteor, "user"
                 .and.returnValue tech
             spyOn Roles, "userIsInRole"
@@ -102,7 +102,7 @@ describe "Patients", ->
                 expect(err).toBe null
                 #expect(shortId).toBe existingPatient.shortId
                 expect(Patients.update).toHaveBeenCalled()
-                expect(Patients.update.calls.mostRecent().args[1].$set.surgicalPathologyNumbers).toEqual [ "111", "222", "444", "333"]
+                expect(Patients.update.calls.mostRecent().args[1].$set.instancesOfProcurement).toEqual [ "111", "222", "444", "333"]
 
         it "inserts patient with a new shortId for new patients", ->
             spyOn Meteor, "user"

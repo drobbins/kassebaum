@@ -7,7 +7,7 @@ Template.addPatient.events
             middleName: $(e.target).find("[name=middleName]").val()
             dateOfBirth: $(e.target).find("[name=dateOfBirth]").datepicker("getDate").getTime()
             mrn: $(e.target).find("[name=mrn]").val()
-            surgicalPathologyNumbers: $(e.target).find ".surgical-path-number"
+            instancesOfProcurement: $(e.target).find ".surgical-path-number"
                 .map (i,el) ->
                     return {
                         surgicalPathologyNumber: $(el).find("[name=surgicalPathologyNumber]").val()
@@ -24,10 +24,10 @@ Template.addPatient.events
                 Logs.add "success", message
 
     "click .add-surgical-pathology-number": ->
-        surgicalPathologyNumbers = Session.get "surgicalPathologyNumbers" or []
-        surgicalPathologyNumbers.push
+        instancesOfProcurement = Session.get "instancesOfProcurement" or []
+        instancesOfProcurement.push
             id: Meteor.uuid()
-        Session.set "surgicalPathologyNumbers", surgicalPathologyNumbers
+        Session.set "instancesOfProcurement", instancesOfProcurement
 
     "DOMNodeInserted": ->
         # Initialize any new datepicker fields after insertion into the DOM
@@ -45,11 +45,11 @@ Template.addPatient.events
                 $("[name=lastName]").val(response?.lastname)
 
 Template.addPatient.helpers
-    surgicalPathologyNumbers: ->
-        Session.get "surgicalPathologyNumbers"
+    instancesOfProcurement: ->
+        Session.get "instancesOfProcurement"
 
 Template.addPatient.rendered = ->
     initializeDatePickers()
 
 Meteor.startup ->
-    Session.set "surgicalPathologyNumbers", [ { id: Meteor.uuid() } ]
+    Session.set "instancesOfProcurement", [ { id: Meteor.uuid() } ]
