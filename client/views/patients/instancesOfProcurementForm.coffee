@@ -6,7 +6,10 @@ Template.instancesOfProcurementForm.helpers
 
 Template.instancesOfProcurementForm.created = ->
     collection = @data.instancesOfProcurementCollection = new Meteor.Collection null
-    collection.insert instance for instance in @data.instancesOfProcurement
+    if @data.instancesOfProcurement
+        collection.insert instance for instance in @data.instancesOfProcurement
+    else
+        collection.insert date: Date.now()
 
 Template.instanceOfProcurementForm.events
     "click .remove-instance-of-procurement": (e, template) ->

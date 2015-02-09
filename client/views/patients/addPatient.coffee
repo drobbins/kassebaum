@@ -7,13 +7,7 @@ Template.addPatient.events
             middleName: $(e.target).find("[name=middleName]").val()
             dateOfBirth: $(e.target).find("[name=dateOfBirth]").datepicker("getDate").getTime()
             mrn: $(e.target).find("[name=mrn]").val()
-            instancesOfProcurement: $(e.target).find ".instance-of-procurement"
-                .map (i,el) ->
-                    return {
-                        instanceOfProcurement: $(el).find("[name=instanceOfProcurement]").val()
-                        date: $(el).find("[name=date]").datepicker("getDate").getTime()
-                    }
-                .get()
+        patient.instancesOfProcurement = @instancesOfProcurementCollection.find().fetch()
         Meteor.call "patient", patient, (error, shortId) ->
             if error
                 Alert.add error.message, "danger"
