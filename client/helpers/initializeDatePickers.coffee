@@ -6,4 +6,5 @@ window.initializeDatePickers = ->
     .each (i, el) ->
         $el = $(el)
         val = $el.val()
-        if val then $el.datepicker "update", new Date(parseInt(val,10))
+        # If there is a val and it doesn't contain a /, treat it as a date in integer form
+        if val and not val.match "/" then $el.datepicker "update", new Date(parseInt(val,10))
