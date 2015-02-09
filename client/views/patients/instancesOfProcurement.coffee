@@ -10,5 +10,5 @@ Template.instancesOfProcurementForm.created = ->
 
 Template.instanceOfProcurementForm.events
     "click .remove-instance-of-procurement": (e, template) ->
-        collection = template.view.parentView.parentView.parentView.templateInstance().data.instancesOfProcurementCollection
+        collection = Template.parentData(2).instancesOfProcurementCollection
         collection.remove @
