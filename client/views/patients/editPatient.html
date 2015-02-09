@@ -29,30 +29,10 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <span class="pull-right head-align">
-                    <button class="add-surgical-pathology-number btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-plus"></span></button>
-                </span>
-                <h4>Surgical Pathology Numbers</h4>
-                {{#each instancesOfProcurement}}
-                    <div class="row instance-of-procurement">
-                        <div class="form-group col-sm-8">
-                            <label for="instanceOfProcurement">Number</label>
-                            <input class="form-control" type="text" name="instanceOfProcurement" value="{{instanceOfProcurement}}" placeholder="Number">
-                        </div>
-                        <div class="form-group col-sm-4">
-                            <label for="date">Date</label>
-                            <input class="form-control datepicker" type="text" name="date" value="{{date}}" placeholder="Date">
-                        </div>
-                    </div>
-                {{/each}}
-            </div>
-        </div>
+        {{> instancesOfProcurementForm}}
 
         <div class="row">
             <div class="col-sm-12"><button class="btn btn-default" type="submit">Save Patient</button></div>
         </div>
     </form>
 </template>
-

@@ -1,0 +1,35 @@
+<template name="instancesOfProcurementForm">
+    <div class="row">
+        <div class="col-sm-12">
+            <span class="pull-right head-align">
+                <button class="add-instance-of-procurement btn btn-default btn-sm" type="button"><span class="glyphicon glyphicon-plus"></span></button>
+            </span>
+            <h4>Instances of Procurement</h4>
+            {{#each iop}}
+                {{> instanceOfProcurementForm}}
+            {{/each}}
+        </div>
+    </div>
+</template>
+
+<template name="instanceOfProcurementForm">
+    <div class="row instance-of-procurement">
+        <div class="form-group col-sm-2">
+            <label for="date">Date</label>
+            <input class="form-control datepicker input-sm" type="text" name="date" value="{{date}}" placeholder="Date">
+        </div>
+        <div class="form-group col-sm-5">
+            <label for="surgicalPathologyNumber">Surgical Path Number</label>
+            <input class="form-control input-sm" type="text" name="surgicalPathologyNumber" value="{{surgicalPathologyNumber}}" placeholder="Surgical Path Number">
+        </div>
+        <div class="form-group col-sm-4">
+            <label for="otherNumber">Other Number (e.g. Protocol Number)</label>
+            <input class="form-control input-sm" type="text" name="otherNumber" value="{{otherNumber}}" placeholder="Other Number">
+        </div>
+        <div class="form-group col-sm-1">
+            <span class="pull-right btn-align">
+                <button class="remove-instance-of-procurement btn btn-danger btn-sm" type="button"><span class="glyphicon glyphicon-minus"></span></button>
+            </span>
+        </div>
+    </div>
+</template>
