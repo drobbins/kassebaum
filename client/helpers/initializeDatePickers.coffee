@@ -5,4 +5,5 @@ window.initializeDatePickers = ->
         todayHighlight: true
     .each (i, el) ->
         $el = $(el)
-        $el.datepicker "update", new Date(parseInt($el.val(),10))
+        val = $el.val()
+        if val then $el.datepicker "update", new Date(parseInt(val,10))
