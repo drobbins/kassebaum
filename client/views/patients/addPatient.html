@@ -6,10 +6,11 @@
         <div class="row">
             <div class="form-group col-sm-6">
                 <label for="mrn">MRN</label>
+                {{> nonUabMrnHelpText}}
                 <div class="input-group">
                     <input class="form-control" type="text" name="mrn" placeholder="Patient MRN">
                     <span class="input-group-btn">
-                        <button class="btn btn-default lookup-patient" type="button">Lookup</button>
+                        <button class="btn btn-primary lookup-patient" type="button" {{disabledIfNonUabMrn}}>Lookup</button>
                     </span>
                 </div>
             </div>

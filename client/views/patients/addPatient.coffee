@@ -7,6 +7,7 @@ Template.addPatient.events
             middleName: $(e.target).find("[name=middleName]").val()
             dateOfBirth: $(e.target).find("[name=dateOfBirth]").datepicker("getDate").getTime()
             mrn: $(e.target).find("[name=mrn]").val()
+            nonUabMrn: Session.get "nonUabMrn"
         patient.instancesOfProcurement = @instancesOfProcurementCollection.find().fetch()
         Meteor.call "patient", patient, (error, shortId) ->
             if error
@@ -34,6 +35,10 @@ Template.addPatient.events
                 $("[name=middleName]").val(response.middlename.slice(0,1))
                 $("[name=lastName]").val(response.lastname)
                 $("[name=dateOfBirth]").datepicker "update", moment(response.birthDate, EMMIDateFormat).toDate()
+
+Template.addPatient.helpers
+    disabledIfNonUabMrn: ->
+        if Session.get "nonUabMrn" then "disabled" else ""
 
 Template.addPatient.rendered = ->
     initializeDatePickers()
