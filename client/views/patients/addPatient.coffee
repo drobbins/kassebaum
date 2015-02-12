@@ -23,10 +23,6 @@ Template.addPatient.events
             id: Meteor.uuid()
         Session.set "instancesOfProcurement", instancesOfProcurement
 
-    "DOMNodeInserted": ->
-        # Initialize any new datepicker fields after insertion into the DOM
-        initializeDatePickers()
-
     "click .lookup-patient": ->
         mrn = $("[name=mrn]").val()
         Meteor.call "lookupPatient", mrn, (error, response) ->
@@ -39,14 +35,7 @@ Template.addPatient.events
                 $("[name=lastName]").val(response.lastname)
                 $("[name=dateOfBirth]").datepicker "update", moment(response.birthDate, EMMIDateFormat).toDate()
 
-Template.addPatient.helpers
-    instancesOfProcurement: ->
-        Session.get "instancesOfProcurement"
-
 Template.addPatient.rendered = ->
     initializeDatePickers()
-
-Meteor.startup ->
-    Session.set "instancesOfProcurement", [ { id: Meteor.uuid() } ]
 
 EMMIDateFormat = "YYYYMMDD"

@@ -1,5 +1,8 @@
 Template.instancesOfProcurementForm.events
     "click .add-instance-of-procurement": -> @instancesOfProcurementCollection.insert {}
+    "DOMNodeInserted": ->
+        # Initialize any new datepicker fields after insertion into the DOM
+        initializeDatePickers()
 
 Template.instancesOfProcurementForm.helpers
     "iop": -> @instancesOfProcurementCollection.find()
@@ -23,4 +26,6 @@ Template.instanceOfProcurementForm.events
             surgicalPathologyNumber: t.$("[name=surgicalPathologyNumber]").val()
             otherNumber: t.$("[name=otherNumber]").val()
         collection.update id, {$set: instanceOfProcurementProperties}
-        
+
+Template.instancesOfProcurementForm.rendered = ->
+    initializeDatePickers()
