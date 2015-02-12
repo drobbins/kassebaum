@@ -7,6 +7,7 @@ Template.addPatient.events
             middleName: $(e.target).find("[name=middleName]").val()
             dateOfBirth: $(e.target).find("[name=dateOfBirth]").datepicker("getDate").getTime()
             mrn: $(e.target).find("[name=mrn]").val()
+            externalMrn: Session.get "externalMrn"
         patient.instancesOfProcurement = @instancesOfProcurementCollection.find().fetch()
         Meteor.call "patient", patient, (error, shortId) ->
             if error
@@ -23,10 +24,6 @@ Template.addPatient.events
             id: Meteor.uuid()
         Session.set "instancesOfProcurement", instancesOfProcurement
 
-    "DOMNodeInserted": ->
-        # Initialize any new datepicker fields after insertion into the DOM
-        initializeDatePickers()
-
     "click .lookup-patient": ->
         mrn = $("[name=mrn]").val()
         Meteor.call "lookupPatient", mrn, (error, response) ->
@@ -40,13 +37,10 @@ Template.addPatient.events
                 $("[name=dateOfBirth]").datepicker "update", moment(response.birthDate, EMMIDateFormat).toDate()
 
 Template.addPatient.helpers
-    instancesOfProcurement: ->
-        Session.get "instancesOfProcurement"
+    disabledIfNonUabMrn: ->
+        if Session.get "externalMrn" then "disabled" else ""
 
 Template.addPatient.rendered = ->
     initializeDatePickers()
-
-Meteor.startup ->
-    Session.set "instancesOfProcurement", [ { id: Meteor.uuid() } ]
 
 EMMIDateFormat = "YYYYMMDD"

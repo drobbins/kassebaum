@@ -8,6 +8,7 @@ Template.editPatient.events
             middleName: $(e.target).find("[name=middleName]").val()
             dateOfBirth: $(e.target).find("[name=dateOfBirth]").datepicker("getDate").getTime()
             mrn: $(e.target).find("[name=mrn]").val()
+            externalMrn: Session.get "externalMrn"
         patientProperties.instancesOfProcurement = @instancesOfProcurementCollection.find().fetch()
         Patients.update currentPatientId, {$set: patientProperties}, (error) ->
             if error
@@ -21,10 +22,6 @@ Template.editPatient.events
             currentPatientId = @_id
             Patients.remove currentPatientId
             Router.go "listPatients"
-
-    "DOMNodeInserted": ->
-        # Initialize any new datepicker fields after insertion into the DOM
-        initializeDatePickers()
 
 Template.editPatient.rendered = ->
     initializeDatePickers()
