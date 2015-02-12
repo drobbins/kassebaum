@@ -33,10 +33,11 @@ Template.addPatient.events
             if error
                 Alert.add error.message, "danger"
                 Logs.add "error", error.message
-            else
-                $("[name=firstName]").val(response?.firstname)
-                $("[name=middleName]").val(response?.middlename)
-                $("[name=lastName]").val(response?.lastname)
+            else if response
+                $("[name=firstName]").val(response.firstname)
+                $("[name=middleName]").val(response.middlename.slice(0,1))
+                $("[name=lastName]").val(response.lastname)
+                $("[name=dateOfBirth]").datepicker "update", moment(response.birthDate, EMMIDateFormat).toDate()
 
 Template.addPatient.helpers
     instancesOfProcurement: ->
@@ -47,3 +48,5 @@ Template.addPatient.rendered = ->
 
 Meteor.startup ->
     Session.set "instancesOfProcurement", [ { id: Meteor.uuid() } ]
+
+EMMIDateFormat = "YYYYMMDD"
