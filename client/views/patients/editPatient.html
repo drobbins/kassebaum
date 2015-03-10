@@ -1,5 +1,11 @@
 <template name="editPatient">
+    <span class="pull-right">
+        <a class="btn btn-default" href="{{pathFor 'listPatients'}}"><span class="glyphicon glyphicon-list"></span> Patient List</a>
+        <a class="btn btn-default" href="{{pathFor 'viewPatient'}}" title="View patient {{shortId}} file."><span class="glyphicon glyphicon-folder-open"></span> View Patient</a>
+    </span>
+
     <h2>Edit Patient {{firstName}} {{lastName}} <small>Code: {{shortId}}</small></h2>
+    <a href="{{pathFor 'listPatients'}}">back to patient list</a>
 
     <form role="form">
 
@@ -33,7 +39,10 @@
         {{> instancesOfProcurementForm}}
 
         <div class="row">
-            <div class="col-sm-12"><button class="btn btn-default" type="submit">Save Patient</button></div>
+            <div class="col-sm-12">
+                <button class="btn btn-default" type="submit">Save Patient</button>
+                <a href="{{pathFor 'listPatients'}}">Cancel</a>
+            </div>
         </div>
     </form>
 </template>
