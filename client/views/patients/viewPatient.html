@@ -1,8 +1,12 @@
 <template name="viewPatient">
     <span class="pull-right">
+        <a class="btn btn-default" href="{{pathFor 'listPatients'}}"><span class="glyphicon glyphicon-list"></span> Patient List</a>
         <a class="btn btn-default" href="{{pathFor 'editPatient'}}"><span class="glyphicon glyphicon-pencil"></span> Edit Patient</a>
     </span>
+
     <h2>{{firstName}} {{lastName}} <small>Code: {{shortId}}</small></h2>
+    <a href="{{pathFor 'listPatients'}}">back to patient list</a>
+
     <h4>Patient Information</h4>
     {{> attributeRow attribute="First Name" value=firstName}}
     {{> attributeRow attribute="Middle Initial" value=middleName}}

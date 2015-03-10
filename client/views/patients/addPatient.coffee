@@ -36,6 +36,9 @@ Template.addPatient.events
                 $("[name=lastName]").val(response.lastname)
                 $("[name=dateOfBirth]").datepicker "update", moment(response.birthDate, EMMIDateFormat).toDate()
 
+    "click .new-patient": ->
+        $("form[name=addPatient]")[0].reset()
+
 Template.addPatient.helpers
     disabledIfNonUabMrn: ->
         if Session.get "externalMrn" then "disabled" else ""

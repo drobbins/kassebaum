@@ -7,6 +7,9 @@ Template.listPatients.helpers
         else
             Patients.find()
 
+Template.listPatients.rendered = ->
+    Session.set "patientFilter", null
+
 Template.listPatients.events
     "keyup [name=search]": (e) ->
         value = $(e.target).val()

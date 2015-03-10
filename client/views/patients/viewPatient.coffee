@@ -1,6 +1,6 @@
 Template.instanceOfProcurementRow.helpers
-    ageAtCollectionString: (dateOfBirth) -> 
-        moment.duration(@date-dateOfBirth).humanize()
+    ageAtCollectionString: (dateOfBirth) ->
+        getHumanizedDuration dateOfBirth, @date
 
 Template.viewPatient.helpers
     dateOfBirthString: -> window.formatDateString @dateOfBirth
