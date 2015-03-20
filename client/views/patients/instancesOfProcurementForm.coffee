@@ -12,7 +12,7 @@ Template.instancesOfProcurementForm.created = ->
     if @data.instancesOfProcurement
         collection.insert instance for instance in @data.instancesOfProcurement
     else
-        collection.insert date: Date.now()
+        collection.insert date: moment(Date.now()).startOf("day").valueOf()
 
 Template.instanceOfProcurementForm.events
     "click .remove-instance-of-procurement": (e, template) ->
