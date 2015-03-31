@@ -1,6 +1,7 @@
 Package.describe({
     summary: "Simple collection based logging.",
-    version: "0.0.0"
+    version: "0.0.0",
+    name: "robbinsd:simplelog"
 });
 
 Package.onUse(function(api) {
@@ -8,13 +9,13 @@ Package.onUse(function(api) {
     api.use("coffeescript"),
     api.use("standard-app-packages");
     if (api.export) api.export("Logs");
-    api.addFiles("robbinsd:simplelog.coffee");
-    api.addFiles("robbinsd:simplelog-templates.html", "client");
-    api.addFiles("robbinsd:simplelog-templates.coffee", "client");
+    api.addFiles("simplelog.coffee");
+    api.addFiles("simplelog-templates.html", "client");
+    api.addFiles("simplelog-templates.coffee", "client");
 });
 
 Package.onTest(function(api) {
     api.use('tinytest');
     api.use('robbinsd:simplelog');
-    api.addFiles('robbinsd:simplelog-tests.js');
+    api.addFiles('simplelog-tests.js');
 });
