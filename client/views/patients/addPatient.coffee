@@ -24,17 +24,12 @@ Template.addPatient.events
             id: Meteor.uuid()
         Session.set "instancesOfProcurement", instancesOfProcurement
 
-    "click .lookup-patient": ->
-        mrn = $("[name=mrn]").val()
-        Meteor.call "lookupPatient", mrn, (error, response) ->
-            if error
-                Alert.add error.message, "danger"
-                Logs.add "error", error.message
-            else if response
-                $("[name=firstName]").val(response.firstname)
-                $("[name=middleName]").val(response.middlename.slice(0,1))
-                $("[name=lastName]").val(response.lastname)
-                $("[name=dateOfBirth]").datepicker "update", moment(response.birthDate, EMMIDateFormat).toDate()
+    "click .lookup-patient": -> lookupPatientFromClient()
+
+    "keypress [name=mrn]": (e) ->
+        if e.keyCode is 13 # If it was "Enter/Return"
+            e.preventDefault()
+            lookupPatientFromClient()
 
     "click .new-patient": ->
         $("form[name=addPatient]")[0].reset()
@@ -47,3 +42,15 @@ Template.addPatient.rendered = ->
     initializeDatePickers()
 
 EMMIDateFormat = "YYYYMMDD"
+
+lookupPatientFromClient = (e) ->
+    mrn = $("[name=mrn]").val()
+    Meteor.call "lookupPatient", mrn, (error, response) ->
+        if error
+            Alert.add error.message, "danger"
+            Logs.add "error", error.message
+        else if response
+            $("[name=firstName]").val(response.firstname)
+            $("[name=middleName]").val(response.middlename.slice(0,1))
+            $("[name=lastName]").val(response.lastname)
+            $("[name=dateOfBirth]").datepicker "update", moment(response.birthDate, EMMIDateFormat).toDate()
