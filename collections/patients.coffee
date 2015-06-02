@@ -48,9 +48,16 @@ if Meteor.isServer
                 return shortId
 
         lookupPatient: (mrn) ->
-            if not Roles.userIsInRole Meteor.user(), ["admin", "tech"] then throw new Meteor.Error 401, "You are not authorized to lookup patients"
-            client = new EMMI.Client EMMIClientSettings
-            patient = (client.getPatient mrn).result
-            _.each ["firstname", "lastname"], (property) ->
-                patient[property] = patient[property].toProperCase()
-            patient
+            if process.env.NODE_ENV is "development" and process.env.MOCK_EMMI is "true"
+                return patient =
+                    firstname: "Barbra"
+                    lastname: "Hsistest"
+                    middlename: "Qualif"
+                    birthDate: "19830302"
+            else
+                if not Roles.userIsInRole Meteor.user(), ["admin", "tech"] then throw new Meteor.Error 401, "You are not authorized to lookup patients"
+                client = new EMMI.Client EMMIClientSettings
+                patient = (client.getPatient mrn).result
+                _.each ["firstname", "lastname"], (property) ->
+                    patient[property] = patient[property].toProperCase()
+                patient

@@ -119,6 +119,10 @@ describe "Patients", ->
 
     describe "method lookupPatient", ->
 
+        beforeEach -> process.env.MOCK_EMMI = false
+
+        afterEach -> process.env.MOCK_EMMI = true
+
         it "returns a 401 if not logged in.", ->
             spyOn Meteor, "user"
                 .and.returnValue null
