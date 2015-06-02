@@ -31,7 +31,6 @@ Template.addPatient.events
             e.preventDefault()
             lookupPatientFromClient()
 
-
     "click .new-patient": ->
         $("form[name=addPatient]")[0].reset()
 
