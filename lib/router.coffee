@@ -17,7 +17,7 @@ Router.map ->
             @next()
     @route "logs",
         path: "/logs"
-        template: "simpleLogs"
+        template: "logs"
     @route "listPatients",
         path: "/patients"
         template: "listPatients"

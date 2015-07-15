@@ -23,12 +23,6 @@ Logs =
 Logs.collection.allow
     insert: -> true
 
-if Meteor.isClient
-    Meteor.subscribe "logs"
-
-if Meteor.isServer
-    Meteor.publish "logs", -> Logs.collection.find()
-
 logFixture = ->
     fixture =
         "message": "loaded /patients"
