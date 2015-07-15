@@ -6,8 +6,8 @@ TabularTables.LogEntries = new Tabular.Table
     name: "LogEntries"
     collection: Logs.collection
     columns: [
+        {data: "timestamp", title: "Time", render: (val) -> moment(val).format(Session.get("momentLogDateFormat")) }
         {data: "level", title: "Level" }
-        {data: "timestamp", title: "Time", render: (val) -> moment(val).format(Session.get("momentDateFormat")) }
         {
             data: (row) ->
                 a = 2
@@ -17,3 +17,4 @@ TabularTables.LogEntries = new Tabular.Table
         {data: "message", title: "Message" }
     ]
     extraFields: ['data']
+    order: [[0, 'desc']]
