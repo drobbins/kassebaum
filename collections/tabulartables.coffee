@@ -8,12 +8,7 @@ TabularTables.LogEntries = new Tabular.Table
     columns: [
         {data: "timestamp", title: "Time", render: (val) -> moment(val).format(Session.get("momentLogDateFormat")) }
         {data: "level", title: "Level" }
-        {
-            data: (row) ->
-                a = 2
-                row.data?.user?.username
-            title: "User"
-        }
+        {data: "data.user.username", title: "User" }
         {data: "message", title: "Message" }
     ]
     extraFields: ['data']
