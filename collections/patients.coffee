@@ -28,7 +28,7 @@ if Meteor.isServer
 
             # Validation
             if not user then throw new Meteor.Error 401, "You need to log in to add patients"
-            if not Roles.userIsInRole @userId, ["admin", "tech"] then throw new Meteor.Error 401, "You are not authorized to add patients"
+            if not Roles.userIsInRole @userId, ["admin", "tech", "procurement-tech"] then throw new Meteor.Error 401, "You are not authorized to add patients"
             if not hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
                 throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
 
@@ -36,7 +36,6 @@ if Meteor.isServer
                 instancesOfProcurement = mergeInstancesOfProcurement patientWithSameMRN.instancesOfProcurement, patientAttributes.instancesOfProcurement
                 Patients.update patientWithSameMRN._id, $set: instancesOfProcurement: instancesOfProcurement
                 return patientWithSameMRN.shortId
-
 
             else # Create a new patient
                 shortId = generateUniqueShortId patientAttributes.mrn
@@ -55,7 +54,7 @@ if Meteor.isServer
                     middlename: "Qualif"
                     birthDate: "19830302"
             else
-                if not Roles.userIsInRole Meteor.user(), ["admin", "tech"] then throw new Meteor.Error 401, "You are not authorized to lookup patients"
+                if not Roles.userIsInRole Meteor.user(), ["admin", "tech", "procurement-tech"] then throw new Meteor.Error 401, "You are not authorized to lookup patients"
                 client = new EMMI.Client EMMIClientSettings
                 patient = (client.getPatient mrn).result
                 _.each ["firstname", "lastname"], (property) ->
