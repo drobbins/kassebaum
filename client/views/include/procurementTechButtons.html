@@ -1,0 +1,5 @@
+<template name="procurementTechButtons">
+    {{#if isInRole 'procurement-tech'}}
+        <li class="{{activeRouteClass 'listPatients'}}"><a href="{{pathFor 'listPatients'}}">Patients</a></li>
+    {{/if}}
+</template>

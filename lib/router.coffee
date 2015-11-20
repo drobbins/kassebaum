@@ -51,7 +51,13 @@ requireLogin = ->
 
 requireAdmin = ->
     if not Roles.userIsInRole Meteor.user(), ["admin"]
-        Alert.add "You must be an Admin to proceed.", "danger"
+        Alert.add "You do not have sufficient privileges to proceed.", "danger"
+        @redirect "/"
+    @next()
+
+requireProcurementTech = ->
+    if not Roles.userIsInRole Meteor.user(), ["admin", "procurement-tech"]
+        Alert.add "You do not have sufficient privileges to proceed.", "danger"
         @redirect "/"
     @next()
 
@@ -59,7 +65,8 @@ logNavigation = ->
     if Meteor.user()
         Logs.add "info", "loaded #{@.url}"
 
+Router.onBeforeAction requireAdmin, only: ["logs", "admin"]
+Router.onBeforeAction requireProcurementTech, except: ["home", "accessDenied", "modules", "addPatient"]
 Router.onBeforeAction requireLogin, except: ["home", "accessDenied", "modules"]
-Router.onBeforeAction requireAdmin, except: ["home", "accessDenied", "modules", "addPatient"]
 Router.onBeforeAction "loading"
 Router.onAfterAction logNavigation, except: ["home", "accessDenied", "modules"]
