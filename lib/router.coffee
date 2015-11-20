@@ -59,7 +59,7 @@ logNavigation = ->
     if Meteor.user()
         Logs.add "info", "loaded #{@.url}"
 
-Router.onBeforeAction requireLogin, except: ["home", "accessDenied", "modules"]
 Router.onBeforeAction requireAdmin, except: ["home", "accessDenied", "modules", "addPatient"]
+Router.onBeforeAction requireLogin, except: ["home", "accessDenied", "modules"]
 Router.onBeforeAction "loading"
 Router.onAfterAction logNavigation, except: ["home", "accessDenied", "modules"]

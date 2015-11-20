@@ -1,6 +1,6 @@
 Meteor.publish "patients", ->
-    Patients.find() if authorizedUser @userId
+    if authorizedUser @userId then Patients.find() else []
 
 Meteor.publish "patientById", (id) ->
 	check(id, String)
-	Patients.find({_id:id}) if authorizedUser @userId
+	if authorizedUser @userId then Patients.find({_id:id}) else []
