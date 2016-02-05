@@ -10,11 +10,9 @@ accounts-password
 http
 
 ## Confirmed Migrations
-mizzao:bootstrap-3
 iron:router
-sacha:spin@0.2.2
-rajit:accounts-ui-bootstrap-3
-mrt:accounts-admin-ui-bootstrap-3
+# rajit:accounts-ui-bootstrap-3 ## bad problems.
+# mrt:accounts-admin-ui-bootstrap-3 ##
 mrt:moment
 
 ## Tentative Migrations
@@ -26,7 +24,14 @@ alanning:roles # roles
 # Unmigrated :(
 # cfs-gridfs
 
-npm-container
 robbinsd:simplelog
 robbinsd:emmi-client
 aldeed:tabular
+standard-minifiers
+sacha:spin
+ian:accounts-ui-bootstrap-3
+twbs:bootstrap
+
+
+npm-container
+mrt:accounts-admin-ui-bootstrap-3
