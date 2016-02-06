@@ -65,7 +65,7 @@ npm-mongo@1.4.39_1
 observe-sequence@1.0.7
 ordered-dict@1.0.4
 promise@0.5.1
-rajit:bootstrap3-datepicker@1.5.0
+rajit:bootstrap3-datepicker@1.4.1
 random@1.0.5
 rate-limit@1.0.0
 reactive-dict@1.1.3

@@ -9,21 +9,11 @@ coffeescript
 accounts-password
 http
 
-## Confirmed Migrations
 iron:router
-# rajit:accounts-ui-bootstrap-3 ## bad problems.
-# mrt:accounts-admin-ui-bootstrap-3 ##
 mrt:moment
-
-## Tentative Migrations
-steeve:simple-bootstrap3-alerts # mrt:bootstrap-alerts@0.0.5
-meteorhacks:npm # arunoda:npm@0.2.6
-rajit:bootstrap3-datepicker # mrt:bootstrap3-datepicker@0.2.1
-alanning:roles # roles
-
-# Unmigrated :(
-# cfs-gridfs
-
+steeve:simple-bootstrap3-alerts
+meteorhacks:npm
+alanning:roles
 robbinsd:simplelog
 robbinsd:emmi-client
 aldeed:tabular
@@ -31,7 +21,6 @@ standard-minifiers
 sacha:spin
 ian:accounts-ui-bootstrap-3
 twbs:bootstrap
-
-
 npm-container
 mrt:accounts-admin-ui-bootstrap-3
+rajit:bootstrap3-datepicker@=1.4.1
