@@ -15,10 +15,9 @@ if Meteor.isServer
         return (JSON.parse(value) for key, value of output)
 
     generateUniqueShortId = (mrn) ->
-        hasher = new Hashids Meteor.uuid(), 6
-        shortId = (hasher.encrypt parseInt mrn, 10).slice 0,6 # Generate Short ID
+        shortId = Random.id(6) # Generate a Short ID
         while Patients.findOne(shortId: shortId)
-            shortId = (hasher.encrypt parseInt mrn+Meteor.uuid(), 10).slice 0,6 # Generate another Short ID
+            shortId = Random.id(6) # Generate another Short ID
         shortId
 
     Meteor.methods
