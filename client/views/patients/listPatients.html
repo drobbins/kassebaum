@@ -7,10 +7,26 @@
         </form>
     </span>
     <h2>Patients</h2>
-    {{> tabular table=TabularTables.Patients class="table table-striped table-bordered table-condensed"}}
+    <div class="row">
+        <div class="form-group col-sm-6">
+            <label for="startDate">Start Date</label>
+            <input class="form-control datepicker" type="text" name="startDate" placeholder="Start Date">
+        </div>
+        <div class="form-group col-sm-6">
+            <label for="endDate">End Date</label>
+            <input class="form-control datepicker" type="text" name="endDate" placeholder="End Date">
+        </div>
+    </div>
+    {{> tabular table=TabularTables.Patients selector=tabularSelector class="table table-striped table-bordered table-condensed"}}
 </template>
 
 <template name="patientRowButtons">
     <a class="btn btn-default btn-xs" href="{{pathFor 'viewPatient'}}" title="View patient {{shortId}} file."><span class="glyphicon glyphicon-folder-open"></span></a>
     <a class="btn btn-default btn-xs" href="{{pathFor 'editPatient'}}" title="Edit patient {{shortId}} file."><span class="glyphicon glyphicon-pencil"></span></a>
+</template>
+
+<template name="instanceOfProcurementDates">
+    {{#each instancesOfProcurement}}
+        <span>{{formatDateString date}} </span>
+    {{/each}}
 </template>

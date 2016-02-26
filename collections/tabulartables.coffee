@@ -24,8 +24,13 @@ TabularTables.Patients = new Tabular.Table
         {data: "firstName", title: "First Name"}
         {data: "lastName", title: "Last Name"}
         {
+            tmpl: Meteor.isClient && Template.instanceOfProcurementDates
+            title: "Procurement Dates"
+        }
+        {
             tmpl: Meteor.isClient && Template.patientRowButtons
             className: "text-center"
         }
     ]
+    extraFields: ['instancesOfProcurement']
     order: [[0, 'desc']]
