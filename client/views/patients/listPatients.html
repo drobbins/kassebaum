@@ -1,15 +1,12 @@
 <template name="listPatients">
     <span class="pull-right">
-        <form class="form-inline">
-            {{#if selectedPatientsList}}
-            <div class="form-group">
-                <a class="btn btn-default" href="{{pathFor 'listPatientsPrint'}}"><span class="glyphicon glyphicon-list"></span> View Selected Patients</a>
+        {{#if selectedPatientsList}}
+            <div class="btn-group" role="group">
+                <a class="btn btn-default" href="{{pathFor 'listPatientsPrint'}}"><span class="glyphicon glyphicon-list"></span> Printable List</a>
+                <button class="btn btn-default" id="clearSelection"> Clear Selection</button>
             </div>
-            {{/if}}
-            <div class="form-group">
-                <a class="btn btn-default" href="{{pathFor 'addPatient'}}"><span class="glyphicon glyphicon-plus"></span> Add Patient</a>
-            </div>
-        </form>
+        {{/if}}
+        <a class="btn btn-default" href="{{pathFor 'addPatient'}}"><span class="glyphicon glyphicon-plus"></span> Add Patient</a>
     </span>
     <h2>Patients</h2>
     <div class="row">

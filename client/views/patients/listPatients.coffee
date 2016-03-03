@@ -31,3 +31,4 @@ Template.listPatients.events
         $("[name=endDate]").datepicker("clearDates")
         Session.set "endDate"
         Session.set "startDate"
+    "click button#clearSelection": -> Session.set "selectedPatientsList", []

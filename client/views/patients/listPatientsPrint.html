@@ -1,8 +1,11 @@
 <template name="listPatientsPrint">
-    <span class="pull-right">
-        <a class="btn btn-default" href="{{pathFor 'listPatients'}}"><span class="glyphicon glyphicon-list"></span> Back</a>
+    <span class="hidden-print pull-right">
+        <form class="form-inline">
+            <input type="text" class="form-control" name="title" placeholder="Title"/>
+            <a class="btn btn-default" href="{{pathFor 'listPatients'}}"><span class="glyphicon glyphicon-list"></span> Back</a>
+        </form>
     </span>
-    <h2>Patients List</h2>
+    <h2>Patients List{{#if title}} - {{title}}{{/if}}</h2>
 
     <table class="table table-bordered">
         <thead>
