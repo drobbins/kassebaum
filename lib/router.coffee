@@ -8,7 +8,7 @@ Router.map ->
         template: "home"
     @route "admin",
         path: "/admin"
-        template: "accountsAdmin"
+        template: "admin"
         onBeforeAction: ->
             if Meteor.loggingIn()
                 @render @loadingTemplate

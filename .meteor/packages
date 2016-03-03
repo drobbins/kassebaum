@@ -23,3 +23,5 @@ twbs:bootstrap
 mrt:accounts-admin-ui-bootstrap-3
 rajit:bootstrap3-datepicker@=1.4.1
 dburles:collection-helpers
+natestrauser:select2
+zimme:select2-bootstrap3-css
