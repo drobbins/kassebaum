@@ -12,7 +12,6 @@ http
 iron:router
 mrt:moment
 steeve:simple-bootstrap3-alerts
-meteorhacks:npm
 alanning:roles
 robbinsd:simplelog
 robbinsd:emmi-client
@@ -21,7 +20,6 @@ standard-minifiers
 sacha:spin
 ian:accounts-ui-bootstrap-3
 twbs:bootstrap
-npm-container
 mrt:accounts-admin-ui-bootstrap-3
 rajit:bootstrap3-datepicker@=1.4.1
 dburles:collection-helpers

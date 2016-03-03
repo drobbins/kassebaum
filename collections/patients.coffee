@@ -8,7 +8,6 @@ Patients.helpers
     fullName: -> return "#{@firstName} #{@lastName}"
 
 if Meteor.isServer
-    Hashids = Meteor.npmRequire "hashids"
 
     mergeInstancesOfProcurement = (oldNumbers, newNumbers) ->
         instancesOfProcurement = oldNumbers.concat newNumbers
