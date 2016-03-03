@@ -21,6 +21,11 @@ Router.map ->
     @route "listPatients",
         path: "/patients"
         template: "listPatients"
+    @route "listPatientsPrint",
+        path: "/patients/print"
+        template: "listPatientsPrint"
+        waitOn: ->
+            Meteor.subscribe "patientsById", Session.get("selectedPatientsList")
     @route "addPatient",
         path: "/patients/new"
         template: "addPatient"

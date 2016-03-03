@@ -4,6 +4,9 @@ Patients.allow
     update: (userId) -> authorizedUser userId
     remove: (userId) -> authorizedUser userId
 
+Patients.helpers
+    fullName: -> return "#{@firstName} #{@lastName}"
+
 if Meteor.isServer
     Hashids = Meteor.npmRequire "hashids"
 

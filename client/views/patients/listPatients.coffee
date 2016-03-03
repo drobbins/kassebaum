@@ -19,6 +19,7 @@ Template.listPatients.helpers
             return dateQuery
         else
             return {}
+    selectedPatientsList: () -> if Session.get("selectedPatientsList")?.length > 0 then true else false
 
 Template.listPatients.events
     "change input[name=startDate],input[name=endDate]": ->

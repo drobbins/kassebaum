@@ -17,10 +17,18 @@ TabularTables.LogEntries = new Tabular.Table
 TabularTables.Patients = new Tabular.Table
     name: "Patients"
     collection: Patients
+    responsive: true
+    autoWidth: false
     columns: [
-        {data: "added", title: "Added", width: "65px", render: (val) -> moment(val).format(Session.get("momentDateFormat")) }
-        {data: "shortId", title: "Short ID"}
+        {
+            tmpl: Meteor.isClient && Template.patientListSelector
+            className: "text-center"
+            width: "1px" # actual width will be greater - this just minimizes it
+        }
+        # {data: "added", title: "Added", render: (val) -> moment(val).format(Session.get("momentDateFormat")) }
+        {data: "shortId", title: "Short ID", width: "100px"}
         {data: "mrn", title: "MRN"}
+        # {data: "fullName()", title: "Name"}
         {data: "firstName", title: "First Name"}
         {data: "lastName", title: "Last Name"}
         {
@@ -32,5 +40,5 @@ TabularTables.Patients = new Tabular.Table
             className: "text-center"
         }
     ]
-    extraFields: ['instancesOfProcurement']
-    order: [[0, 'desc']]
+    extraFields: ['instancesOfProcurement', 'firstName', 'lastName']
+    order: [[1, 'desc']]

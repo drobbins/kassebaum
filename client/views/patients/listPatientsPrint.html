@@ -1,0 +1,31 @@
+<template name="listPatientsPrint">
+    <span class="pull-right">
+        <a class="btn btn-default" href="{{pathFor 'listPatients'}}"><span class="glyphicon glyphicon-list"></span> Back</a>
+    </span>
+    <h2>Patients List</h2>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Short ID</th>
+                <th>MRN</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Procurement Dates</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each patients}}
+            <tr>
+                <td>{{shortId}}</td>
+                <td>{{mrn}}</td>
+                <td>{{firstName}}</td>
+                <td>{{lastName}}</td>
+                <td>{{> instanceOfProcurementDates}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+
+</template>

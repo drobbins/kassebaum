@@ -1,6 +1,11 @@
 <template name="listPatients">
     <span class="pull-right">
         <form class="form-inline">
+            {{#if selectedPatientsList}}
+            <div class="form-group">
+                <a class="btn btn-default" href="{{pathFor 'listPatientsPrint'}}"><span class="glyphicon glyphicon-list"></span> View Selected Patients</a>
+            </div>
+            {{/if}}
             <div class="form-group">
                 <a class="btn btn-default" href="{{pathFor 'addPatient'}}"><span class="glyphicon glyphicon-plus"></span> Add Patient</a>
             </div>
@@ -27,6 +32,6 @@
 
 <template name="instanceOfProcurementDates">
     {{#each instancesOfProcurement}}
-        <span>{{formatDateString date}} </span>
+        <span class="label label-primary">{{formatDateString date}}</span>
     {{/each}}
 </template>
