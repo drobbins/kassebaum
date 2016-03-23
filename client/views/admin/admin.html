@@ -1,0 +1,23 @@
+<template name="admin">
+    <h2>Change User Password</h2>
+    <div class="row">
+        <div class="form-group col-sm-5">
+            <label for="changeUserPassword.user">User</label>
+            <!-- <input class="form-control" type="text" name="changeUserPassword.user" placeholder="User"> -->
+            <select name="changeUserPassword.user" id="" class="form-control userSelect">
+                <option value="">Select Username</option>
+            </select>
+        </div>
+        <div class="form-group col-sm-5">
+            <label for="changeUserPassword.password">Password</label>
+            <input class="form-control" type="password" name="changeUserPassword.password" placeholder="Password">
+        </div>
+        <button class="btn btn-danger btn-align" id="changePassword">Change Password</button>
+    </div>
+
+
+    <hr />
+
+    <h2>Update User Roles</h2>
+    {{> accountsAdmin}}
+</template>

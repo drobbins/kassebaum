@@ -8,7 +8,7 @@ Router.map ->
         template: "home"
     @route "admin",
         path: "/admin"
-        template: "accountsAdmin"
+        template: "admin"
         onBeforeAction: ->
             if Meteor.loggingIn()
                 @render @loadingTemplate
@@ -21,8 +21,11 @@ Router.map ->
     @route "listPatients",
         path: "/patients"
         template: "listPatients"
+    @route "listPatientsPrint",
+        path: "/patients/print"
+        template: "listPatientsPrint"
         waitOn: ->
-            Meteor.subscribe "patients"
+            Meteor.subscribe "patientsById", Session.get("selectedPatientsList")
     @route "addPatient",
         path: "/patients/new"
         template: "addPatient"

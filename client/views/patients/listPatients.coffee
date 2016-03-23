@@ -19,9 +19,16 @@ Template.listPatients.helpers
             return dateQuery
         else
             return {}
+    selectedPatientsList: () -> if Session.get("selectedPatientsList")?.length > 0 then true else false
 
 Template.listPatients.events
     "change input[name=startDate],input[name=endDate]": ->
         Session.set "startDate", $("[name=startDate]").datepicker("getDate")?.getTime()
         endDate = $("[name=endDate]").datepicker("getDate")?.getTime()
         if endDate then Session.set "endDate", moment(endDate).endOf("day").valueOf()
+    "click #clearDateFilters": ->
+        $("[name=startDate]").datepicker("clearDates")
+        $("[name=endDate]").datepicker("clearDates")
+        Session.set "endDate"
+        Session.set "startDate"
+    "click button#clearSelection": -> Session.set "selectedPatientsList", []
