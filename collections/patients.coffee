@@ -17,8 +17,8 @@ if Meteor.isServer
         return (JSON.parse(value) for key, value of output)
 
     generateUniqueShortId = (mrn) ->
-        shortId = Random.id(6) # Generate a Short ID
-        while Patients.findOne(shortId: shortId)
+        shortId = Random.id(6).toUpperCase() # Generate a Short ID
+        while  shortId.match("0") or Patients.findOne(shortId: shortId)
             shortId = Random.id(6) # Generate another Short ID
         shortId
 
