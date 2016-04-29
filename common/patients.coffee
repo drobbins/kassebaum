@@ -1,8 +1,8 @@
 @Patients = new Meteor.Collection "patients"
 
 Patients.allow
-    update: (userId) -> authorizedUser userId
-    remove: (userId) -> authorizedUser userId
+    update: (userId) -> Kassebaum.authorizedUser userId
+    remove: (userId) -> Kassebaum.authorizedUser userId
 
 Patients.helpers
     fullName: -> return "#{@firstName} #{@lastName}"
@@ -16,11 +16,7 @@ if Meteor.isServer
         output[JSON.stringify(instancesOfProcurement[key])] = JSON.stringify(instancesOfProcurement[key]) for key in [0...instancesOfProcurement.length]
         return (JSON.parse(value) for key, value of output)
 
-    generateUniqueShortId = (mrn) ->
-        shortId = Random.id(6).toUpperCase() # Generate a Short ID
-        while  shortId.match("0") or Patients.findOne(shortId: shortId)
-            shortId = Random.id(6) # Generate another Short ID
-        shortId
+    generateUniqueShortId = Kassebaum.generateUniqueShortId
 
     Meteor.methods
         patient: (patientAttributes) ->
@@ -30,7 +26,7 @@ if Meteor.isServer
             # Validation
             if not user then throw new Meteor.Error 401, "You need to log in to add patients"
             if not Roles.userIsInRole @userId, ["admin", "tech", "procurement-tech"] then throw new Meteor.Error 401, "You are not authorized to add patients"
-            if not hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
+            if not Kassebaum.hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
                 throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
 
             if patientWithSameMRN # Update Patient with any new Surgical Path #'s
