@@ -16,6 +16,7 @@ alanning:roles
 robbinsd:simplelog
 robbinsd:emmi-client
 aldeed:tabular
+standard-minifiers
 sacha:spin
 ian:accounts-ui-bootstrap-3
 twbs:bootstrap
@@ -24,5 +25,3 @@ rajit:bootstrap3-datepicker@=1.4.1
 dburles:collection-helpers
 natestrauser:select2
 zimme:select2-bootstrap3-css
-standard-minifier-css
-standard-minifier-js
