@@ -21,6 +21,9 @@ Router.map ->
     @route "listPatients",
         path: "/patients"
         template: "listPatients"
+    @route "listDeletedPatients",
+        path: "/patients/deleted"
+        template: "listDeletedPatients"
     @route "listPatientsPrint",
         path: "/patients/print"
         template: "listPatientsPrint"

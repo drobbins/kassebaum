@@ -1,16 +1,16 @@
-Template.listPatients.rendered = ->
+Template.listDeletedPatients.rendered = ->
     initializeDatePickers()
     if Session.get "startDate"
         $("[name=startDate]").datepicker("update", new Date(Session.get "startDate"))
     if Session.get "endDate"
         $("[name=endDate]").datepicker("update", new Date(Session.get "endDate"))
 
-Template.listPatients.helpers
+Template.listDeletedPatients.helpers
     tabularSelector: () ->
         startDate = Session.get "startDate"
         endDate = Session.get "endDate"
         dateQuery =
-            deleted: $exists: false
+            deleted: true
             instancesOfProcurement:
                 $elemMatch:
                     $and: []
@@ -19,10 +19,10 @@ Template.listPatients.helpers
         if startDate or endDate
             return dateQuery
         else
-            return deleted: $exists: false
+            return {deleted: true}
     selectedPatientsList: () -> if Session.get("selectedPatientsList")?.length > 0 then true else false
 
-Template.listPatients.events
+Template.listDeletedPatients.events
     "change input[name=startDate],input[name=endDate]": ->
         Session.set "startDate", $("[name=startDate]").datepicker("getDate")?.getTime()
         endDate = $("[name=endDate]").datepicker("getDate")?.getTime()

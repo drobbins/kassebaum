@@ -40,5 +40,5 @@ TabularTables.Patients = new Tabular.Table
             className: "text-center"
         }
     ]
-    extraFields: ['instancesOfProcurement', 'firstName', 'lastName']
+    extraFields: ['instancesOfProcurement', 'firstName', 'lastName', 'deleted']
     order: [[1, 'desc']]

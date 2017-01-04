@@ -9,7 +9,7 @@ Template.addPatient.events
             mrn: $(e.target).find("[name=mrn]").val()
             externalMrn: Session.get "externalMrn"
         patient.instancesOfProcurement = @instancesOfProcurementCollection.find().fetch()
-        Meteor.call "patient", patient, (error, shortId) ->
+        Meteor.call "addPatient", patient, (error, shortId) ->
             if error
                 Alert.add error.message, "danger"
                 Logs.add "error", error.message

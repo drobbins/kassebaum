@@ -1,0 +1,9 @@
+<template name="patientRowButtons">
+    <a class="btn btn-default btn-xs" href="{{pathFor 'viewPatient'}}" title="View patient {{shortId}} file."><span class="glyphicon glyphicon-folder-open"></span></a>
+    <a class="btn btn-default btn-xs" href="{{pathFor 'editPatient'}}" title="Edit patient {{shortId}} file."><span class="glyphicon glyphicon-pencil"></span></a>
+    {{#if deleted}}
+        <button class="btn btn-default btn-xs" id="restorePatientButton" title="Restore patient."><span class="glyphicon glyphicon-ok"></span></button>
+    {{else}}
+        <button class="btn btn-default btn-xs" id="deletePatientButton" title="Delete patient."><span class="glyphicon glyphicon-remove"></span></button>
+    {{/if}}
+</template>

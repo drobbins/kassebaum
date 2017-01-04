@@ -19,7 +19,7 @@ if Meteor.isServer
     generateUniqueShortId = Kassebaum.generateUniqueShortId
 
     Meteor.methods
-        patient: (patientAttributes) ->
+        addPatient: (patientAttributes) ->
             user = Meteor.user()
             patientWithSameMRN = Patients.findOne mrn: patientAttributes.mrn
 
@@ -57,3 +57,13 @@ if Meteor.isServer
                 _.each ["firstname", "lastname"], (property) ->
                     patient[property] = patient[property].toProperCase()
                 patient
+
+        deletePatient: (_id) ->
+            if not @userId then throw new Meteor.Error 401, "You need to log in to delete patients"
+            if not Roles.userIsInRole @userId, ["admin", "tech", "procurement-tech"] then throw new Meteor.Error 401, "You are not authorized to delete patients"
+            Patients.update _id, $set: deleted: true
+
+        restorePatient: (_id) ->
+            if not @userId then throw new Meteor.Error 401, "You need to log in to restore patients"
+            if not Roles.userIsInRole @userId, ["admin", "tech", "procurement-tech"] then throw new Meteor.Error 401, "You are not authorized to restore patients"
+            Patients.update _id, $unset: deleted: ""
