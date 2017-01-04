@@ -4,10 +4,10 @@
 # but you can also edit it by hand.
 
 ## Meteor Packages
-standard-app-packages
-coffeescript
-accounts-password
-http
+standard-app-packages@1.0.9
+coffeescript@1.11.1_4
+accounts-password@1.3.3
+http@1.2.10
 
 iron:router
 mrt:moment
@@ -16,12 +16,15 @@ alanning:roles
 robbinsd:simplelog
 robbinsd:emmi-client
 aldeed:tabular
-standard-minifiers
 sacha:spin
-ian:accounts-ui-bootstrap-3
 twbs:bootstrap
 mrt:accounts-admin-ui-bootstrap-3
 rajit:bootstrap3-datepicker@=1.4.1
 dburles:collection-helpers
 natestrauser:select2
 zimme:select2-bootstrap3-css
+standard-minifier-css
+standard-minifier-js
+shell-server
+stylus
+ian:accounts-ui-bootstrap-3
