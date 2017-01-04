@@ -2,6 +2,11 @@
     <span class="pull-right">
         <a class="btn btn-default" href="{{pathFor 'listPatients'}}"><span class="glyphicon glyphicon-list"></span> Patient List</a>
         <a class="btn btn-default" href="{{pathFor 'editPatient'}}"><span class="glyphicon glyphicon-pencil"></span> Edit Patient</a>
+        {{#if deleted}}
+            <button class="btn btn-default" id="restorePatientButton" title="Restore patient."><span class="glyphicon glyphicon-ok"></span> Restore Patient</button>
+        {{else}}
+            <button class="btn btn-default" id="deletePatientButton" title="Delete patient."><span class="glyphicon glyphicon-remove"></span> Delete Patient</button>
+        {{/if}}
     </span>
 
     <h2>{{firstName}} {{lastName}} <small>Code: {{shortId}}</small></h2>
