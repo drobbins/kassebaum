@@ -1,4 +1,4 @@
-<template name="listPatients">
+<template name="listDeletedPatients">
     <span class="pull-right">
         {{#if selectedPatientsList}}
             <div class="btn-group" role="group">
@@ -6,10 +6,9 @@
                 <button class="btn btn-default" id="clearSelection"> Clear Selection</button>
             </div>
         {{/if}}
-        <a class="btn btn-default" href="{{pathFor 'addPatient'}}"><span class="glyphicon glyphicon-plus"></span> Add Patient</a>
-        <a class="btn btn-default" href="{{pathFor 'listDeletedPatients'}}"> Deleted Patients</a>
+        <a class="btn btn-default" href="{{pathFor 'listPatients'}}">Back to Patients</a>
     </span>
-    <h2>Patients</h2>
+    <h2>Deleted Patients</h2>
     <div class="row">
         <div class="form-group col-sm-5">
             <label for="startDate">Start Date</label>
