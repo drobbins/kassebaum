@@ -3,3 +3,4 @@
 tests/jasmine/server/unit/package-stubs.js
 tests/jasmine/server/unit/packageMocksSpec.js
 tests/cucumber/screenshots/*.png
+node_modules
