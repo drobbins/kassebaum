@@ -1,0 +1,19 @@
+{
+  "name": "kassebaum",
+  "version": "1.0.0",
+  "description": "Kassebaum =========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/uabtcbf/kassebaum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/uabtcbf/kassebaum#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.4.3"
+  }
+}
