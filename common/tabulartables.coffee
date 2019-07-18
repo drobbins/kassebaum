@@ -50,6 +50,7 @@ TabularTables.APITokens = new Tabular.Table
         {data: "added", title: "Date Added", render: (val) -> moment(val).format(Session.get("momentLogDateFormat")) }
         {data: "system", title: "System"}
         {data: "token", title: "Token"}
+        {data: "revoked", title: "Revoked?"}
         {
             tmpl: Meteor.isClient && Template.apiTokenRowButtons
             className: "text-center"
