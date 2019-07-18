@@ -1,21 +1,12 @@
 const API_PREFIX = "/api/1.0"
 
-// WebApp.connectHandlers.use(API_PREFIX+'/hello', (req, res, next) => {
-//   res.writeHead(200);
-//   res.end(`Hello world from: ${Meteor.release}\n` + JSON.stringify(Meteor.user(),2));
-// });
-
-Meteor.methods({
-    'apiToken.confirm'(token){
-        console.log(`Validating token ${token}`)
-        if (apiTokens.findOne({token})) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-});
-
+/**
+* Authorization Middleware.
+*
+* This handler must occur first, as handlers are executed in order.
+*
+* All API requires require a token.
+*/
 WebApp.connectHandlers.use(async (req, res, next) => {
     const token = req.query.token
     let confirmedToken = false;

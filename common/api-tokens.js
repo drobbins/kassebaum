@@ -35,5 +35,15 @@ Meteor.methods({
         }
         // const apiToken = apiTokens.findOne({token});
         apiTokens.remove({token});
+    },
+    'apiToken.confirm'(token){
+        console.log(`Validating token ${token}`)
+        if (!token) {                                   // Token not present
+            return false
+        } else if (apiTokens.findOne({token: token})) { // Token present and valid
+            return true;
+        } else {                                        // Token present but not valid
+            return false;
+        }
     }
 })
