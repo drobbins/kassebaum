@@ -22,7 +22,7 @@ if Meteor.isServer
         if not Kassebaum.hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
             throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
 
-        patientWithSameMRN = Patients.findOne mrn: patientAttributes.mrn
+        patientWithSameMRN = Patients.findOne {$or: [ {mrn: patientAttributes.mrn}, {shortId: patientAttributes.mrn}]}
 
         if patientWithSameMRN # Update Patient with any new Surgical Path #'s
             instancesOfProcurement = mergeInstancesOfProcurement patientWithSameMRN.instancesOfProcurement, patientAttributes.instancesOfProcurement
