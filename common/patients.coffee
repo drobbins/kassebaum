@@ -18,30 +18,35 @@ if Meteor.isServer
 
     generateUniqueShortId = Kassebaum.generateUniqueShortId
 
+    Kassebaum.upsertPatient = (patientAttributes, addedBy) ->
+        if not Kassebaum.hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
+            throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
+
+        patientWithSameMRN = Patients.findOne mrn: patientAttributes.mrn
+
+        if patientWithSameMRN # Update Patient with any new Surgical Path #'s
+            instancesOfProcurement = mergeInstancesOfProcurement patientWithSameMRN.instancesOfProcurement, patientAttributes.instancesOfProcurement
+            Patients.update patientWithSameMRN._id, $set: instancesOfProcurement: instancesOfProcurement
+            return patientWithSameMRN.shortId
+
+        else # Create a new patient
+            shortId = generateUniqueShortId patientAttributes.mrn
+            patient = _.extend patientAttributes,
+                added: new Date().getTime()
+                addedBy: addedBy
+                shortId: shortId
+            patientId = Patients.insert(patient)
+            return shortId
+
     Meteor.methods
         addPatient: (patientAttributes) ->
-            user = Meteor.user()
-            patientWithSameMRN = Patients.findOne mrn: patientAttributes.mrn
-
             # Validation
-            if not user then throw new Meteor.Error 401, "You need to log in to add patients"
+            if not @userId then throw new Meteor.Error 401, "You need to log in to add patients"
             if not Roles.userIsInRole @userId, ["admin", "tech", "procurement-tech"] then throw new Meteor.Error 401, "You are not authorized to add patients"
-            if not Kassebaum.hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
-                throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
 
-            if patientWithSameMRN # Update Patient with any new Surgical Path #'s
-                instancesOfProcurement = mergeInstancesOfProcurement patientWithSameMRN.instancesOfProcurement, patientAttributes.instancesOfProcurement
-                Patients.update patientWithSameMRN._id, $set: instancesOfProcurement: instancesOfProcurement
-                return patientWithSameMRN.shortId
+            return Kassebaum.upsertPatient(patientAttributes, @userId);
 
-            else # Create a new patient
-                shortId = generateUniqueShortId patientAttributes.mrn
-                patient = _.extend patientAttributes,
-                    added: new Date().getTime()
-                    addedBy: user._id
-                    shortId: shortId
-                patientId = Patients.insert(patient)
-                return shortId
+
 
         lookupPatient: (mrn) ->
             if process.env.NODE_ENV is "development" and process.env.MOCK_EMMI is "true"
