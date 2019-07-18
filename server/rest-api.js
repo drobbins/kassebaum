@@ -7,7 +7,7 @@ const API_PREFIX = "/api/1.0"
 *
 * All API requires require a token.
 */
-WebApp.connectHandlers.use(async (req, res, next) => {
+WebApp.connectHandlers.use(API_PREFIX, async (req, res, next) => {
     const token = req.query.token
     let confirmedToken = false;
 
