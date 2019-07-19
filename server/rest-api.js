@@ -1,3 +1,6 @@
+import { WebApp } from 'meteor/webapp';
+import bodyParser from 'body-parser';
+
 const API_PREFIX = "/api/1.0"
 
 /**

@@ -29,3 +29,4 @@ shell-server@0.4.0
 dynamic-import@0.5.1
 stylus@=2.513.14
 ian:accounts-ui-bootstrap-3
+ecmascript
