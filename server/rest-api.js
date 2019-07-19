@@ -29,8 +29,8 @@ WebApp.connectHandlers.use(API_PREFIX, async (req, res, next) => {
 })
 
 WebApp.connectHandlers.use(API_PREFIX+'/hello', (req, res, next) => {
-  res.writeHead(200);
-  res.end(`Hello authorized user from: ${Meteor.release}`);
+    res.writeHead(200);
+    res.end(`Hello authorized user from: ${Meteor.release}`);
 })
 
 WebApp.connectHandlers.use(bodyParser.json())
@@ -45,5 +45,26 @@ WebApp.connectHandlers.use(API_PREFIX+'/patients', async (req, res, next) => {
         res.writeHead(500);
         res.end("Server was unable to process request:\n", e);
         console.error('Uncaught error in /patients:\n',e);
+    }
+})
+
+WebApp.connectHandlers.use(API_PREFIX+'/dev', (req, res, next) => {
+    if (process.env.NODE_ENV !== "development") {
+      res.writeHead(422);
+      res.end(`/dev API routes are not accessible in production.`)
+  } else {
+      next()
+  }
+})
+
+WebApp.connectHandlers.use(API_PREFIX+'/dev/reloadfixtures', async (req, res, next) => {
+    try{
+        await Meteor.call("/fixtures/reloadpatients");
+        res.writeHead(200);
+        res.end("/dev Patient Fixtures Reloaded");
+    } catch(e) {
+        res.writeHead(500);
+        res.end("Server was unable to process request:\n", e);
+        console.error('Uncaught error in /dev/reloadfixtures:\n',e);
     }
 })
