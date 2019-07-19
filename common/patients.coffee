@@ -19,9 +19,6 @@ if Meteor.isServer
     generateUniqueShortId = Kassebaum.generateUniqueShortId
 
     Kassebaum.upsertPatient = (patientAttributes, addedBy) ->
-        if not Kassebaum.hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
-            throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
-
         patientWithSameMRN = Patients.findOne {$or: [ {mrn: patientAttributes.mrn}, {shortId: patientAttributes.mrn}]}
 
         if patientWithSameMRN # Update Patient with any new Surgical Path #'s
@@ -30,6 +27,8 @@ if Meteor.isServer
             return patientWithSameMRN.shortId
 
         else # Create a new patient
+            if not Kassebaum.hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
+                throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
             shortId = generateUniqueShortId patientAttributes.mrn
             patient = _.extend patientAttributes,
                 added: new Date().getTime()
@@ -46,6 +45,11 @@ if Meteor.isServer
 
             return Kassebaum.upsertPatient(patientAttributes, @userId);
 
+        addPatientByAPI: (patients, token) ->
+            if Array.isArray(patients)
+                patients.forEach (patient) -> Kassebaum.upsertPatient(patient, token)
+            else
+                Kassebaum.upsertPatient(patients, token)
 
 
         lookupPatient: (mrn) ->

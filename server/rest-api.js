@@ -33,19 +33,14 @@ WebApp.connectHandlers.use(API_PREFIX+'/hello', (req, res, next) => {
   res.end(`Hello authorized user from: ${Meteor.release}`);
 })
 
-WebApp.connectHandlers.use(API_PREFIX+'/patients', (req, res, next) => {
-    let json = {}
-    // try{
-    //     json = await Meteor.call("test.getUser");
-    //     console.log(json);
-    // } catch(e) {
-    //     console.error('/hello - err:\n',e);
-    // }
-    // do something with json/body
+WebApp.connectHandlers.use(bodyParser.json())
 
-    console.log(JSON.stringify(req.query, 2));
-    console.log(Object.keys(req));
-
+WebApp.connectHandlers.use(API_PREFIX+'/patients', async (req, res, next) => {
+    try{
+        await Meteor.call("addPatientByAPI", req.body);
+    } catch(e) {
+        console.error('/patients - err:\n',e);
+    }
     res.writeHead(200);
-    res.end(`Hello Patient`);
+    res.end(`Added Patient`);
 })
