@@ -37,12 +37,14 @@ Meteor.methods({
         apiTokens.update({token}, {$set: {revoked: true}});
     },
     'apiToken.confirm'(token){
-        console.log(`Validating token ${token}`)
-        if (!token) {                                   // Token not present
+        if (!token) {
+            // Token not present
             return false
-        } else if (apiTokens.findOne({token: token, revoked: {$ne: true}})) { // Token present and valid
+        } else if (apiTokens.findOne({token: token, revoked: {$ne: true}})) {
+            // Token present and valid
             return true;
-        } else {                                        // Token present but not valid
+        } else {
+            // Token present but not valid
             return false;
         }
     }
