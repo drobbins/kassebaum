@@ -2,6 +2,9 @@ if process.env.NODE_ENV is "development"
 
     now = new Date().getTime()
     hour = 1000 * 60 * 60 # ms * sec * min
+    day = hour * 24
+    week = day * 7
+    year = day * 365
     now = now - 10 * hour
 
     if Meteor.users.find().count() is 0
@@ -53,14 +56,15 @@ if process.env.NODE_ENV is "development"
             firstName: "Makena"
             lastName: "Asaph"
             mrn: "1234567890"
+            dateOfBirth: 702280800000
             instancesOfProcurement: [
                 {
                     surgicalPathologyNumber: "0192837465"
-                    date: now - 2 * hour
+                    date: now - (2 * year + 8 * week + 1 * day + 4 * hour)
                 }
                 {
                     otherNumber: "0912873456"
-                    date: now - 26 * hour
+                    date: now - (2 * year + 6 * week + 1 * day + 4 * hour)
                 }
             ]
             shortId: "abcdEF"
@@ -72,14 +76,15 @@ if process.env.NODE_ENV is "development"
             lastName: "Margarita"
             middleName: "P"
             mrn: "1357902468"
+            dateOfBirth: -487623600000
             instancesOfProcurement: [
                 {
                     surgicalPathologyNumber: "0192867465"
-                    date: now - 2 * hour
+                    date: now - (0 * year + 8 * week + 1 * day + 4 * hour)
                 }
                 {
                     otherNumber: "6912873456"
-                    date: now - 26 * hour
+                    date: now - (8 * year + 8 * week + 1 * day + 4 * hour)
                 }
             ]
             shortId: "EFdsdw"
@@ -91,14 +96,15 @@ if process.env.NODE_ENV is "development"
             firstName: "Yasmeen"
             lastName: "Capucine"
             mrn: "1234567891"
+            dateOfBirth: 171176400000
             instancesOfProcurement: [
                 {
                     surgicalPathologyNumber: "1094859925"
-                    date: now - 2 * hour
+                    date: now - (2 * year + 5 * week + 1 * day + 4 * hour)
                 }
                 {
                     otherNumber: "1993848458"
-                    date: now - 26 * hour
+                    date: now - (3 * year + 1 * week + 10 * day - 3 * hour)
                 }
             ]
             shortId: "cbd1rC"

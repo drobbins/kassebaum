@@ -18,30 +18,47 @@ if Meteor.isServer
 
     generateUniqueShortId = Kassebaum.generateUniqueShortId
 
-    Meteor.methods
-        addPatient: (patientAttributes) ->
-            user = Meteor.user()
-            patientWithSameMRN = Patients.findOne mrn: patientAttributes.mrn
+    Kassebaum.upsertPatient = (patientAttributes, addedBy) ->
+        patientWithSameMRN = Patients.findOne {$or: [ {mrn: patientAttributes.mrn}, {shortId: patientAttributes.mrn}]}
 
-            # Validation
-            if not user then throw new Meteor.Error 401, "You need to log in to add patients"
-            if not Roles.userIsInRole @userId, ["admin", "tech", "procurement-tech"] then throw new Meteor.Error 401, "You are not authorized to add patients"
+        if patientWithSameMRN # Update Patient with any new Surgical Path #'s
+            instancesOfProcurement = mergeInstancesOfProcurement patientWithSameMRN.instancesOfProcurement, patientAttributes.instancesOfProcurement
+            Patients.update patientWithSameMRN._id, $set: instancesOfProcurement: instancesOfProcurement
+            return patientWithSameMRN.shortId
+
+        else # Create a new patient
             if not Kassebaum.hasAttributes patientAttributes, ["firstName", "lastName", "mrn"]
                 throw new Meteor.Error 422, "Patient first name, last name, and MRN are required"
+            shortId = generateUniqueShortId patientAttributes.mrn
+            patient = _.extend patientAttributes,
+                added: new Date().getTime()
+                addedBy: addedBy
+                shortId: shortId
+            patientId = Patients.insert(patient)
+            return shortId
 
-            if patientWithSameMRN # Update Patient with any new Surgical Path #'s
-                instancesOfProcurement = mergeInstancesOfProcurement patientWithSameMRN.instancesOfProcurement, patientAttributes.instancesOfProcurement
-                Patients.update patientWithSameMRN._id, $set: instancesOfProcurement: instancesOfProcurement
-                return patientWithSameMRN.shortId
+    Meteor.methods
+        addPatient: (patientAttributes) ->
+            # Validation
+            if not @userId then throw new Meteor.Error 401, "You need to log in to add patients"
+            if not Roles.userIsInRole @userId, ["admin", "tech", "procurement-tech"] then throw new Meteor.Error 401, "You are not authorized to add patients"
 
-            else # Create a new patient
-                shortId = generateUniqueShortId patientAttributes.mrn
-                patient = _.extend patientAttributes,
-                    added: new Date().getTime()
-                    addedBy: user._id
-                    shortId: shortId
-                patientId = Patients.insert(patient)
-                return shortId
+            return Kassebaum.upsertPatient(patientAttributes, @userId);
+
+        addPatientByAPI: (patients, token) ->
+
+            attemptToUpsertPatient = (patient) ->
+                try
+                    result = Kassebaum.upsertPatient(patient, token)
+                    return { status: "success", shortId: result, original: patient }
+                catch error
+                    return { status: "error", error: error, original: patient }
+
+            if Array.isArray(patients)
+                return patients.map attemptToUpsertPatient
+            else
+                return [attemptToUpsertPatient(patients)]
+
 
         lookupPatient: (mrn) ->
             if process.env.NODE_ENV is "development" and process.env.MOCK_EMMI is "true"

@@ -42,3 +42,17 @@ TabularTables.Patients = new Tabular.Table
     ]
     extraFields: ['instancesOfProcurement', 'firstName', 'lastName', 'deleted']
     order: [[1, 'desc']]
+
+TabularTables.APITokens = new Tabular.Table
+    name: "APITokens"
+    collection: apiTokens
+    columns: [
+        {data: "added", title: "Date Added", render: (val) -> moment(val).format(Session.get("momentLogDateFormat")) }
+        {data: "system", title: "System"}
+        {data: "token", title: "Token"}
+        {data: "revoked", title: "Revoked?"}
+        {
+            tmpl: Meteor.isClient && Template.apiTokenRowButtons
+            className: "text-center"
+        }
+    ]
