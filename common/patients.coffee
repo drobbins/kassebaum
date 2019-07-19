@@ -46,10 +46,18 @@ if Meteor.isServer
             return Kassebaum.upsertPatient(patientAttributes, @userId);
 
         addPatientByAPI: (patients, token) ->
+
+            attemptToUpsertPatient = (patient) ->
+                try
+                    result = Kassebaum.upsertPatient(patient, token)
+                    return { status: "success", shortId: result, original: patient }
+                catch error
+                    return { status: "error", error: error, original: patient }
+
             if Array.isArray(patients)
-                patients.forEach (patient) -> Kassebaum.upsertPatient(patient, token)
+                return patients.map attemptToUpsertPatient
             else
-                Kassebaum.upsertPatient(patients, token)
+                return [attemptToUpsertPatient(patients)]
 
 
         lookupPatient: (mrn) ->

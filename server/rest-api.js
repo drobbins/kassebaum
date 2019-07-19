@@ -36,11 +36,14 @@ WebApp.connectHandlers.use(API_PREFIX+'/hello', (req, res, next) => {
 WebApp.connectHandlers.use(bodyParser.json())
 
 WebApp.connectHandlers.use(API_PREFIX+'/patients', async (req, res, next) => {
+    let results = [];
     try{
-        await Meteor.call("addPatientByAPI", req.body);
+        results = await Meteor.call("addPatientByAPI", req.body);
+        res.writeHead(200);
+        res.end(EJSON.stringify(results, {indent: true}));
     } catch(e) {
-        console.error('/patients - err:\n',e);
+        res.writeHead(500);
+        res.end("Server was unable to process request:\n", e);
+        console.error('Uncaught error in /patients:\n',e);
     }
-    res.writeHead(200);
-    res.end(`Added Patient`);
 })
