@@ -14,7 +14,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/uabtcbf/kassebaum#readme",
   "dependencies": {
-    "@babel/runtime": "^7.4.3",
+    "@babel/runtime": "^7.18.3",
     "body-parser": "^1.19.0"
   }
 }
