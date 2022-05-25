@@ -29,3 +29,4 @@ stylus@=2.513.14
 ecmascript
 edemaine:accounts-ui-bootstrap-3
 alanning:roles@2.0.0
+robbinsd:meteor-accounts-admin-ui-bootstrap-3
