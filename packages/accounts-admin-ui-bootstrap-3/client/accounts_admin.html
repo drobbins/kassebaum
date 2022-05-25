@@ -37,7 +37,7 @@
                         {{/if}}
                     </td>
                     <td>{{email}}</td>
-                    <td>{{roles}}</td>
+                    <td>{{#each roles}}<span class="label label-default">{{_id}}</span> {{/each}}</td>
                 </tr>
             {{/each}}
         </tbody>

@@ -30,9 +30,9 @@ Template.infoAccountModalInner.helpers({
 		for (var role in this.roles) {
 			var r = this.roles[role];
 			if (role === '0') {
-				pairs.push({key: 'Roles', value: r});
+				pairs.push({key: 'Roles', value: r._id});
 			} else {
-				pairs.push({key: '-', value: r});
+				pairs.push({key: '-', value: r._id});
 			}
 		}
 		return pairs;

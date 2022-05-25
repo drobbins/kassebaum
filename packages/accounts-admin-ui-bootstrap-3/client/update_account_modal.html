@@ -25,7 +25,7 @@
 					{{#each roles}}
 						<li class="list-group-item">
 							<button data-user-id="{{../_id}}" class="btn btn-danger btn-xs remove-role" type="button">Remove</button>
-							<span class="pull-right">{{this}}</span>
+							<span class="pull-right">{{_id}}</span>
 						</li>
 					{{/each}}
 				</ul>
@@ -35,7 +35,7 @@
 			{{#if unsetRoles}}
 			<div class="btn-group clearfix full-width">
 				<button type="button" class="btn btn-success dropdown-toggle pull-right" data-toggle="dropdown">
-					<span class="glyphicon glyphicon-plus"></span> Add Role 
+					<span class="glyphicon glyphicon-plus"></span> Add Role
 				</button>
 				<ul class="dropdown-menu pull-right" role="menu">
 					{{#each unsetRoles}}

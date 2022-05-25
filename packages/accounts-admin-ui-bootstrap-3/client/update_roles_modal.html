@@ -18,12 +18,12 @@
 				{{#if adminRole}}
 					<li class="list-group-item">
 						<em>Admin Role</em>
-						<span class="pull-right">{{this.name}}</span>
+						<span class="pull-right">{{_id}}</span>
 					</li>
 				{{else}}
 					<li class="list-group-item">
 						<button class="btn btn-danger btn-xs remove-role" type="button">Delete</button>
-						<span class="pull-right">{{this.name}}</span>
+						<span class="pull-right">{{_id}}</span>
 					</li>
 				{{/if}}
 			{{/each}}

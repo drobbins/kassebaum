@@ -23,10 +23,10 @@ Template.updateAccountModalInner.helpers({
 	},
 
 	unsetRoles: function() {
-		var allRoles = _.pluck(Roles.getAllRoles().fetch(), "name");
+		var allRoles = _.pluck(Roles.getAllRoles().fetch(), "_id");
 		if (!this.roles)
 			return allRoles;
-		return _.difference(allRoles, this.roles);
+		return _.difference(allRoles, _.pluck(this.roles, "_id"));
 	}
 });
 
@@ -50,7 +50,7 @@ Template.updateAccountModalInner.events({
 	},
 
 	'click .remove-role' : function(event, template) {
-		var role = this.toString();
+		var role = this._id;
 		var userId = event.currentTarget.getAttribute('data-user-id');
 
 		Meteor.call('removeUserRole', userId, role, function(error) {

@@ -24,7 +24,7 @@ Template.updateRolesModalInner.events({
 	},
 
 	'click .remove-role' : function(event, template) {
-		var role = this.name;
+		var role = this._id;
 
 		Meteor.call('removeRole', role, function(error) {
 			if (error) {

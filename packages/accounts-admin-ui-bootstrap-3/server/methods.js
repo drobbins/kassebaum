@@ -6,7 +6,7 @@ Meteor.methods({
 
 		if (user._id == userId)
 			throw new Meteor.Error(422, 'You can\'t delete yourself.');
-		
+
 		// remove the user
 		Meteor.users.remove(userId);
 	},
@@ -20,7 +20,7 @@ Meteor.methods({
 			throw new Meteor.Error(422, 'You can\'t update yourself.');
 
 		// handle invalid role
-		if (Meteor.roles.find({name: role}).count() < 1 )
+		if (Meteor.roles.find({_id: role}).count() < 1 )
 			throw new Meteor.Error(422, 'Role ' + role + ' does not exist.');
 
 		// handle user already has role
@@ -40,7 +40,7 @@ Meteor.methods({
 			throw new Meteor.Error(422, 'You can\'t update yourself.');
 
 		// handle invalid role
-		if (Meteor.roles.find({name: role}).count() < 1 )
+		if (Meteor.roles.find({_id: role}).count() < 1 )
 			throw new Meteor.Error(422, 'Role ' + role + ' does not exist.');
 
 		// handle user already has role
@@ -68,7 +68,7 @@ Meteor.methods({
 			throw new Meteor.Error(401, "You need to be an admin to update a user.");
 
 		// handle non-existing role
-		if (Meteor.roles.find({name: role}).count() < 1 )
+		if (Meteor.roles.find({_id: role}).count() < 1 )
 			throw new Meteor.Error(422, 'Role ' + role + ' does not exist.');
 
 		if (role === 'admin')
