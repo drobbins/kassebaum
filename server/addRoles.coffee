@@ -1,4 +1,6 @@
-defaultRoles = ["admin", "procurement-tech", "tech"]
-currentRoles = Roles.getAllRoles().map((role) -> return role._id)
-_.difference(defaultRoles, currentRoles).forEach (role) ->
-    Roles.createRole role
+Meteor.methods
+  "addDefaultRoles": ->
+    # create the default roles if they doesn't exist
+    defaultRoles = ["admin", "procurement-tech", "tech"]
+    defaultRoles.forEach (role) ->
+      Roles.createRole role, {unlessExists: true}
