@@ -30,3 +30,4 @@ ecmascript@0.16.2
 edemaine:accounts-ui-bootstrap-3
 alanning:roles@2.0.0
 robbinsd:meteor-accounts-admin-ui-bootstrap-3
+qualia:prod-shell
